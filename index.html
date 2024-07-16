@@ -1,0 +1,9 @@
+---
+layout: layout.html
+title: Baldir
+---
+
+{% for blog in collections.blog %}
+<h2>{{ blog.data.title }}</h2>
+<p>{{ blog.content }}</p>
+{% endfor %}
