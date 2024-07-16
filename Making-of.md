@@ -120,7 +120,7 @@ Index: _includes/layout.html
  <body>
 ```
 
-## Add optimized images
+## Install image optimization plugin
 
 https://www.11ty.dev/docs/plugins/image/
 
@@ -158,4 +158,65 @@ Index: package.json
     "@11ty/eleventy-img": "^4.0.2"
   }
 }
+```
+
+## Configure image optimization
+
+Index: blog/post-1.md
+
+```diff
++![](/img/Introducing-Baldir.png)
+```
+
+Index: index.html
+
+```diff
++<img
++        src="./img/Introducing-Baldir.png"
++        alt="Baldir; Développeur de valeur d‘usage et de logiciel."
++>
+ {% for blog in collections.blog %}
+ <h2>{{ blog.data.title }}</h2>
+-<p>{{ blog.content }}</p>
+ {% endfor %}
+```
+
+Index: _includes/layout.html
+
+```diff
+     <title>Baldir - {{title}}</title>
++    <style>
++        body{
++            max-width: 1200px;
++            margin: 0 auto;
++        }
++        img {
++            max-width: 100%;
++            height: auto;
++        }
++    </style>
+ </head>
+ <body>
+ <header>
+```
+
+Index: package.json
+
+```diff
++  "type": "module",
++  "scripts": {
++    "start": "eleventy --serve",
++    "build": "eleventy"
++  },
++  "devDependencies": {
++    "@11ty/eleventy": "^3.0.0-alpha.17",
++    "@11ty/eleventy-img": "^5.0.0-beta.5",
++    "@11ty/webc": "^0.11.4",
++    "@types/11ty__eleventy-img": "^4.0.0"
++  },
+   "dependencies": {
+-    "@11ty/eleventy-img": "^4.0.2"
++    "@11ty/eleventy-plugin-webc": "^0.11.2"
+   }
+ }
 ```

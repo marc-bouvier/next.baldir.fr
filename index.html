@@ -4,7 +4,10 @@ title: Baldir
 description: "Foo"
 ---
 
+<img
+        src="./img/Introducing-Baldir.png"
+        alt="Baldir; Développeur de valeur d‘usage et de logiciel."
+>
 {% for blog in collections.blog %}
 <h2>{{ blog.data.title }}</h2>
-<p>{{ blog.content }}</p>
 {% endfor %}

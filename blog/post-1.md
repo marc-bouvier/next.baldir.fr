@@ -2,4 +2,4 @@
 title: Post title
 ---
 
-foo
+![](/img/Introducing-Baldir.png)

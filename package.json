@@ -6,7 +6,18 @@
     "email": "baldir.fr@gmail.com",
     "url": "https://baldir.fr"
   },
+  "type": "module",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0-alpha.17",
+    "@11ty/eleventy-img": "^5.0.0-beta.5",
+    "@11ty/webc": "^0.11.4",
+    "@types/11ty__eleventy-img": "^4.0.0"
+  },
   "dependencies": {
-    "@11ty/eleventy-img": "^4.0.2"
+    "@11ty/eleventy-plugin-webc": "^0.11.2"
   }
 }
