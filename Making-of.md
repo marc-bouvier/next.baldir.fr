@@ -1,3 +1,7 @@
+---
+layout: "layout.html"
+title: "Making of"
+---
 # Making of
 
 https://www.11ty.dev/
@@ -76,4 +80,41 @@ blog/blog.json
 +  "tags": "blog"
 +
 +}
+```
+
+## Improve UX and lighthouse score
+
+Set [viewport meta tag](https://developer.chrome.com/docs/lighthouse/best-practices/viewport?utm_source=lighthouse&utm_medium=devtools&hl=fr)
+
+Set [description meta tag](https://developer.chrome.com/docs/lighthouse/seo/meta-description?utm_source=lighthouse&utm_medium=devtools&hl=fr) using [global data file](https://www.11ty.dev/docs/data-global/).
+
+Index: index.html
+
+```diff
+ ---
+ layout: layout.html
+ title: Baldir
++description: "Foo"
+ ---
+```
+
+_data/global.json
+
+```json
+{
+  "description": "foo"
+}
+```
+
+Index: _includes/layout.html
+
+```diff
+ <html lang="fr">
+ <head>
+     <meta charset="UTF-8">
++    <meta name="description" content="{{global.description}}" >
++    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Baldir - {{title}}</title>
+ </head>
+ <body>
 ```
