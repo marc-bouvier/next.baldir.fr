@@ -2,9 +2,10 @@
 layout: "layout.html"
 title: "Making of"
 ---
-# Making of
 
 https://www.11ty.dev/
+
+https://www.11ty.dev/speedlify/
 
 Setup 11ty
 
@@ -117,4 +118,44 @@ Index: _includes/layout.html
      <title>Baldir - {{title}}</title>
  </head>
  <body>
+```
+
+## Add optimized images
+
+https://www.11ty.dev/docs/plugins/image/
+
+```shell
+npm install @11ty/eleventy-img
+```
+
+It generated a `package.json` file.
+So I also decided to add some author information and a licence.
+
+https://choosealicense.com/
+
+The license I chose is [Creative Commons Attribution 4.0 International](https://choosealicense.com/licenses/cc-by-4.0/#) (CC-BY-4.0).
+It permits almost any use subject to providing credit and license notice.
+
+Index: .gitignore
+
+```diff
++# node dependencies
++node_modules
+```
+
+Index: package.json
+
+```json
+{
+  "name": "baldir.fr",
+  "license": "CC-BY-4.0",
+  "author": {
+    "name": "Marc Bouvier",
+    "email": "baldir.fr@gmail.com",
+    "url": "https://baldir.fr"
+  },
+  "dependencies": {
+    "@11ty/eleventy-img": "^4.0.2"
+  }
+}
 ```

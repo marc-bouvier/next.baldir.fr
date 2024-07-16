@@ -2,3 +2,5 @@
 _site
 # Jetbrains IDE metadata
 .idea
+# node dependencies
+node_modules

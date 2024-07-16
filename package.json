@@ -1,0 +1,12 @@
+{
+  "name": "baldir.fr",
+  "license": "CC-BY-4.0",
+  "author": {
+    "name": "Marc Bouvier",
+    "email": "baldir.fr@gmail.com",
+    "url": "https://baldir.fr"
+  },
+  "dependencies": {
+    "@11ty/eleventy-img": "^4.0.2"
+  }
+}
