@@ -220,3 +220,38 @@ Index: package.json
    }
  }
 ```
+
+
+## Code snippets with syntax highlightling
+
+https://www.11ty.dev/docs/plugins/syntaxhighlight/
+
+https://github.com/PrismJS/prism-themes
+
+I'll use a prism accessible highlight theme.
+https://github.com/ericwbailey/a11y-syntax-highlighting
+https://github.com/ericwbailey/a11y-syntax-highlighting/tree/main/dist/prism
+
+I won't use CDN but host it locally to prevent any external modification.
+
+```shell
+npm install @11ty/eleventy-plugin-syntaxhighlight
+
+```
+
+Index: _includes/layout.html
+```diff
++    <link href="/public/css/a11y-light.min.css" rel="stylesheet"/>
+ </head>
+ <body>
+ <header>
+```
+
+Index: .eleventy.js
+```diff
++import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight"
+ 
+ export default function (eleventyConfig) {
++    eleventyConfig.addPassthroughCopy("public/css");
++    eleventyConfig.addPlugin(syntaxHighlight);
+```
