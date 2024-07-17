@@ -4,8 +4,8 @@ export default function (eleventyConfig) {
     // eleventyConfig.addPassthroughCopy("img");
 
     eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-        outputDir: "./_site/img/",
-        urlPath: "/img/",
+        outputDir: "./_site/public/img/",
+        urlPath: "/public/img/",
 
         extensions: "html",
 

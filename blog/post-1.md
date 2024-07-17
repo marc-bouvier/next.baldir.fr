@@ -2,4 +2,4 @@
 title: Post title
 ---
 
-![](/img/Introducing-Baldir.png)
+![](/public/img/Introducing-Baldir.png)
