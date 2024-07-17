@@ -18,6 +18,7 @@
     "@types/11ty__eleventy-img": "^4.0.0"
   },
   "dependencies": {
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "@11ty/eleventy-plugin-webc": "^0.11.2"
   }
 }
