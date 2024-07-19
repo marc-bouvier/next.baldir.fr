@@ -255,3 +255,23 @@ Index: .eleventy.js
 +    eleventyConfig.addPassthroughCopy("public/css");
 +    eleventyConfig.addPlugin(syntaxHighlight);
 ```
+
+## (Delayed) Internationalization (I18n) 
+
+https://www.11ty.dev/docs/i18n/
+
+https://www.11ty.dev/docs/data-cascade/
+
+https://www.11ty.dev/docs/data-template-dir/
+
+https://www.11ty.dev/docs/plugins/i18n/
+
+I don't want to do it now.
+
+Let's do it later ...
+
+
+
+
+
+

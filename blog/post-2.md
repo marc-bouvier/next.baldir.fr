@@ -1,5 +1,6 @@
 ---
 title: Post title 2
+lang: en
 ---
 
-Bar
+This is an english blog post

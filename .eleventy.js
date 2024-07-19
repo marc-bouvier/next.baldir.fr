@@ -1,8 +1,16 @@
 import {eleventyImageTransformPlugin} from "@11ty/eleventy-img"
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight"
+import {EleventyI18nPlugin} from "@11ty/eleventy";
 
 export default function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("public/css");
+
+    eleventyConfig.addPlugin(EleventyI18nPlugin, {
+
+        defaultLanguage: "fr",
+
+    });
+
     eleventyConfig.addPlugin(syntaxHighlight);
     eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
         outputDir: "./_site/public/img/",
