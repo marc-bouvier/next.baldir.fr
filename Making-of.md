@@ -38,8 +38,8 @@ title: Baldir
 ---
 
 {% for blog in collections.blog %}
-<h2>{{ blog.data.title }}</h2>
-<p>{{ blog.content }}</p>
+<h2>{{ '{{ blog.data.title }}' | escape }}</h2>
+<p>{{ '{{ blog.content }}' | escape }}</p>
 {% endfor %}
 ```
 
@@ -60,14 +60,14 @@ _includes/layout.html
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Baldir - {{title}}</title>
+    <title>Baldir - {{'{{title}}' | escape }}</title>
 </head>
 <body>
 <header>
-    <h1>{{title}}</h1>
+    <h1>{{ '{{title}}' | escape }}</h1>
 </header>
 <main>
-    {{content}}
+    {{ '{{content}}' | escape }}
 </main>
 </body>
 </html>
@@ -113,9 +113,9 @@ Index: _includes/layout.html
  <html lang="fr">
  <head>
      <meta charset="UTF-8">
-+    <meta name="description" content="{{global.description}}" >
++    <meta name="description" content="{{ '{{global.description}}' | escape }}" >
 +    <meta name="viewport" content="width=device-width, initial-scale=1">
-     <title>Baldir - {{title}}</title>
+     <title>Baldir - {{ '{{title}}' | escape }}</title>
  </head>
  <body>
 ```
@@ -176,15 +176,15 @@ Index: index.html
 +        alt="Baldir; Développeur de valeur d‘usage et de logiciel."
 +>
  {% for blog in collections.blog %}
- <h2>{{ blog.data.title }}</h2>
--<p>{{ blog.content }}</p>
+ <h2>{{ '{{ blog.data.title }}' | escape }}</h2>
+-<p>{{ '{{ blog.content }}' | escape }}</p>
  {% endfor %}
 ```
 
 Index: _includes/layout.html
 
 ```diff
-     <title>Baldir - {{title}}</title>
+     <title>Baldir - {{ '{{title}}' | escape }}</title>
 +    <style>
 +        body{
 +            max-width: 1200px;
@@ -270,6 +270,22 @@ I don't want to do it now.
 
 Let's do it later ...
 
+## Next
+
+Reading time : https://github.com/johanbrook/eleventy-plugin-reading-time
+
+Header ids : https://github.com/orchidjs/eleventy-plugin-ids
+
+
+RSS
+
+Navigation
+
+
+Open graph (SEO & link cover image) : https://github.com/tannerdolby/eleventy-plugin-metagen
+I18n
+
+Dark light modes
 
 
 
