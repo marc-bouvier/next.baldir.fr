@@ -1,6 +1,7 @@
 import {eleventyImageTransformPlugin} from "@11ty/eleventy-img"
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight"
 import {EleventyI18nPlugin} from "@11ty/eleventy";
+import {feedPlugin} from "@11ty/eleventy-plugin-rss";
 
 export default function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("public/css");
@@ -11,6 +12,13 @@ export default function (eleventyConfig) {
 
     });
 
+    eleventyConfig.addPlugin(feedPlugin, {
+        type: "rss",
+        outputPath: "/feed.xml",
+        collection: {
+            name: "blog"
+        }
+    })
     eleventyConfig.addPlugin(syntaxHighlight);
     eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
         outputDir: "./_site/public/img/",

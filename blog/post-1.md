@@ -1,5 +1,6 @@
 ---
 title: Post title
+description: 'Ceci est un article de blog en français.'
 lang: fr
 ---
 

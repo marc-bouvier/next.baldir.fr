@@ -270,24 +270,35 @@ I don't want to do it now.
 
 Let's do it later ...
 
-## Next
+## Basic RSS feed for blog posts
 
-Reading time : https://github.com/johanbrook/eleventy-plugin-reading-time
+We want to add an RSS feed so anyone can subscribe to the blog posts as soon as they are published.
 
-Header ids : https://github.com/orchidjs/eleventy-plugin-ids
+https://www.11ty.dev/docs/plugins/rss/
 
+```shell
+npm install @11ty/eleventy-plugin-rss
+```
 
-RSS
+For now I cannot yet add a short description for the items of the feed.
+Also, I cannot, have a french feed separated from the english feed.
 
-Navigation
-
-
-Open graph (SEO & link cover image) : https://github.com/tannerdolby/eleventy-plugin-metagen
-I18n
-
-Dark light modes
+Maybe next time, we'll address this issues. But it is a problem for my future self.
 
 
+## Next time
 
+I can pick one of the following stuff.
 
-
+- Host statically on Github pages for public preview
+- Reading time : https://github.com/johanbrook/eleventy-plugin-reading-time
+- Header ids : https://github.com/orchidjs/eleventy-plugin-ids
+- RSS (advanced)
+- Podcast
+- Navigation
+- Generate a public knowledge base from Obsidian notes (warning ! it is an ambitious task)
+- Open graph (SEO & link cover image) : https://github.com/tannerdolby/eleventy-plugin-metagen
+- I18n
+- Dark light modes
+- Sitemap
+- Maybe allow to edit and create content with an headless CMS such as https://decapcms.org/
