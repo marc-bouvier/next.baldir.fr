@@ -285,10 +285,29 @@ Also, I cannot, have a french feed separated from the english feed.
 
 Maybe next time, we'll address this issues. But it is a problem for my future self.
 
+## Links for blog posts
+
+An overview of the variables that can be used in a page.
+
+https://www.11ty.dev/docs/data-eleventy-supplied/#skip-content
+
+index.html
+
+```diff
+ {% for blog in collections.blog %}
+-<h2>{{ blog.data.title }}</h2>
++<h2><a href="{{blog.url}}">
++  {{ blog.data.title }}</a></h2>
+ {% endfor %}
+
+```
+
 
 ## Next time
 
 I can pick one of the following stuff.
+
+- Links followable in blogs
 
 - Host statically on Github pages for public preview
 - Reading time : https://github.com/johanbrook/eleventy-plugin-reading-time
