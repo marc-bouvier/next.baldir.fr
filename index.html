@@ -9,5 +9,6 @@ description: "Foo"
         alt="Baldir; Développeur de valeur d‘usage et de logiciel."
 >
 {% for blog in collections.blog %}
-<h2>{{ blog.data.title }}</h2>
+<h2><a href="{{blog.url}}">
+  {{ blog.data.title }}</a></h2>
 {% endfor %}
