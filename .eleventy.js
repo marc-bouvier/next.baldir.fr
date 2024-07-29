@@ -1,6 +1,6 @@
 import {eleventyImageTransformPlugin} from "@11ty/eleventy-img"
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight"
-import {EleventyI18nPlugin} from "@11ty/eleventy";
+import {EleventyHtmlBasePlugin, EleventyI18nPlugin} from "@11ty/eleventy";
 import {feedPlugin} from "@11ty/eleventy-plugin-rss";
 
 export default function (eleventyConfig) {
@@ -8,6 +8,8 @@ export default function (eleventyConfig) {
     // Copy static styles as is
     eleventyConfig.addPassthroughCopy("public/css");
 
+    // Required to support --pathprefix
+    eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
     // Internationalization
     eleventyConfig.addPlugin(EleventyI18nPlugin, {

@@ -310,21 +310,7 @@ I will create a github pages workflow so I can quickly have a real preview of my
 
 https://pages.github.com/
 
-I will create a Github Action that wil generate my static site and host it in Github Pages.
-
-First, I go to the Actions section of my repository.
-
-In my case I find it here : https://github.com/marc-bouvier/green-a11y-11ty/actions
-
-Since I don't have any actions yet, it invites me to create a new one form a template or from scratch.
-
-A github actions is defined with a yml file.
-
-This file describes the various steps of a pipeline.
-
-We can find templates specific to the Github Pages in the "Pages" category : https://github.com/marc-bouvier/green-a11y-11ty/actions/new?category=pages
-
-There is no pre-made template for eleventy.
+In Github, there is no pre-made template for eleventy.
 
 Let's see if we can find something at https://11ty.dev
 
@@ -332,13 +318,50 @@ https://www.11ty.dev/docs/deployment/#jamstack-providers
 
 There is a mini tutorial for deploying an 11ty site on Github Pages : https://www.11ty.dev/docs/deployment/#deploy-an-eleventy-project-to-github-pages
 
+My Github page will be hosted to `https://marc-bouvier.github.io/green-a11y-11ty/`.
+
+It is a subfolder root.
+
+I need to support `--pathprefix` argument when I build this site for Github Pages.
+
+First, let's add a plugin to eleventy configuration to support using `--pathprefix`.
+
+.eleventy.js
+
+```diff
+-import {EleventyI18nPlugin} from "@11ty/eleventy";
++import {EleventyHtmlBasePlugin, EleventyI18nPlugin} from "@11ty/eleventy";
+ 
+export default function (eleventyConfig) {
+
++    // Required to support --pathprefix
++    eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+
+}
+
+```
+
+A Github Action will generate my static site and host it in Github Pages.
+
+First, I go to the Actions section of my repository.
+
+In my case I find it here : https://github.com/marc-bouvier/green-a11y-11ty/actions
+
+Since I don't have any actions yet, it invites me to create a new one form a template or from scratch.
+
+A GitHub action is defined with a yml file located in `.github/workflows/`. 
+
+This file describes the various steps of a pipeline.
+
+We can find templates specific to the GitHub Pages in the "Pages" category : https://github.com/marc-bouvier/green-a11y-11ty/actions/new?category=pages
+
 First I will create a git branch named `gh-pages`
-
-
 
 .github/workflows/deploy-to-ghpages.yml
 
 {% comment %}
+TODO: find a way to show this file properly in both the text and rendered.
+
 ```yaml
 name: Deploy to GitHub Pages
 
@@ -394,9 +417,25 @@ jobs:
 
 ## Next time
 
+- navigation
+    - Items
+        - Blog posts
+        - Notes (micro blogging)
+        - About
+        - Rss
+        - Podcasts
+        - Liens sortants (sites que j'aime bien ou ami-e-s)
+        - Bibliothèque (inspiration de https://lazybear.io/)
+    - A11y : Skip to content
+    - A11y : Skip to navigation
+
+- écriture inclusive
+    - choisir une façon d'écrire mon contenu de façon inclusive (inspiration : [La lutine du web](https://www.lalutineduweb.fr/), ...)  
+- 
+
 I can pick one of the following stuff.
 
-- Links followable in blogs
+- ✅ Links followable in blogs
 
 - Host statically on Github pages for public preview
 - Reading time : https://github.com/johanbrook/eleventy-plugin-reading-time
