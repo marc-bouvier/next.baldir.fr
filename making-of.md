@@ -577,7 +577,9 @@ _includes/layout.html
 ## Next time
 
 - Test RSS feed in a real RSS client against github page
-
+    - Feed needs base URL which is missing
+    - Maybe inject it with a provided environment variable
+- Mes articles chez Iroco
 - navigation
     - Items
         - Blog posts
