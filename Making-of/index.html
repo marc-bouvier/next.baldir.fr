@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="foo">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Baldir - Making of</title>
+    <style>
+        body {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+    <link href="/green-a11y-11ty/public/css/a11y-light.min.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <h1>Making of</h1>
+</header>
+<main>
+    <p>https://www.11ty.dev/</p>
+<p>https://www.11ty.dev/speedlify/</p>
+<p>Setup 11ty</p>
+<pre class="language-shell"><code class="language-shell"><span class="highlight-line"><span class="token builtin class-name">echo</span> <span class="token string">'# Heading'</span> <span class="token operator">></span> index.md</span></code></pre>
+<pre class="language-shell"><code class="language-shell"><span class="highlight-line">npx @11ty/eleventy <span class="token parameter variable">--serve</span></span></code></pre>
+<h2>Use data collections to set blog posts</h2>
+<p>blog/post-1.md</p>
+<pre class="language-markdown"><code class="language-markdown"><span class="token front-matter-block"><span class="token punctuation">---</span>
+<span class="highlight-line"><span class="token front-matter yaml language-yaml">title: Post title</span></span>
+<span class="token punctuation">---</span></span>
+<span class="highlight-line"></span>
+<span class="highlight-line">foo</span></code></pre>
+<p>index.html</p>
+<pre class="language-html"><code class="language-html"><span class="highlight-line">---</span>
+<span class="highlight-line">layout: layout.html</span>
+<span class="highlight-line">title: Baldir</span>
+<span class="highlight-line">---</span>
+<span class="highlight-line"></span>
+<span class="highlight-line"></span>
+<span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span><span class="token punctuation">></span></span>{{ blog.data.title }}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">></span></span></span>
+<span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>{{ blog.content }}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span></span>
+<span class="highlight-line"></span>
+<span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span><span class="token punctuation">></span></span>{{ blog.data.title }}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">></span></span></span>
+<span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>{{ blog.content }}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span></span>
+<span class="highlight-line"></span></code></pre>
+<p>blog/post-2.md</p>
+<pre class="language-md"><code class="language-md"><span class="token front-matter-block"><span class="token punctuation">---</span>
+<span class="highlight-line"><span class="token front-matter yaml language-yaml">title: Post title 2</span></span>
+<span class="token punctuation">---</span></span>
+<span class="highlight-line"></span>
+<span class="highlight-line">+Bar</span></code></pre>
+<p>_includes/layout.html</p>
+<pre class="language-html"><code class="language-html"><span class="highlight-line"><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">></span></span></span>
+<span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fr<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></span>
+<span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span></span>
+<span class="highlight-line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>UTF-8<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></span>
+<span class="highlight-line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span>Baldir - {{title}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">></span></span></span>
+<span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span></span>
+<span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span></span>
+<span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>header</span><span class="token punctuation">></span></span></span>
+<span class="highlight-line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">></span></span>{{title}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span></span>
+<span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>header</span><span class="token punctuation">></span></span></span>
+<span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>main</span><span class="token punctuation">></span></span></span>
+<span class="highlight-line">    {{content}}</span>
+<span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>main</span><span class="token punctuation">></span></span></span>
+<span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span></span>
+<span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span></span></code></pre>
+<p>blog/blog.json</p>
+<pre class="language-diff"><code class="language-diff"><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">{
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line">  "layout": "layout.html",</span>
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line">  "tags": "blog"</span>
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line"></span>
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line">}</span>
+</span></span></code></pre>
+<h2>Improve UX and lighthouse score</h2>
+<p>Set <a href="https://developer.chrome.com/docs/lighthouse/best-practices/viewport?utm_source=lighthouse&amp;utm_medium=devtools&amp;hl=fr">viewport meta tag</a></p>
+<p>Set <a href="https://developer.chrome.com/docs/lighthouse/seo/meta-description?utm_source=lighthouse&amp;utm_medium=devtools&amp;hl=fr">description meta tag</a> using <a href="https://www.11ty.dev/docs/data-global/">global data file</a>.</p>
+<p>Index: index.html</p>
+<pre class="language-diff"><code class="language-diff"><span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">---
+<span class="highlight-line"></span><span class="token prefix unchanged"> </span><span class="token line">layout: layout.html</span>
+<span class="highlight-line"></span><span class="token prefix unchanged"> </span><span class="token line">title: Baldir</span>
+<span class="highlight-line"></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">description: "Foo"</span>
+<span class="highlight-line"></span></span><span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">---</span>
+</span></span></code></pre>
+<p>_data/global.json</p>
+<pre class="language-json"><code class="language-json"><span class="highlight-line"><span class="token punctuation">{</span></span>
+<span class="highlight-line">  <span class="token property">"description"</span><span class="token operator">:</span> <span class="token string">"foo"</span></span>
+<span class="highlight-line"><span class="token punctuation">}</span></span></code></pre>
+<p>Index: _includes/layout.html</p>
+<pre class="language-diff"><code class="language-diff"><span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">&lt;html lang="fr">
+<span class="highlight-line"></span><span class="token prefix unchanged"> </span><span class="token line">&lt;head></span>
+<span class="highlight-line"></span><span class="token prefix unchanged"> </span><span class="token line">    &lt;meta charset="UTF-8"></span>
+<span class="highlight-line"></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">    &lt;meta name="description" content="{{global.description}}" ></span>
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line">    &lt;meta name="viewport" content="width=device-width, initial-scale=1"></span>
+<span class="highlight-line"></span></span><span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">    &lt;title>Baldir - {{title}}&lt;/title></span>
+<span class="highlight-line"></span><span class="token prefix unchanged"> </span><span class="token line">&lt;/head></span>
+<span class="highlight-line"></span><span class="token prefix unchanged"> </span><span class="token line">&lt;body></span>
+</span></span></code></pre>
+<h2>Install image optimization plugin</h2>
+<p>https://www.11ty.dev/docs/plugins/image/</p>
+<pre class="language-shell"><code class="language-shell"><span class="highlight-line"><span class="token function">npm</span> <span class="token function">install</span> @11ty/eleventy-img</span></code></pre>
+<p>It generated a <code>package.json</code> file.
+So I also decided to add some author information and a licence.</p>
+<p>https://choosealicense.com/</p>
+<p>The license I chose is <a href="https://choosealicense.com/licenses/cc-by-4.0/#">Creative Commons Attribution 4.0 International</a> (CC-BY-4.0).
+It permits almost any use subject to providing credit and license notice.</p>
+<p>Index: .gitignore</p>
+<pre class="language-diff"><code class="language-diff"><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line"># node dependencies
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line">node_modules</span>
+</span></span></code></pre>
+<p>Index: package.json</p>
+<pre class="language-json"><code class="language-json"><span class="highlight-line"><span class="token punctuation">{</span></span>
+<span class="highlight-line">  <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"baldir.fr"</span><span class="token punctuation">,</span></span>
+<span class="highlight-line">  <span class="token property">"license"</span><span class="token operator">:</span> <span class="token string">"CC-BY-4.0"</span><span class="token punctuation">,</span></span>
+<span class="highlight-line">  <span class="token property">"author"</span><span class="token operator">:</span> <span class="token punctuation">{</span></span>
+<span class="highlight-line">    <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"Marc Bouvier"</span><span class="token punctuation">,</span></span>
+<span class="highlight-line">    <span class="token property">"email"</span><span class="token operator">:</span> <span class="token string">"baldir.fr@gmail.com"</span><span class="token punctuation">,</span></span>
+<span class="highlight-line">    <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://baldir.fr"</span></span>
+<span class="highlight-line">  <span class="token punctuation">}</span><span class="token punctuation">,</span></span>
+<span class="highlight-line">  <span class="token property">"dependencies"</span><span class="token operator">:</span> <span class="token punctuation">{</span></span>
+<span class="highlight-line">    <span class="token property">"@11ty/eleventy-img"</span><span class="token operator">:</span> <span class="token string">"^4.0.2"</span></span>
+<span class="highlight-line">  <span class="token punctuation">}</span></span>
+<span class="highlight-line"><span class="token punctuation">}</span></span></code></pre>
+<h2>Configure image optimization</h2>
+<p>Index: blog/post-1.md</p>
+<pre class="language-diff"><code class="language-diff"><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">![](/img/Introducing-Baldir.png)
+</span></span></code></pre>
+<p>Index: index.html</p>
+<pre class="language-diff"><code class="language-diff"><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">&lt;img
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line">        src="./img/Introducing-Baldir.png"</span>
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line">        alt="Baldir; Développeur de valeur d‘usage et de logiciel."</span>
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line">></span>
+<span class="highlight-line"></span></span><span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line"></span>
+<span class="highlight-line"></span><span class="token prefix unchanged"> </span><span class="token line">&lt;h2>{{ blog.data.title }}&lt;/h2></span>
+<span class="highlight-line"></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">&lt;p>{{ blog.content }}&lt;/p></span>
+<span class="highlight-line"></span></span><span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line"></span>
+<span class="highlight-line"></span><span class="token prefix unchanged"> </span><span class="token line">&lt;h2>{{ blog.data.title }}&lt;/h2></span>
+<span class="highlight-line"></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">&lt;p>{{ blog.content }}&lt;/p></span>
+<span class="highlight-line"></span></span><span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line"></span>
+</span></span></code></pre>
+<p>Index: _includes/layout.html</p>
+<pre class="language-diff"><code class="language-diff"><span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">    &lt;title>Baldir - {{title}}&lt;/title>
+<span class="highlight-line"></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">    &lt;style></span>
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line">        body{</span>
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line">            max-width: 1200px;</span>
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line">            margin: 0 auto;</span>
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line">        }</span>
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line">        img {</span>
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line">            max-width: 100%;</span>
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line">            height: auto;</span>
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line">        }</span>
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line">    &lt;/style></span>
+<span class="highlight-line"></span></span><span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">&lt;/head></span>
+<span class="highlight-line"></span><span class="token prefix unchanged"> </span><span class="token line">&lt;body></span>
+<span class="highlight-line"></span><span class="token prefix unchanged"> </span><span class="token line">&lt;header></span>
+</span></span></code></pre>
+<p>Index: package.json</p>
+<pre class="language-diff"><code class="language-diff"><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">  "type": "module",
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line">  "scripts": {</span>
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line">    "start": "eleventy --serve",</span>
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line">    "build": "eleventy"</span>
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line">  },</span>
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line">  "devDependencies": {</span>
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line">    "@11ty/eleventy": "^3.0.0-alpha.17",</span>
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line">    "@11ty/eleventy-img": "^5.0.0-beta.5",</span>
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line">    "@11ty/webc": "^0.11.4",</span>
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line">    "@types/11ty__eleventy-img": "^4.0.0"</span>
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line">  },</span>
+<span class="highlight-line"></span></span><span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">  "dependencies": {</span>
+<span class="highlight-line"></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">    "@11ty/eleventy-img": "^4.0.2"</span>
+<span class="highlight-line"></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">    "@11ty/eleventy-plugin-webc": "^0.11.2"</span>
+<span class="highlight-line"></span></span><span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">  }</span>
+<span class="highlight-line"></span><span class="token prefix unchanged"> </span><span class="token line">}</span>
+</span></span></code></pre>
+<h2>Code snippets with syntax highlightling</h2>
+<p>https://www.11ty.dev/docs/plugins/syntaxhighlight/</p>
+<p>https://github.com/PrismJS/prism-themes</p>
+<p>I'll use a prism accessible highlight theme.
+https://github.com/ericwbailey/a11y-syntax-highlighting
+https://github.com/ericwbailey/a11y-syntax-highlighting/tree/main/dist/prism</p>
+<p>I won't use CDN but host it locally to prevent any external modification.</p>
+<pre class="language-shell"><code class="language-shell"><span class="highlight-line"><span class="token function">npm</span> <span class="token function">install</span> @11ty/eleventy-plugin-syntaxhighlight</span>
+<span class="highlight-line"></span></code></pre>
+<p>Index: _includes/layout.html</p>
+<pre class="language-diff"><code class="language-diff"><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">    &lt;link href="/public/css/a11y-light.min.css" rel="stylesheet"/>
+<span class="highlight-line"></span></span><span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">&lt;/head></span>
+<span class="highlight-line"></span><span class="token prefix unchanged"> </span><span class="token line">&lt;body></span>
+<span class="highlight-line"></span><span class="token prefix unchanged"> </span><span class="token line">&lt;header></span>
+</span></span></code></pre>
+<p>Index: .eleventy.js</p>
+<pre class="language-diff"><code class="language-diff"><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight"
+<span class="highlight-line"></span></span><span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line"></span>
+<span class="highlight-line"></span><span class="token prefix unchanged"> </span><span class="token line">export default function (eleventyConfig) {</span>
+<span class="highlight-line"></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">    eleventyConfig.addPassthroughCopy("public/css");</span>
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line">    eleventyConfig.addPlugin(syntaxHighlight);</span>
+</span></span></code></pre>
+<h2>(Delayed) Internationalization (I18n)</h2>
+<p>https://www.11ty.dev/docs/i18n/</p>
+<p>https://www.11ty.dev/docs/data-cascade/</p>
+<p>https://www.11ty.dev/docs/data-template-dir/</p>
+<p>https://www.11ty.dev/docs/plugins/i18n/</p>
+<p>I don't want to do it now.</p>
+<p>Let's do it later ...</p>
+<h2>Basic RSS feed for blog posts</h2>
+<p>We want to add an RSS feed so anyone can subscribe to the blog posts as soon as they are published.</p>
+<p>https://www.11ty.dev/docs/plugins/rss/</p>
+<pre class="language-shell"><code class="language-shell"><span class="highlight-line"><span class="token function">npm</span> <span class="token function">install</span> @11ty/eleventy-plugin-rss</span></code></pre>
+<p>For now I cannot yet add a short description for the items of the feed.
+Also, I cannot, have a french feed separated from the english feed.</p>
+<p>Maybe next time, we'll address this issues.</p>
+<p>But it is a problem for my future self.</p>
+<h2>Links for blog posts</h2>
+<p>An overview of the variables that can be used in a page.</p>
+<p>https://www.11ty.dev/docs/data-eleventy-supplied/#skip-content</p>
+<p>index.html</p>
+<pre class="language-diff"><code class="language-diff"><span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">
+<span class="highlight-line"></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">&lt;h2>Post title&lt;/h2></span>
+<span class="highlight-line"></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">&lt;h2>&lt;a href="/blog/post-1/"></span>
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line">  Post title&lt;/a>&lt;/h2></span>
+<span class="highlight-line"></span></span><span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line"></span>
+<span class="highlight-line"></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">&lt;h2>Post title 2&lt;/h2></span>
+<span class="highlight-line"></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">&lt;h2>&lt;a href="/blog/post-2/"></span>
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line">  Post title 2&lt;/a>&lt;/h2></span>
+<span class="highlight-line"></span></span><span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line"></span>
+</span></span></code></pre>
+<h2>Github pages</h2>
+<p>I will create a github pages workflow so I can quickly have a real preview of my site.</p>
+<p>https://pages.github.com/</p>
+<p>In Github, there is no pre-made template for eleventy.</p>
+<p>Let's see if we can find something at https://11ty.dev</p>
+<p>https://www.11ty.dev/docs/deployment/#jamstack-providers</p>
+<p>There is a mini tutorial for deploying an 11ty site on Github Pages : https://www.11ty.dev/docs/deployment/#deploy-an-eleventy-project-to-github-pages</p>
+<p>My Github page will be hosted to <code>https://marc-bouvier.github.io/green-a11y-11ty/</code>.</p>
+<p>It is a subfolder root.</p>
+<p>I need to support <code>--pathprefix</code> argument when I build this site for Github Pages.</p>
+<p>First, let's add a plugin to eleventy configuration to support using <code>--pathprefix</code>.</p>
+<p>.eleventy.js</p>
+<pre class="language-diff"><code class="language-diff"><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">import {EleventyI18nPlugin} from "@11ty/eleventy";
+<span class="highlight-line"></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">import {EleventyHtmlBasePlugin, EleventyI18nPlugin} from "@11ty/eleventy";</span>
+<span class="highlight-line"></span></span><span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line"></span>
+</span></span>export default function (eleventyConfig) {
+<span class="highlight-line"></span>
+<span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">    // Required to support --pathprefix
+<span class="highlight-line"></span><span class="token prefix inserted">+</span><span class="token line">    eleventyConfig.addPlugin(EleventyHtmlBasePlugin);</span>
+</span></span>
+<span class="highlight-line">}</span>
+<span class="highlight-line"></span></code></pre>
+<p>A Github Action will generate my static site and host it in Github Pages.</p>
+<p>First, I go to the Actions section of my repository.</p>
+<p>In my case I find it here : https://github.com/marc-bouvier/green-a11y-11ty/actions</p>
+<p>Since I don't have any actions yet, it invites me to create a new one form a template or from scratch.</p>
+<p>A GitHub action is defined with a yml file located in <code>.github/workflows/</code>.</p>
+<p>This file describes the various steps of a pipeline.</p>
+<p>We can find templates specific to the GitHub Pages in the &quot;Pages&quot; category : https://github.com/marc-bouvier/green-a11y-11ty/actions/new?category=pages</p>
+<p>First I will create a git branch named <code>gh-pages</code></p>
+<p>.github/workflows/deploy-to-ghpages.yml</p>
+<h2>Next time</h2>
+<ul>
+<li>
+<p>navigation</p>
+<ul>
+<li>Items
+<ul>
+<li>Blog posts</li>
+<li>Notes (micro blogging)</li>
+<li>About</li>
+<li>Rss</li>
+<li>Podcasts</li>
+<li>Liens sortants (sites que j'aime bien ou ami-e-s)</li>
+<li>Bibliothèque (inspiration de https://lazybear.io/)</li>
+</ul>
+</li>
+<li>A11y : Skip to content</li>
+<li>A11y : Skip to navigation</li>
+</ul>
+</li>
+<li>
+<p>écriture inclusive</p>
+<ul>
+<li>choisir une façon d'écrire mon contenu de façon inclusive (inspiration : <a href="https://www.lalutineduweb.fr/">La lutine du web</a>, ...)</li>
+</ul>
+</li>
+<li></li>
+</ul>
+<p>I can pick one of the following stuff.</p>
+<ul>
+<li>
+<p>✅ Links followable in blogs</p>
+</li>
+<li>
+<p>Host statically on Github pages for public preview</p>
+</li>
+<li>
+<p>Reading time : https://github.com/johanbrook/eleventy-plugin-reading-time</p>
+</li>
+<li>
+<p>Header ids : https://github.com/orchidjs/eleventy-plugin-ids</p>
+</li>
+<li>
+<p>RSS (advanced)</p>
+</li>
+<li>
+<p>Podcast</p>
+</li>
+<li>
+<p>Navigation</p>
+</li>
+<li>
+<p>Generate a public knowledge base from Obsidian notes (warning ! it is an ambitious task)</p>
+</li>
+<li>
+<p>Open graph (SEO &amp; link cover image) : https://github.com/tannerdolby/eleventy-plugin-metagen</p>
+</li>
+<li>
+<p>I18n</p>
+</li>
+<li>
+<p>Dark light modes</p>
+</li>
+<li>
+<p>Sitemap</p>
+</li>
+<li>
+<p>Maybe allow to edit and create content with an headless CMS such as https://decapcms.org/</p>
+</li>
+</ul>
+
+</main>
+</body>
+</html>

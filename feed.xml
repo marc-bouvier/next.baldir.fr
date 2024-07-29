@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="https://example.com/green-a11y-11ty/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog Title</title>
+    <link>https://example.com/green-a11y-11ty/</link>
+    <atom:link href="https://example.com/green-a11y-11ty/feed.xml" rel="self" type="application/rss+xml" />
+    <description>This is a longer description about your blog.</description>
+    <language>fr</language>
+    <item>
+      <title>Post title 2</title>
+      <link>https://example.com/green-a11y-11ty/blog/post-2/</link>
+      <description>&lt;p&gt;This is an english blog post&lt;/p&gt;
+</description>
+      <pubDate>Mon, 29 Jul 2024 14:49:38 GMT</pubDate>
+      <dc:creator>Your Name</dc:creator>
+      <guid>https://example.com/green-a11y-11ty/blog/post-2/</guid>
+    </item>
+    <item>
+      <title>Post title</title>
+      <link>https://example.com/green-a11y-11ty/blog/post-1/</link>
+      <description>&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/green-a11y-11ty/public/img/viXrAZ76jI-320.webp 320w, https://example.com/green-a11y-11ty/public/img/viXrAZ76jI-640.webp 640w, https://example.com/green-a11y-11ty/public/img/viXrAZ76jI-800.webp 800w, https://example.com/green-a11y-11ty/public/img/viXrAZ76jI-1024.webp 1024w, https://example.com/green-a11y-11ty/public/img/viXrAZ76jI-1306.webp 1306w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/png&quot; srcset=&quot;https://example.com/green-a11y-11ty/public/img/viXrAZ76jI-320.png 320w, https://example.com/green-a11y-11ty/public/img/viXrAZ76jI-640.png 640w, https://example.com/green-a11y-11ty/public/img/viXrAZ76jI-800.png 800w, https://example.com/green-a11y-11ty/public/img/viXrAZ76jI-1024.png 1024w, https://example.com/green-a11y-11ty/public/img/viXrAZ76jI-1306.png 1306w&quot; sizes=&quot;100vw&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/green-a11y-11ty/public/img/viXrAZ76jI-320.jpeg&quot; alt=&quot;&quot; width=&quot;1306&quot; height=&quot;885&quot; srcset=&quot;https://example.com/green-a11y-11ty/public/img/viXrAZ76jI-320.jpeg 320w, https://example.com/green-a11y-11ty/public/img/viXrAZ76jI-640.jpeg 640w, https://example.com/green-a11y-11ty/public/img/viXrAZ76jI-800.jpeg 800w, https://example.com/green-a11y-11ty/public/img/viXrAZ76jI-1024.jpeg 1024w, https://example.com/green-a11y-11ty/public/img/viXrAZ76jI-1306.jpeg 1306w&quot; sizes=&quot;100vw&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;Ceci est un article de blog en français.&lt;/p&gt;
+</description>
+      <pubDate>Mon, 29 Jul 2024 14:49:38 GMT</pubDate>
+      <dc:creator>Your Name</dc:creator>
+      <guid>https://example.com/green-a11y-11ty/blog/post-1/</guid>
+    </item>
+  </channel>
+</rss>
