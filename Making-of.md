@@ -302,6 +302,93 @@ index.html
 
 ```
 
+## Github pages
+
+I will create a github pages workflow so I can quickly have a real preview of my site.
+
+https://pages.github.com/
+
+I will create a Github Action that wil generate my static site and host it in Github Pages.
+
+First, I go to the Actions section of my repository.
+
+In my case I find it here : https://github.com/marc-bouvier/green-a11y-11ty/actions
+
+Since I don't have any actions yet, it invites me to create a new one form a template or from scratch.
+
+A github actions is defined with a yml file.
+
+This file describes the various steps of a pipeline.
+
+We can find templates specific to the Github Pages in the "Pages" category : https://github.com/marc-bouvier/green-a11y-11ty/actions/new?category=pages
+
+There is no pre-made template for eleventy.
+
+Let's see if we can find something at https://11ty.dev
+
+https://www.11ty.dev/docs/deployment/#jamstack-providers
+
+There is a mini tutorial for deploying an 11ty site on Github Pages : https://www.11ty.dev/docs/deployment/#deploy-an-eleventy-project-to-github-pages
+
+First I will create a git branch named `gh-pages`
+
+
+
+.github/workflows/deploy-to-ghpages.yml
+
+{% comment %}
+```yaml
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+    concurrency:
+      group: "${{ github.workflow }}-${{ github.ref }}"
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Persist npm cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: "${{ runner.os }}-node-${{ hashFiles('**/package.json') }}"
+
+      - name: Persist Eleventy .cache
+        uses: actions/cache@v4
+        with:
+          path: ./.cache
+          key: ${{ runner.os }}-eleventy-fetch-cache
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build static site
+        run: npm run build
+
+      - name: Deploy to Github Pages
+        uses: peaceiris/actions-gh-pages@v4
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+
+```
+{% endcomment %}
+
 
 ## Next time
 
