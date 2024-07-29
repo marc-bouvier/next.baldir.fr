@@ -61,13 +61,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Probe variables
-        run: |
-          echo "steps.pages.outputs.base_url  : ${{ steps.pags.outputs.base_url }}"
-          echo "steps.pages.outputs.origin    : ${{ steps.pags.outputs.origin }}"
-          echo "steps.pages.outputs.host      : ${{ steps.pags.outputs.host }}"
-          echo "steps.pages.outputs.base_path : ${{ steps.pags.outputs.base_path }}"
-
       - name: Build static site
         run: npm run build -- --pathprefix=${{ steps.pages.outputs.base_path }}
 
