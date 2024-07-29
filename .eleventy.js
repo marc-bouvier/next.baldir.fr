@@ -4,14 +4,17 @@ import {EleventyI18nPlugin} from "@11ty/eleventy";
 import {feedPlugin} from "@11ty/eleventy-plugin-rss";
 
 export default function (eleventyConfig) {
+
+    // Copy static styles as is
     eleventyConfig.addPassthroughCopy("public/css");
 
+
+    // Internationalization
     eleventyConfig.addPlugin(EleventyI18nPlugin, {
-
         defaultLanguage: "fr",
-
     });
 
+    // RSS feed
     eleventyConfig.addPlugin(feedPlugin, {
         type: "rss",
         outputPath: "/feed.xml",
@@ -19,7 +22,18 @@ export default function (eleventyConfig) {
             name: "blog"
         }
     })
-    eleventyConfig.addPlugin(syntaxHighlight);
+
+    // Code snippets with syntax highlighting
+    eleventyConfig.addPlugin(syntaxHighlight,{
+        lineSeparator: "\n",
+        errorOnInvalidLanguage: true,
+        alwaysWrapLineHighlights: true,
+        preAttributes: {},
+        codeAttributes: {}
+    });
+
+    // Create images variants of different dimensions and different formats.
+    // They will be loaded depending on the viewport
     eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
         outputDir: "./_site/public/img/",
         urlPath: "/public/img/",
