@@ -30,12 +30,18 @@ jobs:
     concurrency:
       group: "${{ github.workflow }}-${{ github.ref }}"
     steps:
-      - uses: actions/checkout@v4
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "20"
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
 
       - name: Persist npm cache
         uses: actions/cache@v4
@@ -52,16 +58,14 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v5
-
       - name: Build static site
-        run: npm run build -- --pathprefix ${{ steps.deployment.outputs.page_url }}
+        run: npm run build -- --pathprefix="${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
 
   deploy:
     environment:
