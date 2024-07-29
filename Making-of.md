@@ -283,7 +283,9 @@ npm install @11ty/eleventy-plugin-rss
 For now I cannot yet add a short description for the items of the feed.
 Also, I cannot, have a french feed separated from the english feed.
 
-Maybe next time, we'll address this issues. But it is a problem for my future self.
+Maybe next time, we'll address this issues. 
+
+But it is a problem for my future self.
 
 ## Links for blog posts
 
