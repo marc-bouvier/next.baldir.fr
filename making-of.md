@@ -582,6 +582,8 @@ _includes/layout.html
 
 I can pick one of the following stuff.
 
+
+- fix main picture size (it is too large) 
 - ✅ Links followable in blogs
 
 - Host statically on Github pages for public preview
