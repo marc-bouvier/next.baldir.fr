@@ -46,17 +46,17 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Persist npm cache
-        uses: actions/cache@v4
-        with:
-          path: ~/.npm
-          key: "${{ runner.os }}-node-${{ hashFiles('**/package.json') }}"
-
-      - name: Persist Eleventy .cache
-        uses: actions/cache@v4
-        with:
-          path: ./.cache
-          key: ${{ runner.os }}-eleventy-fetch-cache
+#      - name: Persist npm cache
+#        uses: actions/cache@v4
+#        with:
+#          path: ~/.npm
+#          key: "${{ runner.os }}-node-${{ hashFiles('**/package.json') }}"
+#
+#      - name: Persist Eleventy .cache
+#        uses: actions/cache@v4
+#        with:
+#          path: ./.cache
+#          key: ${{ runner.os }}-eleventy-fetch-cache
 
       - name: Install dependencies
         run: npm install
