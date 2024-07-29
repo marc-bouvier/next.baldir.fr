@@ -562,7 +562,21 @@ _includes/layout.html
 ```
 
 
+## Add RSS blog posts feed as alternate link
+
+_includes/layout.html
+
+```diff
+<head>
+...
++    <link rel="alternate" href="/feed.xml" title="Baldir’s Posts Feed" type="application/rss+xml">
+...
+</head>
+```
+
 ## Next time
+
+- Test RSS feed in a real RSS client against github page
 
 - navigation
     - Items
