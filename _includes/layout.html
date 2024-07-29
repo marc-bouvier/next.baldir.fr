@@ -15,15 +15,41 @@
             max-width: 100%;
             height: auto;
         }
+
+        nav ul {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav ul li {
+            list-style: none;
+        }
+
     </style>
     <link href="/public/css/a11y-light.min.css" rel="stylesheet"/>
 </head>
 <body>
 <header>
     <h1>{{title}}</h1>
+    <div style="display: inline-block;width:5rem;padding-left: 6rem"><a href="/">Baldir</a></div>
+    <nav style="display: inline-block;width: 20rem">
+        <ul>
+            <li>
+                <a href="/blog">Blog posts</a>
+            </li>
+            <li>
+                <a href="/about">About</a>
+            </li>
+            <li>
+                <a href="/making-of">Making of</a>
+            </li>
+        </ul>
+    </nav>
 </header>
 <main>
     {{content}}
+        <h1>{{title}}</h1>
+        {{content}}
 </main>
 </body>
 </html>
