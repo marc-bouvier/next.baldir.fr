@@ -25,12 +25,34 @@
             list-style: none;
         }
 
+        .header-skip-content {
+            position: absolute;
+            top: .25em;
+            left: 1em;
+            z-index: 1001;
+            text-align: center;
+        }
+
+        .header-skip-content a:focus {
+            display: inline-block;
+            cursor: pointer;
+            padding: .5em;
+        }
+
+        .header-skip-content a:not(:focus) {
+            clip: rect(0 0 0 0);
+            position: absolute;
+            overflow: hidden;
+        }
+
     </style>
     <link href="/public/css/a11y-light.min.css" rel="stylesheet"/>
 </head>
 <body>
 <header>
-    <h1>{{title}}</h1>
+    <div class="header-skip-content">
+        <a href="#skip-content">Skip to main content</a>
+    </div>
     <div style="display: inline-block;width:5rem;padding-left: 6rem"><a href="/">Baldir</a></div>
     <nav style="display: inline-block;width: 20rem">
         <ul>
@@ -47,9 +69,10 @@
     </nav>
 </header>
 <main>
-    {{content}}
+    <div id="skip-content">
         <h1>{{title}}</h1>
         {{content}}
+    </div>
 </main>
 </body>
 </html>
