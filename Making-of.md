@@ -359,60 +359,12 @@ First I will create a git branch named `gh-pages`
 
 .github/workflows/deploy-to-ghpages.yml
 
-{% comment %}
 TODO: find a way to show this file properly in both the text and rendered.
 
 ```yaml
-name: Deploy to GitHub Pages
-
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-
-jobs:
-  deploy:
-    runs-on: ubuntu-22.04
-    permissions:
-      contents: write
-    concurrency:
-      group: "${{ github.workflow }}-${{ github.ref }}"
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-
-      - name: Persist npm cache
-        uses: actions/cache@v4
-        with:
-          path: ~/.npm
-          key: "${{ runner.os }}-node-${{ hashFiles('**/package.json') }}"
-
-      - name: Persist Eleventy .cache
-        uses: actions/cache@v4
-        with:
-          path: ./.cache
-          key: ${{ runner.os }}-eleventy-fetch-cache
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Build static site
-        run: npm run build
-
-      - name: Deploy to Github Pages
-        uses: peaceiris/actions-gh-pages@v4
-        if: github.ref == 'refs/heads/main'
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
 
 ```
-{% endcomment %}
+
 
 
 ## Next time
