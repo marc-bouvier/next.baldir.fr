@@ -603,6 +603,19 @@ I can pick one of the following stuff.
 - ✅ Links followable in blogs
 
 - Host statically on Github pages for public preview
+- Pourquoi je vais écrire mon blog en Français exclusivement?
+- Links followable in blogs
+- Wikilinks support
+    - https://photogabble.co.uk/noteworthy/adding-wiki-links-to-11ty/
+    - https://github.com/oleeskild/obsidian-digital-garden/blob/d3c3b3f029d6d24d2f9dcb5676c43b7562b98ad6/src/compiler/GardenPageCompiler.ts#L197-L270
+- Backlinks
+- Stub posts
+  - https://photogabble.co.uk/changelog/adding-stub-posts/
+- Short notes (like microblogging)
+- Previous / next article
+- /uses
+  - https://photogabble.co.uk/uses/  
+- ~Host statically on Github pages for public preview~
 - Reading time : https://github.com/johanbrook/eleventy-plugin-reading-time
 - Header ids : https://github.com/orchidjs/eleventy-plugin-ids
 - RSS (advanced)
