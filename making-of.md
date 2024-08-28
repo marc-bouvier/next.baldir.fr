@@ -120,7 +120,7 @@ Index: _includes/layout.html
  <body>
 ```
 
-## Install image optimization plugin
+## Plugin d‘optimisation des images
 
 https://www.11ty.dev/docs/plugins/image/
 
@@ -128,13 +128,14 @@ https://www.11ty.dev/docs/plugins/image/
 npm install @11ty/eleventy-img
 ```
 
-It generated a `package.json` file.
-So I also decided to add some author information and a licence.
+Un fichier `package.json` est généré.
+
+J’ai décidé d’en profiter pour ajouter les informations d’auteur et une license.
 
 https://choosealicense.com/
 
-The license I chose is [Creative Commons Attribution 4.0 International](https://choosealicense.com/licenses/cc-by-4.0/#) (CC-BY-4.0).
-It permits almost any use subject to providing credit and license notice.
+J’ai choisi la license [Creative Commons Attribution 4.0 International](https://choosealicense.com/licenses/cc-by-4.0/#) (CC-BY-4.0).
+Elle permet de à peu près tous les usages à condition d’en créditer la source d’origine et la license.
 
 Index: .gitignore
 
