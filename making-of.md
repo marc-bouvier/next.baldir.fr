@@ -7,7 +7,7 @@ https://www.11ty.dev/
 
 https://www.11ty.dev/speedlify/
 
-Setup 11ty
+Mise en place de 11ty
 
 ```shell
 echo '# Heading' > index.md
@@ -17,7 +17,7 @@ echo '# Heading' > index.md
 npx @11ty/eleventy --serve
 ```
 
-## Use data collections to set blog posts
+## data collections pour les articles de blog
 
 blog/post-1.md
 
@@ -83,11 +83,11 @@ blog/blog.json
 +}
 ```
 
-## Improve UX and lighthouse score
+## Amélioration de l’UX et du score Lighthouse
 
-Set [viewport meta tag](https://developer.chrome.com/docs/lighthouse/best-practices/viewport?utm_source=lighthouse&utm_medium=devtools&hl=fr)
+Ajout de la balise `meta` [viewport](https://developer.chrome.com/docs/lighthouse/best-practices/viewport?utm_source=lighthouse&utm_medium=devtools&hl=fr)
 
-Set [description meta tag](https://developer.chrome.com/docs/lighthouse/seo/meta-description?utm_source=lighthouse&utm_medium=devtools&hl=fr) using [global data file](https://www.11ty.dev/docs/data-global/).
+Ajout de la balise `meta` [description](https://developer.chrome.com/docs/lighthouse/seo/meta-description?utm_source=lighthouse&utm_medium=devtools&hl=fr) paramétré par un [fichier global data](https://www.11ty.dev/docs/data-global/).
 
 Index: index.html
 
@@ -625,6 +625,7 @@ J'ai du déplacer la dépendance `eleventy` dans les `dependencies` plutôt que 
 Il semblerait que seules les dependencies sont accessibles depuis les scripts du `package.json`.
 
 Index: package.json
+
 ```diff
      "build": "eleventy"
    },
