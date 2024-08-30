@@ -697,6 +697,9 @@ nvm use
 
 Je peux essayer de porter progressivement mes anciens articles de blog.
 
+Ca fonctionne bien pour le moment. 
+
+Les premiers article que j’ai écris n'avaient pas d’images, donc pour le moment aucun soucis 😄.
 
 
 ## Next time
