@@ -677,7 +677,21 @@ Index: .github/workflows/static.yml
          uses: actions/upload-pages-artifact@v3
 ```
 
+## Fichier .nvmrc
 
+J'ai ajouté un fichier `.nvmrc` pour indiquer quelle version de node utiliser à l'aide de l'outil [nvm](https://github.com/nvm-sh/nvm).
+
+`.nvmrc`
+
+```
+20
+```
+
+Pour changer la version de node avec nvm on peut utiliser la commande : 
+
+```shell
+nvm use
+```
 
 ## Next time
 
