@@ -671,7 +671,7 @@ Index: .github/workflows/static.yml
  
        - name: Build static site
 -        run: npm run build -- --pathprefix=${{ steps.pages.outputs.base_path }}
-+        run: npm run build -- --pathprefix="https://next.baldir.fr"
++        run: npm run build
  
        - name: Upload artifact
          uses: actions/upload-pages-artifact@v3
