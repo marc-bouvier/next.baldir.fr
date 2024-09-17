@@ -719,7 +719,7 @@ Les premiers article que j’ai écris n'avaient pas d’images, donc pour le mo
         - Bibliothèque (inspiration de https://lazybear.io/)
     - A11y : Skip to content
     - A11y : Skip to navigation
-
+- pagination : https://www.11ty.dev/docs/pagination/
 - écriture inclusive
     - choisir une façon d'écrire mon contenu de façon inclusive (inspiration : [La lutine du web](https://www.lalutineduweb.fr/), ...)  
 - 
