@@ -786,6 +786,22 @@ Fichiers de configuration générés par Obsidian que je souhaite versionner :
 - `.obsidian/templates.json` : Configuration des templates Obsidian
 - `_obsidian/templates/Template_quick-note.md` : template Obsidian me permettant de créer rapidement des notes avec des informations [front-matter](https://jekyllrb.com/docs/front-matter/) pré-remplies.
 
+## Ajout des notes dans la navigation
+
+Index: _includes/layout.html
+```diff
+                 <a href="/about">About</a>
+             </li>
+             <li>
++                <a href="/notes">Notes</a>
++            </li>
++            <li>
+                 <a href="/making-of">Making of</a>
+             </li>
+         </ul>
+
+```
+
 ## Next time
 
 - Transformer ce making-off en collection d'article ?
