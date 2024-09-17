@@ -749,8 +749,46 @@ Usage :
     
 Les notes se trouvent ici : [/notes](/notes)
 
+## Utiliser Obsidian pour écrire le contenu
+
+Je souhaite utiliser [Obsidian](https://obsidian.md) pour écrire certaines de mes notes.
+
+Ignorer certains fichiers utilisés par obsidian pour éviter qu’ils publient des pages.
+J’utilise un fichier [`.eleventyignore`](https://www.11ty.dev/docs/ignores/) : 
+
+Index: .eleventyignore
+```
+_obsidian
+.obsidian
+```
+
+Je dois aussi ignore des certains fichiers de configuration d'Obsidian de git.
+
+Index: .gitignore
+```diff
+ .idea
+ # node dependencies
+ node_modules
++/.obsidian/
++!/.obsidian/app.json
++!/.obsidian/community-plugins.json
++!/.obsidian/core-plugins.json
++!/.obsidian/templates.json
++!/.obsidian/plugins/templater-obsidian/data.json
+```
+
+Fichiers de configuration générés par Obsidian que je souhaite versionner : 
+
+- `.obsidian/app.json` : configuration globale du vault obsidian
+- `.obsidian/community-plugins.json` : liste des plugins communautaires activés
+- `.obsidian/core-plugins.json` : liste des plugins "core" activés
+- `.obsidian/plugins/templater-obsidian/data.json` : Configuration du [plugin Obsidian Templater](https://silentvoid13.github.io/Templater/)
+- `.obsidian/templates.json` : Configuration des templates Obsidian
+- `_obsidian/templates/Template_quick-note.md` : template Obsidian me permettant de créer rapidement des notes avec des informations [front-matter](https://jekyllrb.com/docs/front-matter/) pré-remplies.
+
 ## Next time
 
+- Transformer ce making-off en collection d'article ?
 - Test RSS feed in a real RSS client against github page
     - Feed needs base URL which is missing
     - Maybe inject it with a provided environment variable

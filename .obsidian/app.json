@@ -1,0 +1,16 @@
+{
+  "useMarkdownLinks": true,
+  "newLinkFormat": "absolute",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "notes",
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "public/img",
+  "userIgnoreFilters": [
+    "_site/",
+    "node_modules/",
+    "public/css/",
+    "_includes/",
+    "package.json",
+    "package-lock.json"
+  ]
+}

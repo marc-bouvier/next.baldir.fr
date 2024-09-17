@@ -4,3 +4,9 @@ _site
 .idea
 # node dependencies
 node_modules
+/.obsidian/
+!/.obsidian/app.json
+!/.obsidian/community-plugins.json
+!/.obsidian/core-plugins.json
+!/.obsidian/templates.json
+!/.obsidian/plugins/templater-obsidian/data.json
