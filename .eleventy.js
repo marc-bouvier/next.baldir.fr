@@ -5,6 +5,9 @@ import {feedPlugin} from "@11ty/eleventy-plugin-rss";
 
 export default function (eleventyConfig) {
 
+    eleventyConfig.addFilter("toLocaleStringFr", function(date) { return new Date(date).toLocaleString("fr-FR") });
+
+
     // Copy static styles as is
     eleventyConfig.addPassthroughCopy("public/css");
 
