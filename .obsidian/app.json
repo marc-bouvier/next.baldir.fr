@@ -11,6 +11,10 @@
     "public/css/",
     "_includes/",
     "package.json",
-    "package-lock.json"
-  ]
+    "package-lock.json",
+    "public/css/",
+    "_data/",
+    "_includes/"
+  ],
+  "tabSize": 3
 }

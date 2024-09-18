@@ -1,3 +1,6 @@
 [
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-icon-folder",
+  "obsidian-style-settings",
+  "find-unlinked-files"
 ]
