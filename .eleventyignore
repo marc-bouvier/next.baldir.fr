@@ -1,3 +1,12 @@
-_obsidian
-.obsidian
 .github
+.gitignore
+.nvmrc
+.obsidian
+Dockerfile
+LICENSE
+README.Docker.md
+README.Obsidian.md
+_obsidian
+compose.yaml
+package-lock.json
+package.json
