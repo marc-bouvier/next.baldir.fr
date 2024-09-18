@@ -804,9 +804,9 @@ Index: _includes/layout.html
 
 ## Amélioration du style
 
-![Avant](/public/img/2024-09-18_style-avant.png)
+![Avant: utilisation de styles par défaut. Police : Times New Roman. Le texte occupe toute la largeur disponible](/public/img/2024-09-18_style-avant.png)
 
-![Après](/public/img/2024-09-18_style-apres.png)
+![Après : Police : sans empattement. Le texte occupe une largeur moindre grâce à des marges plus importantes à droite et à gauche. Les extraits de code sont délimités par des gros pointillés gris clair.](/public/img/2024-09-18_style-apres.png)
 
 - Augmentation des marges à droite et à gauche pour favoriser les retours à la ligne (environs 15 mots)
 - Utilisation d'une police similaire à Arial
