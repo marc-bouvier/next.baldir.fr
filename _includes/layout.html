@@ -96,6 +96,14 @@
 <main>
     <div id="skip-content">
         <h1>{{title}}</h1>
+        {% if stub %}
+        <p>
+            <span class="bold">Note :</span> ceci est une ébauche d’article qui sera complétée dans le futur.
+            Elle a été créée dans le but de résoudre les liens avec d’autres articles.
+            <!--            N’hésite pas à jeter un œil aux liens ci-dessous pour trouver les pages associées.-->
+        </p>
+        {% endif %}
+        {% if description %}<p>{{description}}</p>{% endif %}
         {{content}}
     </div>
 </main>
