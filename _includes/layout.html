@@ -41,16 +41,19 @@
 
         .header-skip-content {
             position: absolute;
-            top: .25em;
-            left: 1em;
+            top: .125em;
+            left: .125em;
             z-index: 1001;
             text-align: center;
+            background-color: darkblue;
+            color: #f1f3f4;
         }
 
         .header-skip-content a:focus {
             display: inline-block;
             cursor: pointer;
             padding: .5em;
+            color: #f1f3f4  ;
         }
 
         .header-skip-content a:not(:focus) {
@@ -76,8 +79,8 @@
     <div class="header-skip-content">
         <a href="#skip-content">Contenu</a>
     </div>
-    <div style="display: inline-block;width:5rem;padding-left: 6rem"><a href="/">Baldir</a></div>
-    <nav style="display: inline-block;width: 20rem">
+    <div style="display: inline-block;width:5rem;"><a href="/">Baldir</a></div>
+    <nav style="display: inline-block;">
         <ul>
             <li>
                 <a href="/blog">Articles de blog</a>
