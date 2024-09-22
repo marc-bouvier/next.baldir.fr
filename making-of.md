@@ -913,13 +913,14 @@ stub: "true"
         - Podcasts
         - Liens sortants (sites que j'aime bien ou ami-e-s)
         - Bibliothèque (inspiration de https://lazybear.io/)
-    - A11y : Skip to content
+    - [X] A11y : Skip to content
     - A11y : Skip to navigation
 - pagination : https://www.11ty.dev/docs/pagination/
 - écriture inclusive
     - choisir une façon d'écrire mon contenu de façon inclusive (inspiration : [La lutine du web](https://www.lalutineduweb.fr/), ...)  
-- 
-
+- Backlinks : https://github.com/binyamin/eleventy-plugin-backlinks#readme
+- Footnotes? https://github.com/KittyGiraudel/eleventy-plugin-footnotes
+- Green links ? https://github.com/fershad/eleventy-plugin-green-links  
 I can pick one of the following stuff.
 
 
@@ -951,3 +952,18 @@ I can pick one of the following stuff.
 - Dark light modes
 - Sitemap
 - Maybe allow to edit and create content with an headless CMS such as https://decapcms.org/
+
+
+
+
+- [chrissy-dev/awesome-eleventy: A collection of awesome Eleventy (11ty) tools, templates, plugins, guides, snippet, etc.](https://github.com/chrissy-dev/awesome-eleventy)
+- [brob/eleventy-plugin-blog-tools: A collection of shortcodes, filters and tags that make blogging on 11ty more fun](https://github.com/brob/eleventy-plugin-blog-tools)
+- [brob/eleventy-plugin-dynamic-categories: An 11ty plugin to dynamically generate categories of posts as well as pagination for those categories](https://github.com/brob/eleventy-plugin-dynamic-categories)
+- [sielay/eleventy-plugin-blog: Zero config blog features for 11ty](https://github.com/sielay/eleventy-plugin-blog)
+- [brob/plug11ty.com: A repository of 11ty plugins](https://github.com/brob/plug11ty.com)
+- [rknightuk/eleventy-plugin-post-graph: Generate Github-style post distribution graph for your blog posts in Eleventy](https://github.com/rknightuk/eleventy-plugin-post-graph)
+- [declanbyrd/eleventy-plugin-mastoarchive: Eleventy plugin to expose your Mastodon posts as a global data object.](https://github.com/declanbyrd/eleventy-plugin-mastoarchive)
+- [bradleyburgess/eleventy-plugin-broken-links: An 11ty plugin to check your build for broken external links](https://github.com/bradleyburgess/eleventy-plugin-broken-links)
+- [orchidjs/eleventy-plugin-ids: @11ty plugin for adding ids to html headings and other elements](https://github.com/orchidjs/eleventy-plugin-ids)
+- [NotWoods/11ty-plugins: A collection of plugins I've written for eleventy.](https://github.com/NotWoods/11ty-plugins)
+- [New Tab](chrome://newtab/)
