@@ -5,7 +5,6 @@ import {feedPlugin} from "@11ty/eleventy-plugin-rss";
 
 export default function (eleventyConfig) {
 
-    eleventyConfig.addFilter("toLocaleStringFr", function(date) { return new Date(date).toLocaleString("fr-FR") });
     eleventyConfig.addFilter("toLocaleStringFr", function (date) {
         return new Date(date).toLocaleString("fr-FR",
             {weekday: "long", month: "long", day: "numeric", year: "numeric"})
@@ -21,6 +20,22 @@ export default function (eleventyConfig) {
     });
 
 
+    eleventyConfig.addCollection("latestFewFinishedArticles", function (collectionApi) {
+        let all = collectionApi.getFilteredByTag("blog");
+        return all
+            .filter(item => !item.data.stub)
+            .sort((a, b) => b.date - a.date)
+            .slice(0, 5);
+
+    });
+
+    eleventyConfig.addCollection("allFinishedArticles", function (collectionApi) {
+        let all = collectionApi.getFilteredByTag("blog");
+        return all
+            .filter(item => !item.data.stub)
+            .sort((a, b) => b.date - a.date);
+
+    });
 
 
     // Copy static styles as is
