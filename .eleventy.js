@@ -6,6 +6,21 @@ import {feedPlugin} from "@11ty/eleventy-plugin-rss";
 export default function (eleventyConfig) {
 
     eleventyConfig.addFilter("toLocaleStringFr", function(date) { return new Date(date).toLocaleString("fr-FR") });
+    eleventyConfig.addFilter("toLocaleStringFr", function (date) {
+        return new Date(date).toLocaleString("fr-FR",
+            {weekday: "long", month: "long", day: "numeric", year: "numeric"})
+    });
+
+    eleventyConfig.addFilter("toLocaleStringFrShort", function (date) {
+        return new Date(date).toLocaleString("fr-FR",
+            {month: "2-digit", day: "numeric", year: "numeric"})
+    });
+
+    eleventyConfig.addFilter("toIsoString", function (date) {
+        return new Date(date).toISOString()
+    });
+
+
 
 
     // Copy static styles as is
@@ -29,7 +44,7 @@ export default function (eleventyConfig) {
     })
 
     // Code snippets with syntax highlighting
-    eleventyConfig.addPlugin(syntaxHighlight,{
+    eleventyConfig.addPlugin(syntaxHighlight, {
         lineSeparator: "\n",
         errorOnInvalidLanguage: true,
         alwaysWrapLineHighlights: true,
@@ -46,7 +61,7 @@ export default function (eleventyConfig) {
         extensions: "html",
 
         // output image formats
-        formats: ["webp", "jpeg", "png"],
+        formats: ["webp", "jpeg", "png","auto"],
 
         // output image widths
         widths: ["320", "640", "800", "1024", "auto"],
@@ -57,6 +72,10 @@ export default function (eleventyConfig) {
             decoding: "async",
             sizes: `100vw`,
         },
+
+        sharpOptions:{
+            animated: true,
+        }
     })
 
 }
