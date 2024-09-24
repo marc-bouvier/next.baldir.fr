@@ -1,4 +1,5 @@
 {
-  "layout": "layout.html",
-  "tags": "notes"
+  "layout": "default.html",
+  "tags": "notes",
+  "description": ""
 }

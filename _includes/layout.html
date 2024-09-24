@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="{{global.description}}">
+    <meta name="description" content="{% if description %}{{description}}{% else %}{{global.description}}{% endif %}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baldir - {{title}}</title>
     <link rel="alternate" href="/feed.xml" title="Baldir - Flux RSS des articles de blog" type="application/rss+xml">
@@ -53,7 +53,7 @@
             display: inline-block;
             cursor: pointer;
             padding: .5em;
-            color: #f1f3f4  ;
+            color: #f1f3f4;
         }
 
         .header-skip-content a:not(:focus) {
@@ -73,43 +73,36 @@
         }
     </style>
     <link href="/public/css/a11y-light.min.css" rel="stylesheet"/>
+    <link href="/public/css/style.css" rel="stylesheet"/>
 </head>
 <body>
 <header>
     <div class="header-skip-content">
         <a href="#skip-content">Contenu</a>
     </div>
-    <div style="display: inline-block;width:5rem;"><a href="/">Baldir</a></div>
-    <nav style="display: inline-block;">
+    <div role="banner" >
+        <h1 style="margin: .25rem .5rem;"><a href="/">Baldir</a></h1>
+    </div>
+    <p style="font-size: small">{{global.description}}</p>
+    <nav style="display: inline-block;" role="menu">
         <ul>
             <li>
-                <a href="/blog">Articles de blog</a>
+                <a href="/blog" role="menuitem">Articles de blog</a>
             </li>
             <li>
-                <a href="/about">À propos</a>
+                <a href="/about" role="menuitem">À propos</a>
             </li>
             <li>
-                <a href="/notes">Notes</a>
+                <a href="/notes" role="menuitem">Notes</a>
             </li>
             <li>
-                <a href="/making-of">Making of</a>
+                <a href="/making-of" role="menuitem">Making of</a>
             </li>
         </ul>
     </nav>
 </header>
-<main>
-    <div id="skip-content">
-        <h1>{{title}}</h1>
-        {% if stub %}
-        <p>
-            <span class="bold">Note :</span> ceci est une ébauche d’article qui sera complétée dans le futur.
-            Elle a été créée dans le but de résoudre les liens avec d’autres articles.
-            <!--            N’hésite pas à jeter un œil aux liens ci-dessous pour trouver les pages associées.-->
-        </p>
-        {% endif %}
-        {% if description %}<p>{{description}}</p>{% endif %}
-        {{content}}
-    </div>
+<main id="skip-content">
+    {{content}}
 </main>
 </body>
 </html>
