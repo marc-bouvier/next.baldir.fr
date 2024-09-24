@@ -5,6 +5,7 @@ description: "Les index pour apprendre me permet de “stocker” des sujets pou
 tags:
 - Base-de-connaissances
 - Développeur-généraliste
+- Second-cerveau
 ---
 
 En tant que développeur généraliste, je ne peux pas toujours creuser l’ensemble des sujets que je rencontre.
