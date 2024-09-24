@@ -6,7 +6,9 @@ tags:
   - SharingIsCaring
   - Accessibilité
   - Écrire
-description: Pourquoi je fais souvent un petit effort supplémentaire quand je partage un lien ?
+description: "Pourquoi je fais souvent un petit effort supplémentaire quand je partage un lien ?"
+cover_image: "/public/img/cover_images/partager-avec-soin.png"
+cover_image_alt: "Baldir le mage écrit avec un crayon sur une feuille blanche"
 ---
 
 J’aime bien partager les trouvailles que je fais.
@@ -33,7 +35,7 @@ Je préfère écrire :
 
 J’aime bien quand l’information est auto-suffisante.
 
-Cela économise des efforts et de la frustration aux prochain-es lecteur-ices (dont [mon moi du futur](/blog/Mon-moi-du-futur)).
+Cela économise des efforts et de la frustration aux prochain-es lecteur-ices (dont [mon moi du futur](/blog/mon-moi-du-futur)).
 
 Et je trouve que c'est très souvent un format prêt à être publié ou partagé.
 
