@@ -24,6 +24,7 @@ export default function (eleventyConfig) {
         let all = collectionApi.getFilteredByTag("blog");
         return all
             .filter(item => !item.data.stub)
+            .filter(item => !item.data.draft)
             .sort((a, b) => b.date - a.date)
             .slice(0, 5);
 
@@ -33,6 +34,7 @@ export default function (eleventyConfig) {
         let all = collectionApi.getFilteredByTag("blog");
         return all
             .filter(item => !item.data.stub)
+            .filter(item => !item.data.draft)
             .sort((a, b) => b.date - a.date);
 
     });
