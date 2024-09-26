@@ -26,7 +26,7 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    ""
+    "_obsidian/templates/Template_quick-note.md"
   ],
   "startup_templates": [
     ""
