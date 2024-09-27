@@ -901,4 +901,21 @@ Pour récapituler:
     - recherche depuis les interfaces
 - Quand j'ai trouvé l'endroit où se trouve la fonctionnalité que je souhaite modifier, tout devient plus simple ;
 
+J'ai pris des chemins de traverse pour arriver au résultat de mon expérimentation.
+Pourtant j'ai appris plein de choses au passage.
+Pour moins de 5 lignes de code à potentiellement changé, j'ai passé quelques heures.
+Ce n'est pas du temps perdu selon-moi.
+
+Cet exemple montre que derrière quelques lignes de code il y a souvent :
+
+- des recherches
+- des hésitations
+- des tentatives
+- des erreurs
+- des contournements
+
+Je trouve dommage qu'on perde ces traces.
+Cet article rappelle qu'il est parfois important de conserver certaines trace du chemin qui nous a amené à prendre des décisions.
+C'est le sujet d'un prochain article en cours de rédaction sur le sujet de [l'archéologie du code](/glossaire/archeologie-du-code).
+
 Je vais m'arrêter pour aujourd’hui.

@@ -16,5 +16,6 @@
     "_data/",
     "_includes/"
   ],
-  "tabSize": 3
+  "tabSize": 3,
+  "alwaysUpdateLinks": true
 }
