@@ -4,6 +4,7 @@ date: 2024-09-24T17:48:44+02:00
 description: ""
 tags:
   - 11ty
+cover_image: "/public/img/cover_images/decoupage-de-la-mise-en-page.png"
 ---
 
 

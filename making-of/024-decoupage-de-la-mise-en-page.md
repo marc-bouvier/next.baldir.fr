@@ -4,6 +4,7 @@ date: 2024-09-24T16:38:15+02:00
 description: "Le site se complexifie et parfois atteint certaines limites. Séparons certains éléments de mises en page pour garder le contrôle."
 tags:
   - 11ty
+cover_image: "/public/img/cover_images/decoupage-de-la-mise-en-page.png"
 ---
 
 IDEA additional info:
