@@ -20,6 +20,7 @@
     "@11ty/eleventy": "^3.0.0-alpha.17",
     "@11ty/eleventy-plugin-rss": "^2.0.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-    "@11ty/eleventy-plugin-webc": "^0.11.2"
+    "@11ty/eleventy-plugin-webc": "^0.11.2",
+    "js-yaml": "^4.1.0"
   }
 }

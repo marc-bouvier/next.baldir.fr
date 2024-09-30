@@ -2,6 +2,7 @@ import {eleventyImageTransformPlugin} from "@11ty/eleventy-img"
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight"
 import {EleventyHtmlBasePlugin, EleventyI18nPlugin} from "@11ty/eleventy";
 import {feedPlugin} from "@11ty/eleventy-plugin-rss";
+import yaml from "js-yaml"
 
 export default function (eleventyConfig) {
 
@@ -94,6 +95,10 @@ export default function (eleventyConfig) {
             animated: true,
         }
     })
+
+    // Support yaml data files : https://www.11ty.dev/docs/data-custom/#yaml
+    eleventyConfig.addDataExtension("yml", (contents) => yaml.load(contents));
+
 
 }
 
