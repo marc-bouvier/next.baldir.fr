@@ -11,3 +11,4 @@ node_modules
 !/.obsidian/templates.json
 !/.obsidian/plugins/templater-obsidian/data.json
 broken links output.md
+_sandbox
