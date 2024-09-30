@@ -16,6 +16,16 @@ title: "Accueil"
         </li>
         {% endfor %}
     </ul>
-    <p><a href="/blog">Plus d'articles</a></p>
-    <p><a href="/making-of">Making-of de ce site</a></p>
+    <p><a href="/blog">Plus d'articles</a> | <a href="/making-of">Making-of de ce site</a></p>
 </section>
+<aside>
+    <h2>Actualités</h2>
+    <ul>
+        {% for actualite in actualites %}
+        <li>
+            <time datetime="{{actualite.start_date | toIsoString}}" >{{actualite.start_date | toLocaleStringFr | capitalize}}</time> : <a href="{{actualite.href}}">{{actualite.name}}</a>.
+            {{actualite.description}}
+        </li>
+        {% endfor %}
+    </ul>
+</aside>
