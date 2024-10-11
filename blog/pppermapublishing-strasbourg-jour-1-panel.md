@@ -8,6 +8,10 @@ tags:
   - Web-Design
   - Design-visuel
   - Edition-papier
+  - Accessibilité
+  - Bidouillage
+  - Frugalité
+  - Logiciel-libre
 description: "Ma prise de note de PPPermabublishing qui a eu lieu les 28 et 29 octobre 2024 à Strasbourg"
 draft: true
 cover_image: /public/img/pre-post-print-logo.png
@@ -17,7 +21,7 @@ cover_image_alt: Logo PrePostPrint
 [PPPermabublishing Strasbourg](https://pouet.chapril.org/@prepostprint@post.lurk.org/113214495560311763)  - [prepostprint.org](https://prepostprint.org/) - [#PPPermapublishing](https://pouet.chapril.org/tags/PPPermapublishing)
 ## Table ronde - matin
 
-[Les slides](https://prepostprint.org/ppppermapublishing/)
+[Les slides](https://prepostprint.org/pppermapublishing/)
 
 ![Photo du panel de la table ronde. Le logo de PrePostPrint est projeté à l'écran. Le titre de la table ronde est : PPPPermapublishing ?](/public/img/pppermapublishing-strasbourg-2024-panel.png)
 
