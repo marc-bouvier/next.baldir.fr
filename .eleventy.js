@@ -1,6 +1,6 @@
 import {eleventyImageTransformPlugin} from "@11ty/eleventy-img"
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight"
-import {EleventyHtmlBasePlugin, EleventyI18nPlugin} from "@11ty/eleventy";
+import {EleventyHtmlBasePlugin, EleventyI18nPlugin, IdAttributePlugin} from "@11ty/eleventy";
 import {feedPlugin} from "@11ty/eleventy-plugin-rss";
 import yaml from "js-yaml"
 
@@ -46,6 +46,8 @@ export default function (eleventyConfig) {
 
     });
 
+    // Adds id to headings
+    eleventyConfig.addPlugin(IdAttributePlugin);
 
     // Copy static styles as is
     eleventyConfig.addPassthroughCopy("public/css");
