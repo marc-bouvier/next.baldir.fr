@@ -40,6 +40,12 @@ export default function (eleventyConfig) {
 
     });
 
+    eleventyConfig.addCollection("allNotesFromRecentToOlder", function (collectionApi) {
+        let all = collectionApi.getFilteredByTag("notes");
+        return all.sort((a, b) => b.date - a.date)
+
+    });
+
 
     // Copy static styles as is
     eleventyConfig.addPassthroughCopy("public/css");
@@ -79,7 +85,7 @@ export default function (eleventyConfig) {
         extensions: "html",
 
         // output image formats
-        formats: ["webp", "jpeg", "png","auto"],
+        formats: ["webp", "jpeg", "png", "auto"],
 
         // output image widths
         widths: ["320", "640", "800", "1024", "auto"],
@@ -91,7 +97,7 @@ export default function (eleventyConfig) {
             sizes: `100vw`,
         },
 
-        sharpOptions:{
+        sharpOptions: {
             animated: true,
         }
     })
