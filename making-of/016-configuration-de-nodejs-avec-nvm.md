@@ -1,7 +1,7 @@
 ---
 title: "Configuration de NodeJs avec Nvm"
 date: 2024-08-30T21:15:13+02:00
-description: ""
+description: "Nvm permet de gérer plusieurs versions de nodeJs en même temps et de pouvoir passer de l'une à l'autre au besoin."
 tags:
   - NodeJs
   - Nvm
