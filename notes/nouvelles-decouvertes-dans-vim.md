@@ -5,8 +5,6 @@ tags:
   - Vim
   - How-To
 description: Aujourd'hui, on m’a montré quelques commandes Vim que je ne connais pas
-stub: false
-draft: false
 ---
 
 Delete a word : `daw`
