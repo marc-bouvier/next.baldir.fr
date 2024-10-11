@@ -2,9 +2,9 @@
 title: PPPermapublishing @ HEAR (Strasbourg) - jour 1 - Démos
 date: 2024-09-28T18:18:00
 tags: 
-description: ""
+description: "Démos du 2ème jour de PPPermapublishing à Strasbourg le samedi 28 octobre 2024."
 stub: false
-draft: false
+draft: true
 ---
 
 ## Démos

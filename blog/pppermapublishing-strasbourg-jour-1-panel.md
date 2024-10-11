@@ -1,13 +1,20 @@
 ---
 title: PPPermapublishing @ HEAR (Strasbourg) - jour 1 - Table ronde
 date: 2024-09-28T14:59:34+02:00
-tags: 
-description: ""
-draft: false
+tags:
+  - Strasbourg
+  - Permacomputing
+  - Web-to-print
+  - Web-Design
+  - Design-visuel
+  - Edition-papier
+description: "Ma prise de note de PPPermabublishing qui a eu lieu les 28 et 29 octobre 2024 à Strasbourg"
+draft: true
 cover_image: /public/img/pre-post-print-logo.png
 cover_image_alt: Logo PrePostPrint
 ---
-[PPPermabublishiing Strasbourg](https://pouet.chapril.org/@prepostprint@post.lurk.org/113214495560311763)  - [prepostprint.org](https://prepostprint.org/) - [#PPPermapublishing](https://pouet.chapril.org/tags/PPPermapublishing)
+
+[PPPermabublishing Strasbourg](https://pouet.chapril.org/@prepostprint@post.lurk.org/113214495560311763)  - [prepostprint.org](https://prepostprint.org/) - [#PPPermapublishing](https://pouet.chapril.org/tags/PPPermapublishing)
 ## Table ronde - matin
 
 [Les slides](https://prepostprint.org/ppppermapublishing/)
@@ -71,4 +78,3 @@ Il emet des frustrations face au [greenwashing](https://fr.wikipedia.org/wiki/Gr
 **Marie**
 
 > Le potentiel que ce travail peut engendrer sur les imaginaires. Cela peut surprendre les gens. Nous ne devons jamais oublier d'exposer ces idées au monde.
-
