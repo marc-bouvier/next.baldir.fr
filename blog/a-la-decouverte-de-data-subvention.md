@@ -383,7 +383,7 @@ Mongo est un peu utilisé comme un cache déjà dénormalisé pour être adapté
 
 > [!success] Readme dans certains providers
 
-![](/public/img/bar.png)
+![Certains data providers ont leur propre fichier Readme qui apporte des subtilités qu'il aurait été difficile de trouver en premier abord](/public/img/data-subvention-readme-interne-a-provider.png)
 Mettre les informations dans le contexte : Living documentation
 
 `modules/providers`
@@ -396,14 +396,11 @@ La donnée est persistée et dénormalisée dans mongoDb.
 
 `modules/repository.list.ts` : repositories/services mongodb
 
-
-
 Les points d'entrée:
 
-![](/public/img/data-subvention-points-d-entree.png)
+![Le dossier `interfaces` présente 4 sous-dossiers correspondant aux types de point d’entrée de l’API: cli, cron, http, sse ](/public/img/data-subvention-points-d-entree.png)
 
 Readme de l'API
 
 Définitions de ce qui est entendu
 - tests unitaires
-- 
