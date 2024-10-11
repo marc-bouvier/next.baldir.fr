@@ -3,9 +3,12 @@ title: Archéologie du code
 date: 2024-09-26T17:21:38+02:00
 tags:
   - Code-patrimonial
+  - Legacy-code
+  - Métaphore
 description: Quelle est la différence entre un développeur est un archéologue ?
 draft: true
 ---
+
 L'archéologue cherche, découvre et étudie des artéfacts anciens.
 Cela lui permet d'étudier l'être humain par les vestiges qu'il a laissés.
 Les humains qui ont produit cet artéfact ne sont plus là pour en parler.
