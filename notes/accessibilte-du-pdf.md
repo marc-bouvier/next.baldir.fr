@@ -2,11 +2,13 @@
 title: Questionnements sur l’accessibilité du PDF
 date: 2024-09-28T18:19:00
 tags: 
-description: ""
-stub: true
-draft: true
+  - Accessibilité
+  - Pdf
+  - Logiciel-libre
+description: "Le format PDF ne répond pas forcément aux normes d’accessibilité contrairement à ce qu’on pourrait croire. Quelques idées sur la question recueillies lors de PPPermapublishing 2024 à Strasbourg"
 ---
-Question  par des gens de chez [Weasyprint](https://weasyprint.org/) , [logiciel libre](glossaire/logiciel-libre) de génération de PDF qui suit les normes d'accessibilité du PDF.
+
+Question par des gens de chez [Weasyprint](https://weasyprint.org/) , [logiciel libre](glossaire/logiciel-libre) de génération de PDF qui suit les normes d'accessibilité du PDF.
 
 https://github.com/Kozea/WeasyPrint/
 
