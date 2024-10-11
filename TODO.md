@@ -1,4 +1,13 @@
+---
+title: Options pour la suite
+layout: "default.html"
+---
 
+## Baldir.fr
+
+- passer de next.baldir.fr à baldir.fr
+- mettre en place marc-bouvier.fr pour le perso
+- Section  pour mon activité (ex. participation conférences, meetups, )
 - URLs hyperliens auto
 - glossaire
 - Transformer ce making-off en collection d'article ?
