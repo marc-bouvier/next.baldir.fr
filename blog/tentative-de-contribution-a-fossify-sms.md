@@ -312,7 +312,7 @@ Executing tasks: [:app:assembleCoreDebug] in project /Users/marco/sources/Experi
 
 > Task :app:processCoreDebugMainManifest
 /Users/marco/sources/Experimentations/fork-fossify-messages/app/src/main/AndroidManifest.xml Warning:
-	uses-permission#com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY was tagged at AndroidManifest.xml:0 to remove other declarations but no other declaration present
+  uses-permission#com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY was tagged at AndroidManifest.xml:0 to remove other declarations but no other declaration present
 
 > Task :app:processCoreDebugManifest
 ...
@@ -482,23 +482,23 @@ Je risque par contre d'avoir des traces parasites d'autres applications qui tour
 2024-09-27 21:02:35.070   465-465   hwservicemanager        hwservicemanager                     I  getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
 2024-09-27 21:02:35.086 19743-4990  NetworkScheduler        com.google.android.gms.persistent    W  Error inserting flex_time=1533000 job_id=-1 period=3068000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=243633000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1727463755083 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0 [CONTEXT service_id=218 ]
                                                                                                     android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE)
-                                                                                                    	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
-                                                                                                    	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:879)
-                                                                                                    	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:790)
-                                                                                                    	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:88)
-                                                                                                    	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1599)
-                                                                                                    	at android.database.sqlite.SQLiteDatabase.insertOrThrow(SQLiteDatabase.java:1494)
-                                                                                                    	at cppt.d(:com.google.android.gms@243633013@24.36.33 (100400-675378931):729)
-                                                                                                    	at cpnf.n(:com.google.android.gms@243633013@24.36.33 (100400-675378931):29)
-                                                                                                    	at cpnf.u(:com.google.android.gms@243633013@24.36.33 (100400-675378931):360)
-                                                                                                    	at cpnf.h(:com.google.android.gms@243633013@24.36.33 (100400-675378931):51)
-                                                                                                    	at cphz.run(:com.google.android.gms@243633013@24.36.33 (100400-675378931):72)
-                                                                                                    	at anps.c(:com.google.android.gms@243633013@24.36.33 (100400-675378931):50)
-                                                                                                    	at anps.run(:com.google.android.gms@243633013@24.36.33 (100400-675378931):76)
-                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
-                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
-                                                                                                    	at anvd.run(:com.google.android.gms@243633013@24.36.33 (100400-675378931):8)
-                                                                                                    	at java.lang.Thread.run(Thread.java:919)
+                                                                                                      at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+                                                                                                      at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:879)
+                                                                                                      at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:790)
+                                                                                                      at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:88)
+                                                                                                      at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1599)
+                                                                                                      at android.database.sqlite.SQLiteDatabase.insertOrThrow(SQLiteDatabase.java:1494)
+                                                                                                      at cppt.d(:com.google.android.gms@243633013@24.36.33 (100400-675378931):729)
+                                                                                                      at cpnf.n(:com.google.android.gms@243633013@24.36.33 (100400-675378931):29)
+                                                                                                      at cpnf.u(:com.google.android.gms@243633013@24.36.33 (100400-675378931):360)
+                                                                                                      at cpnf.h(:com.google.android.gms@243633013@24.36.33 (100400-675378931):51)
+                                                                                                      at cphz.run(:com.google.android.gms@243633013@24.36.33 (100400-675378931):72)
+                                                                                                      at anps.c(:com.google.android.gms@243633013@24.36.33 (100400-675378931):50)
+                                                                                                      at anps.run(:com.google.android.gms@243633013@24.36.33 (100400-675378931):76)
+                                                                                                      at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+                                                                                                      at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+                                                                                                      at anvd.run(:com.google.android.gms@243633013@24.36.33 (100400-675378931):8)
+                                                                                                      at java.lang.Thread.run(Thread.java:919)
 2024-09-27 21:02:35.284  1392-3398  ActivityTaskManager     system_server                        I  START u0 {act=android.app.role.action.REQUEST_ROLE pkg=com.google.android.permissioncontroller cmp=com.google.android.permissioncontroller/com.android.packageinstaller.role.ui.RequestRoleActivity (has extras)} from uid 10366
 2024-09-27 21:02:35.285  1392-3398  mmblock                 system_server                        D  AMS isTargetMMCall:GAME_PIP_SUPPORT_CALLING_BLOCK off
 2024-09-27 21:02:35.285   648-692   ANDR-PERF-OPTSHANDLER   ven...qti.hardware.perf@2.0-service  E  Perflock resource /proc/sys/kernel/sched_spill_nr_run not supported
@@ -706,8 +706,8 @@ class ConversationsAdapter(
         val isGroupConversation = selectedConversation.isGroupConversation
         val archiveAvailable = activity.config.isArchiveAvailable
         // ...
-	}
-	// ...
+  }
+  // ...
 }
 ```
 

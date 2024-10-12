@@ -2,8 +2,8 @@
 title: À la découverte de Data.subvention
 date: 2024-10-08T16:15:15+02:00
 tags:
-	- Candidature-en-public
-	- Open-source
+  - Candidature-en-public
+  - Open-source
 description: "Découvrons la startup d'état “Data.subvention”: sa mission, sa base de code. Embarquons-nous comme si c’était notre premier jour."
 draft: true
 ---
@@ -138,9 +138,9 @@ Des tests automatisés avec Jest.
 
 Enjeux du moment : 
 - Complétude
-	- Données des versements ✅
-	- Données des **collectivités**
-	- Données des **opérateurs**
+  - Données des versements ✅
+  - Données des **collectivités**
+  - Données des **opérateurs**
 
 Enjeux : confiance dans les données
 
@@ -192,7 +192,7 @@ Dto : Types si on souhaite s'intégrer avec Typescript
 - Sur quel IAM registre s'appuie l'authentification ?
 - config.domains : pour CORS?
 - code en anglais et termes métier en français
-	- termes métier en français traduits en en anglais dans les variables. Curieux d'en savoir un peu plus;
+  - termes métier en français traduits en en anglais dans les variables. Curieux d'en savoir un peu plus;
 - 
 
 
@@ -200,9 +200,9 @@ Dto : Types si on souhaite s'intégrer avec Typescript
 
 - Commentaires en français et en anglais
 - Noms en franglais
-	- en français : les termes métiers (ex. Association, Personne)
-		- Pour la lisibilité de l'OPEN Data
-	- en anglais ; les termes génériques (ex. request, Search, Provider ...)
+  - en français : les termes métiers (ex. Association, Personne)
+    - Pour la lisibilité de l'OPEN Data
+  - en anglais ; les termes génériques (ex. request, Search, Provider ...)
 
 
 

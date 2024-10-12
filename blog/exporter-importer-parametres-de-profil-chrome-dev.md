@@ -43,7 +43,7 @@ La propriété se trouve sous `devtools` > `preferences` > `custom-emulated-devi
 {
     "devtools": {
     "preferences": {
-	    "custom-emulated-device-list": "...",
+      "custom-emulated-device-list": "...",
     }
 }
 ```
