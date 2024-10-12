@@ -5,6 +5,13 @@ layout: "default.html"
 
 ## Baldir.fr
 
+- shortcodes pour les quotes de obsidian
+Ex : 
+> [!success] foo
+> Bar
+
+- target="_blank" pour les liens externes
+- liens automatiques quand url détectée
 - passer de next.baldir.fr à baldir.fr
 - mettre en place marc-bouvier.fr pour le perso
 - Section  pour mon activité (ex. participation conférences, meetups, )
