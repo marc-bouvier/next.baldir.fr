@@ -25,7 +25,10 @@ On peut mieux lire un livre en 4 étapes (4ème étape est très rare)
 - [Semiologique](/glossaire/lecture-semiologique)
 
 Romeu propose de faire le parallèle avec la lecture du code.
+
 ### Lire du code sous l'influence de ses émotions
+
+Augmentation du [rasoir de Hanlon](/glossaire/rasoir-de-hanlon) par Romeu :
 
 > Ne pas attribuer à la malveillance ce que la bêtise peut expliquer.
 
