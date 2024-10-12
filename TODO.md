@@ -5,11 +5,15 @@ layout: "default.html"
 
 ## Baldir.fr
 
+- footer
+  - lien vers le code source du site
+  - liens vers mes réseaux sociaux
 - shortcodes pour les quotes de obsidian
 Ex : 
 > [!success] foo
 > Bar
-
+- Liste des katas
+- Page glossaire
 - target="_blank" pour les liens externes
 - liens automatiques quand url détectée
 - passer de next.baldir.fr à baldir.fr
