@@ -2,6 +2,8 @@
 title: À la découverte de Data.subvention
 date: 2024-10-08T16:15:15+02:00
 tags: 
+	- Candidature-en-public
+	- Open-source
 description: "Découvrons la startup d'état “Data.subvention”: sa mission, sa base de code. Embarquons-nous comme si c’était notre premier jour."
 draft: true
 ---

@@ -1,10 +1,10 @@
 ---
 title: Exporter et importer les paramètres de profil Chrome
 date: 2024-09-27T09:49:00
+description: J'utilise plusieurs profils dans mon mon navigateur basé sur Chromium. Voici comment je peux exporter des paramètre de l’un vers l’autre
 tags:
   - Productivité
   - Chrome
-description: J'utilise plusieurs profils dans mon mon navigateur basé sur Chromium. Voici comment je peux exporter des paramètre de l’un vers l’autre
 stub: false
 draft: false
 ---

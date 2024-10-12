@@ -1,8 +1,12 @@
 ---
 title: ppp-day-2-demos
 date: 2024-09-29T11:11:00
-tags: 
-description: "Démos du 2ème jour de PPPermapublishing à Strasbourg le dimanche 29 octobre 2024."
+tags:
+  - Permacomputing
+  - PPPermapublishing
+  - Frugalité
+  - Vim
+description: Démos du 2ème jour de PPPermapublishing à Strasbourg le dimanche 29 octobre 2024.
 stub: false
 draft: true
 ---

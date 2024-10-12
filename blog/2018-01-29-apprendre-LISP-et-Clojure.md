@@ -1,7 +1,7 @@
 ---
 title: "Ressources pour apprendre Lisp et Clojure"
 date: 2018-01-29
-tags: ["Clojure", "ProgrammationFonctionnelle", "Lisp", "Immutabilité"]
+tags: ["Clojure", "Programmation-fonctionnelle", "Lisp", "Immutabilité"]
 description: "Voici quelques ressources pour comprendre et apprendre Lisp & Clojure."
 ---
 

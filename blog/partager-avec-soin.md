@@ -1,14 +1,15 @@
 ---
 title: Partager avec soin
 date: 2024-09-18
+description: Pourquoi je fais souvent un petit effort supplémentaire quand je partage un lien ?
 tags:
   - Partage
   - SharingIsCaring
   - Accessibilité
   - Écrire
-description: "Pourquoi je fais souvent un petit effort supplémentaire quand je partage un lien ?"
-cover_image: "/public/img/cover_images/partager-avec-soin.png"
-cover_image_alt: "Baldir le mage écrit avec un crayon sur une feuille blanche"
+  - Apprenance
+cover_image: /public/img/cover_images/partager-avec-soin.png
+cover_image_alt: Baldir le mage écrit avec un crayon sur une feuille blanche
 ---
 
 J’aime bien partager les trouvailles que je fais.
