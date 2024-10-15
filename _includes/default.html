@@ -5,6 +5,19 @@ description: "Développeur logiciel en quête du sens dans un monde aux ressourc
 ---
 
 <h1>{{title}}</h1>
+
+{% if category %}
+{{ category }}
+{% endif %}
+
+{% if tags %}
+<ul class="tags">
+    {% for tag in tags %}
+    <li><a href="/tags/{{tag}}">{{tag}}</a></li>
+    {% endfor %}
+</ul>
+{% endif %}
+
 {% if cover_image %}
 <div class="cover_image">
     <img alt="{{cover_image_alt}}" src="{{cover_image}}"/>
