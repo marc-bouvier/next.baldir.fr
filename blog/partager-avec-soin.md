@@ -4,7 +4,7 @@ date: 2024-09-18
 description: Pourquoi je fais souvent un petit effort supplémentaire quand je partage un lien ?
 tags:
   - Partage
-  - SharingIsCaring
+  - Sharing-is-caring
   - Accessibilité
   - Écrire
   - Apprenance
