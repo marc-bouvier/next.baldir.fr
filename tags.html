@@ -1,0 +1,14 @@
+---
+title: "Étiquettes"
+layout: "default.html"
+description: ""
+---
+
+<ul>
+{% for tag in collections.tags %}
+  <li><a href="/tags/{{ tag }}">{{tag}}</a></li>
+{% endfor %}
+</ul>
+
+
+
