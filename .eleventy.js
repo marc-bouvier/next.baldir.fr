@@ -21,9 +21,12 @@ export default function (eleventyConfig) {
     });
 
 
+    eleventyConfig.addCollection("blog", function (collectionApi) {
+        return collectionApi.getFilteredByGlob(["blog/*.md", "blog/*.html"]);
+    });
+
     eleventyConfig.addCollection("latestFewFinishedArticles", function (collectionApi) {
-        let all = collectionApi.getFilteredByTag("blog");
-        return all
+        return collectionApi.getFilteredByGlob(["blog/*.md", "blog/*.html"])
             .filter(item => !item.data.stub)
             .filter(item => !item.data.draft)
             .sort((a, b) => b.date - a.date)
@@ -32,8 +35,7 @@ export default function (eleventyConfig) {
     });
 
     eleventyConfig.addCollection("allFinishedArticles", function (collectionApi) {
-        let all = collectionApi.getFilteredByTag("blog");
-        return all
+        return collectionApi.getFilteredByGlob(["blog/*.md", "blog/*.html"])
             .filter(item => !item.data.stub)
             .filter(item => !item.data.draft)
             .sort((a, b) => b.date - a.date);
@@ -41,8 +43,9 @@ export default function (eleventyConfig) {
     });
 
     eleventyConfig.addCollection("allNotesFromRecentToOlder", function (collectionApi) {
-        let all = collectionApi.getFilteredByTag("notes");
-        return all.sort((a, b) => b.date - a.date)
+        return collectionApi.getFilteredByGlob(["notes/*.md", "notes/*.html"])
+            .sort((a, b) => b.date - a.date)
+    });
 
     });
 

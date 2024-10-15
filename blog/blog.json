@@ -1,5 +1,4 @@
 {
   "layout": "default.html",
-  "tags": "blog"
-
+  "category": "Article de blog"
 }
