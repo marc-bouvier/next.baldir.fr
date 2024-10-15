@@ -18,3 +18,5 @@ Run a command and get the result in the current file :  `:%!<command>` `:%!ls`
 Fold : Command + ↓
 
 Unfold : Command + ↑
+
+Completion de path : Ctrl + x + f
