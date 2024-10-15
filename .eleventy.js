@@ -57,6 +57,25 @@ export default function (eleventyConfig) {
             .sort((a, b) => a.data.title.localeCompare(b.data.title));
     });
 
+    eleventyConfig.addCollection("kata-logue", function (collectionApi) {
+        return collectionApi.getFilteredByGlob(["kata-logue/*.md", "kata-logue/*.html"]);
+    });
+
+    eleventyConfig.addCollection("tags", function (collectionApi) {
+        return Array.from(new Set(collectionApi.getFilteredByGlob([
+            "kata-logue/*.md", "kata-logue/*.html",
+            "glossaire/*.md", "glossaire/*.html",
+            "notes/*.md", "notes/*.html",
+            "blog/*.md", "blog/*.html",
+            "making-of/*.md", "making-of/*.html",
+        ])
+            .flatMap(page => page.data.tags)))
+            .filter(tag => tag!==undefined)
+            .sort((a, b) => a.localeCompare(b));
+
+    });
+
+
     // Adds id to headings
     eleventyConfig.addPlugin(IdAttributePlugin);
 
