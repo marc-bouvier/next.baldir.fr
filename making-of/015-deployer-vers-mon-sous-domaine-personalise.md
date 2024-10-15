@@ -3,7 +3,7 @@ title: "Déployer vers mon sous-domaine personnalisé"
 date: 2024-08-30T20:48:31+02:00
 description: ""
 tags:
-  - GitHub-Pages
+  - Github-pages
   - DNS
   - 11ty
 ---

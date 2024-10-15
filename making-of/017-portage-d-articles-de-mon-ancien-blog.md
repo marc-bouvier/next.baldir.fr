@@ -59,12 +59,11 @@ title: "Construire un blog à l’aide de Jekyll et des GitHub Pages"
 date: 2018-01-29
 tags: 
 - Jekyll
-- How-To
-- Blog
+- How-to
 - Markdown
-- Github-Pages
+- Github-pages
 - JamStack
-- Static-Site
+- Site-statique
 description: "Quelques ressources pour construire un blog comme celui-ci avec Jekyll et les GitHub pages."
 ---
 
