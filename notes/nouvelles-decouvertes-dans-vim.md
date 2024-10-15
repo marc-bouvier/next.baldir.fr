@@ -3,7 +3,7 @@ title: Nouvelles découvertes dans Vim
 date: 2024-09-29T16:26:00
 tags:
   - Vim
-  - How-To
+  - How-to
 description: Aujourd'hui, on m’a montré quelques commandes Vim que je ne connais pas
 ---
 
