@@ -137,6 +137,4 @@ export default function (eleventyConfig) {
     // Support yaml data files : https://www.11ty.dev/docs/data-custom/#yaml
     eleventyConfig.addDataExtension("yml", (contents) => yaml.load(contents));
 
-
 }
-
