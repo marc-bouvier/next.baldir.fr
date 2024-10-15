@@ -47,6 +47,14 @@ export default function (eleventyConfig) {
             .sort((a, b) => b.date - a.date)
     });
 
+    eleventyConfig.addCollection("making-of", function (collectionApi) {
+        return collectionApi.getFilteredByGlob(["making-of/*.md", "making-of/*.html"]);
+    });
+
+    eleventyConfig.addCollection("glossaire", function (collectionApi) {
+        let filteredByGlob = collectionApi.getFilteredByGlob(["glossaire/*.md", "glossaire/*.html"]);
+        return filteredByGlob
+            .sort((a, b) => a.data.title.localeCompare(b.data.title));
     });
 
     // Adds id to headings
