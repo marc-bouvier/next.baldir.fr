@@ -1,5 +1,5 @@
 ---
-title: Code patrimonial
+title: Code patrimonial (Legacy Code)
 stub: false
 description: Code patrimonial, aussi appelé Legacy Code.
 ---

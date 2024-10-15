@@ -1,5 +1,5 @@
 ---
-title: Kata de programmation
+title: Kata de programmation (Code Kata)
 date: 2024-10-12T23:29:00
 tags:
   - Software-craft

@@ -1,5 +1,5 @@
 ---
-title: Dojo de programmation
+title: Dojo de programmation (Coding Dojo)
 date: 2024-10-12T23:32:00
 tags: 
 description: ""
