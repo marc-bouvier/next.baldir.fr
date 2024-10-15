@@ -9,6 +9,7 @@ tags:
   - Écrire
   - Software-craft
 cover_image: /public/img/cover_images/lire-du-code-sous-l-influence-de-ses-emotions.png
+cover_image_alt: Lire du code sous l’influence de ses émotions. Propositions du livre ”How to read a book” appliqués au code.
 ---
 [Vidéo Youtube de la présentation](https://www.youtube.com/watch?v=KSAn98i44S0) | [Board Excalidraw de la présentation](https://excalidraw.com/#room=0855769e48e79c0c12fc,qIEKzaL8rEGRMkPOdQzbOw)
 
@@ -28,7 +29,7 @@ Romeu propose de faire le parallèle avec la lecture du code.
 
 ### Lire du code sous l'influence de ses émotions
 
-Augmentation du [rasoir de Hanlon](/glossaire/rasoir-de-hanlon) par Romeu :
+Extension du [rasoir de Hanlon](/glossaire/rasoir-de-hanlon) par Romeu :
 
 > Ne pas attribuer à la malveillance ce que la bêtise peut expliquer.
 
