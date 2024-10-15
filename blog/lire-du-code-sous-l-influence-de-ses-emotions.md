@@ -8,7 +8,7 @@ tags:
   - Lecture-de-code
   - Écrire
   - Software-craft
-cover_image: /public/img/lire-du-code-sous-l-influence-de-ses-emotions.png
+cover_image: /public/img/cover_images/lire-du-code-sous-l-influence-de-ses-emotions.png
 ---
 [Vidéo Youtube de la présentation](https://www.youtube.com/watch?v=KSAn98i44S0) | [Board Excalidraw de la présentation](https://excalidraw.com/#room=0855769e48e79c0c12fc,qIEKzaL8rEGRMkPOdQzbOw)
 
@@ -44,9 +44,9 @@ Augmentation du [rasoir de Hanlon](/glossaire/rasoir-de-hanlon) par Romeu :
 
 > Ne pas attribuer à un contexte non dit ce que le système autour de la personne peut expliquer
 
-### Livres de référence
+### Livres mentionnés
 
-- How to read a book - Mortimer Adler
+- [How to read a book](https://en.wikipedia.org/wiki/How_to_Read_a_Book) - Mortimer Adler
 - Code reading in practice - Felienne Hermans
 - Pedagogy of the oppressed - Paulo Freire
 - Les mots sont des fenêtres (ou bien ce sont des murs) - Marshall B. Rosenberg
