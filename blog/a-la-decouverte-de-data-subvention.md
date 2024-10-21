@@ -460,7 +460,7 @@ Arborescence globale
 tree -d -I 'node_modules|packages/api/node_modules|packages/dto/node_modules|packages/front/node_modules|packages/tools/node_modules'
 ```
 
-```text
+```txt
 .
 └── packages
     ├── api
@@ -944,7 +944,7 @@ npm run build
 ```
 
 > [!sucess]
-> ```text
+> ```txt
 > 
 > api-subventions-asso@0.10.3 build
 > lerna run build
@@ -968,7 +968,7 @@ npm test
 ```
 
 > [!success]
-> ```text
+> ```txt
 > api-subventions-asso@0.10.3 test
 > lerna run test
 > 
@@ -1160,7 +1160,7 @@ MONGO_PORT=27117
 
 Il semble qu'il faille que le JWT_SECRET soit renseigné, comme prévu.
 
-```text
+```txt
 [0] /Users/marco/sources/Baldir/Candidatures/beta-gouv/dinum/fork-api-subventions-asso/node_modules/passport-jwt/lib/strategy.js:45
 [0]         throw new TypeError('JwtStrategy requires a secret or key');
 [0]               ^
@@ -1248,7 +1248,7 @@ npm run cli user create baldir.fr@gmail.com
 
 Requête HTTP dans le client HTTP de Webstorm
 
-```text
+```txt
 POST http://localhost:8080/auth/forget-password  
 Content-Type: application/json  
   
@@ -1259,7 +1259,7 @@ Content-Type: application/json
 
 Token  : 21ZCxnFqUoBvlpGch7cBVNRHPL579iE6
 
-```text
+```txt
   
 POST http://localhost:8080/auth/reset-password  
 Content-Type: application/json  
