@@ -25,7 +25,7 @@ eleventyImport:
     <ul>
         {% for actualite in actualites %}
         <li>
-            <time datetime="{{actualite.start_date | toIsoString}}" >{{actualite.start_date | toLocaleStringFr | capitalize}}</time> : <a href="{{actualite.href}}">{{actualite.name}}</a>.
+            <time datetime="{{actualite.start_date | toIsoString}}" >{{actualite.start_date | toLocaleStringFr | capitalize}} à {{actualite.start_date | toLocaleTimeStringFr }}</time> : <a href="{{actualite.href}}">{{actualite.name}}</a>.
             {{actualite.description}}
         </li>
         {% endfor %}
