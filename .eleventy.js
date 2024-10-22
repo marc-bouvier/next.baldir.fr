@@ -13,7 +13,7 @@ export default function (eleventyConfig) {
 
     eleventyConfig.addFilter("toLocaleTimeStringFr", function (date) {
         return new Date(date).toLocaleTimeString("fr-FR",
-            {hour: "2-digit", minute: "2-digit"})
+            {hour: "2-digit", minute: "2-digit",timeZone:"CET"})
     });
     
     eleventyConfig.addFilter("toLocaleStringFrShort", function (date) {
