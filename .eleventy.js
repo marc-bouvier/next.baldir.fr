@@ -11,6 +11,11 @@ export default function (eleventyConfig) {
             {weekday: "long", month: "long", day: "numeric", year: "numeric"})
     });
 
+    eleventyConfig.addFilter("toLocaleTimeStringFr", function (date) {
+        return new Date(date).toLocaleTimeString("fr-FR",
+            {hour: "2-digit", minute: "2-digit"})
+    });
+    
     eleventyConfig.addFilter("toLocaleStringFrShort", function (date) {
         return new Date(date).toLocaleString("fr-FR",
             {month: "2-digit", day: "numeric", year: "numeric"})
