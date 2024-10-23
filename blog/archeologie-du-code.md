@@ -2,7 +2,6 @@
 title: Archéologie du code
 date: 2024-09-26T17:21:38+02:00
 tags:
-  - Code-patrimonial
   - Legacy-code
   - Métaphore
 description: Quelle est la différence entre un développeur est un archéologue ?
@@ -38,7 +37,7 @@ Ma définition qui vaut ce qu'elle vaut :
 
 > Du code patrimonial est du code dont l'absence est très problématique pour une organisation.
 
-Ce code est souvent ancien et difficile à comprendre car le contexte, qui l'a vu naître et évolué a changé. Sans efforts délibérés pour maintenir une conscience et une évolution de [l'état de l'art](/glossaire/etat-de-l-art), celui-ci est progressivement oublié.
+Ce code est souvent ancien et difficile à comprendre car le contexte, qui l'a vu naître et évolué a changé. Sans efforts délibérés pour maintenir une conscience et une évolution de [l'état de l'art](/glossaire/etat-de-l-art-d-une-equipe), celui-ci est progressivement oublié.
 
 Dans certains cas, il reste certaines de ces informations sont encore dans la tête de collègues, et aussi bien entendu dans du code et des procédures.
 
@@ -62,8 +61,23 @@ en terme de nombre de lignes de codes produites.
 
 Pourtant, ce que j’aime le plus par-dessus tout c’est de masse c’est de faire en sorte qu’il n’y ai pas besoin d’archéologues.
 
-Je m’explique en prenant soin de Detre conscient de son état de lard à savoir notre compréhension du contexte et de du système de communication entre les développeurs de l’équipe technique le produit et le management on peut s’assurer d’être à tout moment à peu près au courant des problèmes et des enjeux.
-Et ça ça change tout il y a des techniques qui peuvent paraître très simple mais qui sont néanmoins efficace. Je pense par exemple aux osa des R à DR qui consiste à documenter quand on fait des choix par exemples d’architecture à DR architecture des six gemmes les codes. Ça consiste à documenter quand on prend des décisions qui sont significatif et en introduisant des éléments de contexte. Par exemple je décide d’utiliser une base de données relationnelles poserai. Donc ça c’est la décision. Mais ce ne Maraite pas là. Comme j’ai dit précédemment dans un article précédent. J’aime bien rajouter un peu plus quand j’écris et quand je partage quelque chose.
+
+
+
+
+
+
+Je m’explique en prenant soin d'être conscient de son [état de l'art](/glossaire/etat-de-l-art-d-une-equipe). 
+À savoir notre compréhension du contexte et de la communication (ou son absence) entre les développeurs de l’équipe technique, le produit et le management.
+On peut s’assurer d’être à tout moment à peu près au courant des problèmes et des enjeux.
+Et ça, ça change tout.
+Il y a des techniques qui peuvent paraître très simples
+mais qui sont néanmoins efficace. 
+
+Je pense par exemple aux [ADR](/glossaire/adr) (Architecture Decision Records).
+Une ADR consiste à documenter un choix d'architecture structurant sur un logiciel dans un format léger. 
+Ça consiste à documenter quand on prend des décisions qui sont significatif et en introduisant des éléments de contexte. 
+Par exemple je décide d’utiliser une base de données relationnelles PostgreSQL. Donc ça c’est la décision. Mais ce ne Maraite pas là. Comme j’ai dit précédemment dans un article précédent. J’aime bien rajouter un peu plus quand j’écris et quand je partage quelque chose.
 Ici ce qui nous intéresse c’est pas seulement la décision qui a été prise puisqu’on la constate. C’est les éléments de contexte. Par exemple :
 –je choisis en comparant d’autres base de données.
 –Je prends en compte les problèmes du moment à savoir qu’il n’y a pas de base de données par exemple.
