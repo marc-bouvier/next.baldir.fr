@@ -207,35 +207,122 @@ Après ça reste un scope assez petit (quelques lignes). Ca ne devrait pas poser
 
 Cela permet à des gens non francophones de comprendre le code.
 
-L'arborescence est documentée.
+L'arborescence est documentée dans le readme : 
 
-```text  
-src  
-│  
-└───lib                                      // Contient tous les composants Svelte métier  
-│    │                                       │    └───components                          // Contient tous les composants Svelte métier  
-│    │   │                                   │    │   │                                   │    │   └───Foo                             // Il existe autant de sous répertoire que de composants "intelligent"  
-│    │       │   Foo.svelte                  // Composant graphique Svelte (dumb)  
-│    │       │   Foo.controller.js           // Contrôleur qui s'occupe de récupérer/calculer la donnée renvoyée au composant graphique  
-│    │       │   ...                         │    │                                       │    └───core                                // Contient quelques fichiers "essentiels", comme le connecteur SSE  
-│    │                                       │    └───dsfr                                // Contient tous les composants Svelte liés au composant du DSFR  
-│    │                                       │    └───helpers                             // Contient des helpers spécifiques à un champ particulier (string, date, etc)  
-│    │                                       │    └───resources                           // Contient les connecteurs (ports) HTTP  
-│    │                                       │    └───services                            // Contient des services métiers qui ne sont pas liés à un composant ou à une ressource  
-│    │                                       │    └───store                               // Contient une liste de stores globaux  
-│                                            └───routes                                   │    │                                       │    └───example-route                       // nom de la route (voir routing)  
-│    │   │                                   │    │   └───components                      // Contient des composants spécifiques à la route en question. Même architecture que pour les composants dans libs  
-│    │   │                                   │    │   └───+page.ts                        // Il existe autant de sous répertoire que de composants "intelligent"  
-│    │   │                                   │    │   └───+page.svelte                    // Il existe autant de sous répertoire que de composants "intelligent"  
-│    │   │                                   │    │   └───+route.ts                       // Il existe autant de sous répertoire que de composants "intelligent"  
-│    │                                       │    └───...                                 // Autant de routes que nécessaire  
-│    │                                       │    └───   +error.svelte                    // Page d'erreur (notamment 404)  
-│    │                                       │    └───   +layout.svelte                   // Contient le layout général (header, etc)  
-│    │                                       │    └───   +layout.ts                       // Contient la logique qui doit s'appliquer pour toutes les pages  
-                                             │   main.js                                  // Point d'entrée de l'application  
-│   global.css                               // Fichier CSS global  
-│   app.html                                 // Coquille minimale autour des composants svelte  
-│   hooks.server.ts                          // Hooks serveur. Permet notammer de spécifier les headers  
+```text
+src
+│
+└───lib                                      // Contient tous les composants Svelte métier
+│    │                                       
+│    └───components                          // Contient tous les composants Svelte métier
+│    │   │                                   
+│    │   │                                   
+│    │   └───Foo                             // Il existe autant de sous répertoire que de composants "intelligent"
+│    │       │   Foo.svelte                  // Composant graphique Svelte (dumb)
+│    │       │   Foo.controller.js           // Contrôleur qui s'occupe de récupérer/calculer la donnée renvoyée au composant graphique
+│    │       │   ...                         
+│    │                                       
+│    └───core                                // Contient quelques fichiers "essentiels", comme le connecteur SSE
+│    │                                       
+│    └───dsfr                                // Contient tous les composants Svelte liés au composant du DSFR
+│    │                                       
+│    └───helpers                             // Contient des helpers spécifiques à un champ particulier (string, date, etc)
+│    │                                       
+│    └───resources                           // Contient les connecteurs (ports) HTTP
+│    │                                       
+│    └───services                            // Contient des services métiers qui ne sont pas liés à un composant ou à une ressource
+│    │                                       
+│    └───store                               // Contient une liste de stores globaux
+│                                            
+└───routes                                   
+│    │                                       
+│    └───example-route                       // nom de la route (voir routing)
+│    │   │                                   
+│    │   └───components                      // Contient des composants spécifiques à la route en question. Même architecture que pour les composants dans libs
+│    │   │                                   
+│    │   └───+page.ts                        // Il existe autant de sous répertoire que de composants "intelligent"
+│    │   │                                   
+│    │   └───+page.svelte                    // Il existe autant de sous répertoire que de composants "intelligent"
+│    │   │                                   
+│    │   └───+route.ts                       // Il existe autant de sous répertoire que de composants "intelligent"
+│    │                                       
+│    └───...                                 // Autant de routes que nécessaire
+│    │                                       
+│    └───   +error.svelte                    // Page d'erreur (notamment 404)
+│    │                                       
+│    └───   +layout.svelte                   // Contient le layout général (header, etc)
+│    │                                       
+│    └───   +layout.ts                       // Contient la logique qui doit s'appliquer pour toutes les pages
+                                             
+│   main.js                                  // Point d'entrée de l'application
+│   global.css                               // Fichier CSS global
+│   app.html                                 // Coquille minimale autour des composants svelte
+│   hooks.server.ts                          // Hooks serveur. Permet notammer de spécifier les headers
+```
+
+L'arborescence telle que je l'observe aujourd'hui.
+
+```text
+src
+├── lib
+│   ├── assets
+│   ├── components                               
+│   │   ├── NomComposant                           
+│   │   │   ├── NomComposant.controller.test.ts   
+│   │   │   ├── NomComposant.controller.ts       
+│   │   │   └── NomComposant.svelte                
+│   ├── core                                      
+│   ├── dsfr                                     
+│   ├── entities
+│   ├── enums
+│   ├── errors
+│   ├── helpers                                  
+│   ├── resources                                
+│   │   ├── associations
+│   │   ├── auth
+│   │   ├── document
+│   │   ├── establishments
+│   │   ├── externals
+│   │   ├── grants
+│   │   ├── open-source
+│   │   ├── payments
+│   │   ├── providers
+│   │   ├── stats
+│   │   ├── subventions
+│   │   └── users 
+│   ├── services                                
+│   ├── store
+│   └── types
+├── routes
+│   ├── (home)
+│   ├── (noAuth)
+│   │   ├── accessibilite
+│   │   ├── cgu
+│   │   ├── contact
+│   │   ├── mentions-legales
+│   │   ├── politique-de-confidentialite
+│   │   └── statistiques
+│   ├── admin
+│   │   ├── domains
+│   │   ├── stats
+│   │   │   └── components
+│   │   └── users
+│   ├── association
+│   │   └── [identifier]
+│   ├── auth
+│   │   ├── activate
+│   │   │   └── [token]
+│   │   ├── forget-password
+│   │   ├── login
+│   │   ├── reset-password
+│   │   │   └── [token]
+│   │   └── signup
+│   ├── etablissement
+│   │   └── [identifier]
+│   ├── search
+│   │   └── [name]
+│   └── user
+│       └── profile
 ```
 
 Séparation des responsabilités
