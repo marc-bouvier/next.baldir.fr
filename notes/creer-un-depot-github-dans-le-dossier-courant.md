@@ -2,7 +2,7 @@
 title: Créer un dépôt GitHub dans le dossier courant
 date: 2024-10-11T22:10:32+02:00
 tags:
-  - How-To
+  - How-to
   - Github
   - Ligne-de-commande
 description: Une petite commande qui permet de publier un dépôt git existant sur GitHub en s'appuyant sur la ligne de commande `gh`
