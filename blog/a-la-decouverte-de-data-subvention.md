@@ -1124,11 +1124,12 @@ Quelques modifications pour faire fonctionner la base de données :
 # Required variables  
 # ------------------------------  
   
-JWT_SECRET=  
+JWT_SECRET=xxxxxxxxxxxxxxxx 
 MAIL_HOST=  
 MAIL_PORT=  
 MAIL_USER=  
 MAIL_PASSWORD=  
+  
   
 # Other variables  
 # ------------------------------  
@@ -1142,6 +1143,8 @@ MONGO_DBNAME=datasubvention
 #MONGO_USER=user  
 #MONGO_PASSWORD=pass  
 MONGO_PORT=27117  
+  
+FRONT_OFFICE_URL=http://localhost:5173  
   
 # To connect to Entreprise API  
 #API_ENTREPRISE_TOKEN=  
