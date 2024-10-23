@@ -1,10 +1,33 @@
 ---
-title: Options pour la suite
+title: "Devenir de baldir.fr"
+description: "Reflexions et prochaines évolutions possibles"
 layout: "default.html"
 ---
 
-## Baldir.fr
+## Réflexions en cours
 
+### Mettre en place une base de connaissances ?
+
+Hypothèse : Je ne connais pas de point de départ en français permettant d'avoir une vision générale simple et interconnectée des concepts outils et pratiques du numérique.
+
+Contraintes :
+- en français ;
+- en [FALC](/glossaire/falc)
+
+Options (pas mutuellement exclusives)
+
+- Traduire des articles de référence / pratiques en français ; (ex. [traduction du concept de dojo de programmation]())
+- Transcrire des vidéos en français ; (ex. [transcription et synthèse de la présentation “Lire du code sous l’influence de ses émotion de Romeu Moura”)](/blog/lire-du-code-sous-l-influence-de-ses-emotions))
+- Glossaire Français / Anglais du jargon technique : pour aider chacun à connaitre les mots pour faire des recherches par eux-même
+- Contribuer à [Wikipédia](https://fr.wikipedia.org/) ? 
+
+
+## Ressources et possibilités en vrac
+
+
+
+- categories
+    -   https://stackoverflow.com/questions/72183639/how-to-create-a-tags-collection-and-a-categories-collection-in-eleventy
 - footer
   - lien vers le code source du site
   - liens vers mes réseaux sociaux
@@ -92,4 +115,38 @@ Ex :
 - [orchidjs/eleventy-plugin-ids: @11ty plugin for adding ids to html headings and other elements](https://github.com/orchidjs/eleventy-plugin-ids)
 - [NotWoods/11ty-plugins: A collection of plugins I've written for eleventy.](https://github.com/NotWoods/11ty-plugins)
 - [New Tab](chrome://newtab/)
+
+Wiki links dans eleventy
+https://photogabble.co.uk/noteworthy/adding-wiki-links-to-11ty/
+
+Ou encore le récent https://nolebase-integrations.ayaka.io/pages/en/integrations/markdown-it-bi-directional-links/
+
+
+
+Markdown It plugin :  pour mes citations / questions…
+
+- https://github.com/markdown-it/markdown-it-footnote
+- https://www.npmjs.com/package/markdown-it-anchor
+- https://www.npmjs.com/package/markdown-it-collapsible
+- https://www.npmjs.com/package/markdown-it-named-code-blocks
+- https://www.npmjs.com/package/@ig3/markdown-it-wikilinks
+- https://www.npmjs.com/package/@egihasdi/markdown-it-footnote
+- https://www.npmjs.com/package/@nolebase/markdown-it-bi-directional-links
+- https://www.npmjs.com/package/markdown-it-table-of-contents
+-
+https://nicolas-hoizey.com/articles/2021/02/25/accessible-anchor-links-with-markdown-it-and-eleventy/
+
+https://11tybundle.dev/categories/
+
+https://tylersticka.com/journal/simple-eleventy-3-excerpts/
+https://coryd.dev/posts/2024/a-feed-for-everything-and-everything-in-a-feed/
+
+https://hamatti.org/posts/community-websites-with-eleventy/
+
+💪 https://www.bobmonsour.com/posts/adding-webmentions-to-my-site/
+
+💪 https://jamesdoc.com/blog/2023/git-changelog-in-11ty/
+
+
+https://photogabble.co.uk/changelog/alphabetising-glossary-terms/
 
