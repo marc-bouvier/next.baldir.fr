@@ -3,8 +3,19 @@ import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight"
 import {EleventyHtmlBasePlugin, EleventyI18nPlugin, IdAttributePlugin} from "@11ty/eleventy";
 import {feedPlugin} from "@11ty/eleventy-plugin-rss";
 import yaml from "js-yaml"
+import markdownIt from "markdown-it";
 
 export default function (eleventyConfig) {
+
+
+    let options = {
+        html: true,
+        breaks: true,
+        linkify: true,
+
+    };
+
+    eleventyConfig.setLibrary("md", markdownIt(options));
 
     eleventyConfig.addFilter("toLocaleStringFr", function (date) {
         return new Date(date).toLocaleString("fr-FR",
@@ -15,7 +26,7 @@ export default function (eleventyConfig) {
         return new Date(date).toLocaleTimeString("fr-FR",
             {hour: "2-digit", minute: "2-digit",timeZone:"CET"})
     });
-    
+
     eleventyConfig.addFilter("toLocaleStringFrShort", function (date) {
         return new Date(date).toLocaleString("fr-FR",
             {month: "2-digit", day: "numeric", year: "numeric"})
@@ -75,7 +86,7 @@ export default function (eleventyConfig) {
             "making-of/*.md", "making-of/*.html",
         ])
             .flatMap(page => page.data.tags)))
-            .filter(tag => tag!==undefined)
+            .filter(tag => tag !== undefined)
             .sort((a, b) => a.localeCompare(b));
 
     });
