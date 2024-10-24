@@ -1372,3 +1372,13 @@ Ajout du rôle `admin` à mon utilisateur :
 Comment faire que la bonne version de nodejs s'installe et switch auto quand je suis dans le dossier ?
 
 
+## Alimenter avec quelques exemples de données
+
+
+Données fonjep depuis des fixtures de test
+
+Depuis `packages/api`
+```sh
+npm run cli fonjep parse "tests/modules/providers/fonjep/__fixtures__/fonjep-new.xlsx" 2024-10-21T19:53:15+02:00
+```
+
