@@ -10,3 +10,4 @@ _obsidian
 compose.yaml
 package-lock.json
 package.json
+**/*.test.js

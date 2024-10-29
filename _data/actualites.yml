@@ -1,8 +1,30 @@
-- name: "Dojo de programmation"
-  description: "Je faciliterai de Dojo de programmation pour le meetup Software Craft Strasbourg"
-  start_date : 2024-10-01T12:00:00+02:00
-  href: https://www.meetup.com/fr-FR/software-crafters-strasbourg/events/303524329
-- name: "Forum ouvert des communautés Craft francophones"
-  description: "Accompagne-moi à [En ligne] Forum ouvert des communautés francophones"
-  start_date : 2024-10-23T18:00:00+02:00
-  href: https://meetu.ps/e/Nsz9g/wrQsd/i
+title: "Actualités de Marc Bouvier"
+description: "Vous me trouverez lors des événements présents dans ce calendrier."
+organisation: "Baldir"
+url: "https://baldir.fr"
+events_signature: "\r\n\r\n———\r\n\r\nMarc Bouvier\r\nhttps://baldir.fr\r\n06 63 20 56 38"
+events:
+  - title: "Dojo de programmation"
+    description: "Je faciliterai de Dojo de programmation pour le meetup Software Craft Strasbourg"
+    start: 2024-10-01T12:00:00+02:00
+    end: 2024-10-01T14:00:00+02:00
+    url: https://www.meetup.com/fr-FR/software-crafters-strasbourg/events/303524329
+    uid: 1DA33DBF-1AFF-4032-9CB9-10A76D8C446E
+  - title: "Forum ouvert des communautés Craft francophones"
+    description: "Accompagne-moi à [En ligne] Forum ouvert des communautés francophones"
+    start: 2024-10-23T18:00:00+02:00
+    end: 2024-10-23T20:00:00+02:00
+    url: https://meetu.ps/e/Nsz9g/wrQsd/i
+    uid: D2635A27-6D49-4644-AABF-EE54EE0C71C4
+  - title: "Global Day of Code Retreat à Strasbourg"
+    description: "J'organise et je co-anime avec Olivier Albiez la version strasbourgeoise de cet événement international."
+    start: 2024-11-09T09:00:00+01:00
+    end: 2024-11-09T18:00:00+01:00
+    url: https://www.meetup.com/fr-FR/software-crafters-strasbourg/events/304179139
+    uid: 890B6E62-DABA-4DA3-8B0C-9B558F56A9FE
+  - title: "DevFest Strasbourg"
+    description: "Accompagne-moi à [En ligne] Forum ouvert des communautés francophones"
+    start: 2024-11-21T09:00:00+01:00
+    end: 2024-11-21T18:30:00+01:00
+    url: https://www.meetup.com/fr-FR/software-crafters-strasbourg/events/304179139
+    uid: 52C8FF70-56AA-40BA-B50E-5E2357E4256C

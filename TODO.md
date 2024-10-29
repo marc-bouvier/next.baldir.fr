@@ -24,6 +24,8 @@ Options (pas mutuellement exclusives)
 
 ## Ressources et possibilités en vrac
 
+Rendre l'affichage des actualités plus lisibles.
+
 
 
 - categories

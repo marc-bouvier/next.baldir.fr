@@ -9,7 +9,8 @@
   "type": "module",
   "scripts": {
     "start": "eleventy --serve",
-    "build": "eleventy"
+    "build": "eleventy",
+    "test": "vitest"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0-alpha.17",
@@ -19,11 +20,9 @@
     "@11ty/eleventy-plugin-webc": "^0.11.2",
     "@11ty/webc": "^0.11.4",
     "@types/11ty__eleventy-img": "^4.0.0",
-    "ics": "^3.8.1",
+    "ical-generator": "^8.0.1",
     "js-yaml": "^4.1.0",
     "markdown-it": "^14.1.0",
-    "node-ical": "^0.20.0"
-  },
-  "dependencies": {
+    "vitest": "^2.1.4"
   }
 }
