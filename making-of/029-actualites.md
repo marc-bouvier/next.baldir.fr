@@ -39,10 +39,10 @@ Il me permet d’accéder aux actualités depuis l’ensemble du site.
 `_data/actualites.yml`
 
 ```yml
-- name: "Dojo de programmation"
+- title: "Dojo de programmation"
   description: "Je faciliterai de Dojo de programmation pour le meetup Software Craft Strasbourg"
-  start_date : 2024-10-01T12:00:00+02:00
-  href: https://www.meetup.com/fr-FR/software-crafters-strasbourg/events/303524329
+  start : 2024-10-01T12:00:00+02:00
+  url: https://www.meetup.com/fr-FR/software-crafters-strasbourg/events/303524329
 ```
 
 
@@ -57,12 +57,12 @@ Index: index.html
 +<aside>
 +    <h2>Actualités</h2>
 +    <ul>
-+        {% for actualite in actualites %}
++        {{ '{% for actualite in actualites %}' | escape }}
 +        <li>
-+            <time datetime="{{actualite.start_date | toIsoString}}" >{{actualite.start_date | toLocaleStringFr | capitalize}}</time> : <a href="{{actualite.href}}">{{actualite.name}}</a>.
-+            {{actualite.description}}
++            <time datetime="{{ '{{actualite.start | toIsoString}}' | escape }}" >{{ '{{actualite.start | toLocaleStringFr | capitalize}}' | escape }}</time> : <a href="{{ '{{actualite.url}}' | escape }}">{{ '{{actualite.title}}' | escape }}</a>.
++            {{ '{{actualite.description}}' | escape }}
 +        </li>
-+        {% endfor %}
++        {{ '{% endfor %}' | escape }}
 +    </ul>
 +</aside>
 
