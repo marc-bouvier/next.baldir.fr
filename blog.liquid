@@ -8,7 +8,7 @@ pagination:
     size: 6
     alias: blogs
 ---
-
+<h2>Articles de blog</h2>
 <div style="display: flex;
     flex-wrap: wrap;
     justify-content: space-between;">
@@ -26,9 +26,11 @@ pagination:
 
     {% endfor %}
 </div>
-<nav aria-label="pagination" style="    display: flex;
+<nav aria-label="pagination" style="
+    display: flex;
     justify-content: center  ;
-gap: 1rem;  ">
+    gap: 1rem;
+    ">
     {% if pagination.href.first and pagination.href.first != page.url %}
         <a href="{{ pagination.href.first }}">Premier</a>
     {% else %}
