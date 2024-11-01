@@ -1,0 +1,52 @@
+---
+layout: layout.html
+title: "Articles de blog"
+eleventyImport:
+    collections: ["allFinishedArticles"]
+pagination:
+    data: collections.allFinishedArticles
+    size: 6
+    alias: blogs
+---
+
+<div style="display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;">
+    {% for blog in blogs %}
+        <div class="card">
+            <a href="{{ blog.url }}"><h2 style="font-size: large">{{ blog.data.title }}</h2></a>
+            <time datetime="{{ blog.data.date | toIsoString }}" style="font-size: small">
+                Le {{ blog.data.date | toLocaleStringFr }}
+            </time>
+            {% if blog.data.cover_image %}
+                <img alt="{{ blog.data.cover_image_alt }}" src="{{ blog.data.cover_image }}"/>
+            {% endif %}
+            <p>{{ blog.data.description }}</p>
+        </div>
+
+    {% endfor %}
+</div>
+<nav aria-label="pagination" style="    display: flex;
+    justify-content: center  ;
+gap: 1rem;  ">
+    {% if pagination.href.first and pagination.href.first != page.url %}
+        <a href="{{ pagination.href.first }}">Premier</a>
+    {% else %}
+        <span aria-hidden="true">Premier</span>
+    {% endif %}
+    {% if pagination.href.previous %}
+        <a href="{{ pagination.href.previous }}">Précédent</a>
+    {% else %}
+        <span aria-hidden="true">Précédent</span>
+    {% endif %}
+    {% if pagination.href.next %}
+        <a href="{{ pagination.href.next }}">Suivant</a>
+    {% else %}
+        <span aria-hidden="true">Suivant</span>
+    {% endif %}
+    {% if pagination.href.last and pagination.href.last != page.url %}
+        <a href="{{ pagination.href.last }}">Dernier</a>
+    {% else %}
+        <span aria-hidden="true">Dernier</span>
+    {% endif %}
+</nav>
