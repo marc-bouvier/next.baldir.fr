@@ -13,7 +13,11 @@ eleventyImport:
 
 <ul>
     {% for making-of in collections.making-of %}
-    <li style="display: flex;border-bottom: darkgray dotted 1px;    justify-content: space-between;">
+    <li style="
+        display: flex;
+        border-bottom: darkgray dotted 1px;
+        justify-content: space-between;
+        padding: .2rem;">
         <a href="{{making-of.url}}" style="text-decoration: none; flex-grow:1;">{{ making-of.data.title }}</a>
         <time datetime="{{making-of.data.date}}" style="font-family: monospace;">
             {{ making-of.data.date | toLocaleStringFrShort }}

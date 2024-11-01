@@ -10,7 +10,11 @@ eleventyImport:
     <p>Ici, j'écris autant que je peux sur des sujets variés (en général techniques)</p>
     <ul>
         {% for blog in collections.latestFewFinishedArticles %}
-        <li style="display: flex;border-bottom: darkgray dotted 1px;    justify-content: space-between;">
+        <li style="
+            display: flex;
+            border-bottom: darkgray dotted 1px;
+            justify-content: space-between;
+            padding: .2rem;">
             <a href="{{blog.url}}" style="text-decoration: none; flex-grow:1;">{{ blog.data.title }}</a>
             <time datetime="{{blog.data.date}}" style="font-family: monospace">
                 {{ blog.data.date | toLocaleStringFrShort }}
