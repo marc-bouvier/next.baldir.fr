@@ -24,7 +24,12 @@ Options (pas mutuellement exclusives)
 
 ## Ressources et possibilités en vrac
 
-Rendre l'affichage des actualités plus lisibles.
+
+
+- [ ] Rendre l'affichage des actualités plus lisibles.
+  - [x] limiter le nombre d'actus
+  - [ ] afficher les actus plus récentes en premier
+  - [ ] 
 
 
 
