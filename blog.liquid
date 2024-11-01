@@ -11,7 +11,7 @@ pagination:
 <h2>Articles de blog</h2>
 <div style="display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;">
+    justify-content: space-between; margin-bottom: .5rem;margin-top: .5rem">
     {% for blog in blogs %}
         <div class="card">
             <a href="{{ blog.url }}"><h2 style="font-size: large">{{ blog.data.title }}</h2></a>
