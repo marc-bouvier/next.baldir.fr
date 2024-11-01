@@ -22,13 +22,13 @@ eleventyImport:
 </section>
 <aside>
     <h2>Actualités</h2>
-    <p><a href="/actualites.ics">Ajoutez à votre calendrier</a></p>
     <ul>
-        {% for actualite in actualites.events %}
+        {% for actualite in actualites.events limit:3 %}
         <li>
             <time datetime="{{actualite.start | toIsoString}}" >{{actualite.start | toLocaleStringFr | capitalize}} à {{actualite.start | toLocaleTimeStringFr }}</time> : <a href="{{actualite.url}}">{{actualite.title}}</a>.
             {{actualite.description}}
         </li>
         {% endfor %}
     </ul>
+    <p><a href="/actualites.ics">Ajoutez à votre calendrier</a></p>
 </aside>
