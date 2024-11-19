@@ -26,18 +26,21 @@ Options (pas mutuellement exclusives)
 
 
 
-- [ ] Rendre l'affichage des actualités plus lisibles.
+- [x] Rendre l'affichage des actualités plus lisibles.
   - [x] limiter le nombre d'actus
-  - [ ] afficher les actus plus récentes en premier
-  - [ ] 
-
-
-
+  - [x] afficher les actus plus récentes en premier
+ 
 - categories
     -   https://stackoverflow.com/questions/72183639/how-to-create-a-tags-collection-and-a-categories-collection-in-eleventy
-- footer
-  - lien vers le code source du site
-  - liens vers mes réseaux sociaux
+
+---
+
+- [ ] footer
+  - [x] lien vers le code source du site
+  - [ ] liens vers mes réseaux sociaux
+
+---
+
 - shortcodes pour les quotes de obsidian
 Ex : 
 > [!success] foo
@@ -56,6 +59,7 @@ Ex :
     - Feed needs base URL which is missing
     - Maybe inject it with a provided environment variable
 - Mes articles chez Iroco
+
 - navigation
     - Items
         - Blog posts
@@ -65,9 +69,12 @@ Ex :
         - Podcasts
         - Liens sortants (sites que j'aime bien ou ami-e-s)
         - Bibliothèque (inspiration de https://lazybear.io/)
-    - A11y : Skip to content
-    - [X] A11y : Skip to content
-    - A11y : Skip to navigation
+
+---
+
+  - A11y : Skip to content
+  - [X] A11y : Skip to content
+  - A11y : Skip to navigation
 - pagination : https://www.11ty.dev/docs/pagination/
 - écriture inclusive
     - choisir une façon d'écrire mon contenu de façon inclusive (inspiration : [La lutine du web](https://www.lalutineduweb.fr/), ...)
@@ -79,7 +86,7 @@ Ex :
   I can pick one of the following stuff.
 
 
-- fix main picture size (it is too large)
+- [x] fix main picture size (it is too large)
 - ✅ Links followable in blogs
 
 - Host statically on Github pages for public preview
@@ -88,14 +95,28 @@ Ex :
 - Wikilinks support
     - https://photogabble.co.uk/noteworthy/adding-wiki-links-to-11ty/
     - https://github.com/oleeskild/obsidian-digital-garden/blob/d3c3b3f029d6d24d2f9dcb5676c43b7562b98ad6/src/compiler/GardenPageCompiler.ts#L197-L270
-- Backlinks
-- Stub posts
+
+- [ ] Backlinks
+
+- [x] Stub posts
     - https://photogabble.co.uk/changelog/adding-stub-posts/
-- Short notes (like microblogging)
-- Previous / next article
+
+---
+
+- [ ] Short notes (like microblogging)
+    - [ ] Make it quick and easy to write (preset) 
+
+---
+
+- [ ] Pagination
+    - [ ]  
+- [ ] Previous / next article
+    - [ ] Blog
+    - [ ] Making Of
+    - [ ] Notes
 - /uses
     - https://photogabble.co.uk/uses/
-- ~Host statically on Github pages for public preview~
+- [x] ~Host statically on Github pages for public preview~
 - Reading time : https://github.com/johanbrook/eleventy-plugin-reading-time
 - Header ids : https://github.com/orchidjs/eleventy-plugin-ids
 - RSS (advanced)
