@@ -17,3 +17,5 @@ Ce que j’aime bien dans Gemini protocol et la démarche de [permacomputing](h
 Simplicité au point de pouvoir implémenter le protocole assez facilement.
 
 Je suis tombé dessus en découvrant l’article “[Weathering Software Winter](https://100r.co/site/weathering_software_winter.html)” du collectif [100 rabbits](https://100r.co/site/about_us.html)
+
+gemini://ploum.be/2022-10-05-there-is-no-content-on-gemini.gmi
