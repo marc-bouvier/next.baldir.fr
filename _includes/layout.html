@@ -26,6 +26,15 @@
         <a href="/glossaire" role="menuitem">Glossaire</a>
         <a href="/making-of" role="menuitem">Making of</a>
     </nav>
+    <link href="/public/css/pagefind-baldir-fr-ui.css" rel="stylesheet">
+    <script src="/pagefind/pagefind-ui.js"></script>
+    <div id="search"></div>
+    <script>
+        window.addEventListener('DOMContentLoaded', (event) => {
+            new PagefindUI({ element: "#search", showSubResults: true });
+        });
+    </script>
+    <data-pagefind-body></data-pagefind-body>
 </header>
 <main id="skip-content">
     {{content}}

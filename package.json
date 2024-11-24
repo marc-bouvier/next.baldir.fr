@@ -9,10 +9,11 @@
   "type": "module",
   "scripts": {
     "start": "eleventy --serve",
-    "build": "eleventy",
+    "build": "eleventy && pagefind --site _site",
     "test": "vitest"
   },
   "devDependencies": {
+    "pagefind": "^1.2.0",
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-img": "^5.0.0",
     "@11ty/eleventy-plugin-rss": "^2.0.2",
