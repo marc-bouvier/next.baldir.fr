@@ -1,6 +1,6 @@
 ---
-title: You wanted a banana but what you got was a gorilla holding the banana and the entire jungle.
-description: "Joe Armstrong au sujet du manque de  réutilisation de code qui selon lui vient des langages orientés objet"
+title: Tu voulais une banane et tu récupères le gorille qui tient la banane et le reste de la jungle
+description: Joe Armstrong au sujet du manque de  réutilisation de code qui selon lui vient des langages orientés objet
 citation_auteur: Joe Armstrong
 citation_source: "Coders at Work: Reflections on the Craft of Programming"
 citation_source_auteur: Peter Seibel
