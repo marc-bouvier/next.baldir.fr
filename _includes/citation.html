@@ -1,0 +1,47 @@
+---
+layout: layout.html
+title: Citation
+description: "Citation"
+category: Citation
+---
+
+<h2>{{title}}</h2>
+
+<!--{% if category %}-->
+<!--{{ category }}-->
+<!--{% endif %}-->
+
+{% if tags %}
+<ul class="tags">
+    {% for tag in tags %}
+    <li><a href="/tags/{{tag}}">{{tag}}</a></li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+{% if stub %}
+<p>
+    <span class="bold">Note :</span> ceci est une ébauche de citation qui sera complétée dans le futur.
+    Elle a été créée dans le but de résoudre les liens avec d’autres articles.
+    <!--            N’hésite pas à jeter un œil aux liens ci-dessous pour trouver les pages associées.-->
+</p>
+{% endif %}
+{% if description %}<p>{{description}}</p>{% endif %}
+
+<blockquote cite="{{citation_source_href}}">
+    {{content}}
+</blockquote>
+<p>
+    {%if citation_auteur %}
+    — {{citation_auteur}},
+    {% endif %}
+    <cite><a href="{{citation_source_href}}">{{citation_source}}</a></cite>
+    ({{citation_source_annee}})
+    {%if citation_source_auteur %}
+    {{citation_source_auteur}}
+    {% endif %}
+    {%if citation_source_page %}
+    , page {{citation_source_page}}
+    {% endif %}
+    </cite>
+</p>

@@ -73,6 +73,13 @@ export default function (eleventyConfig) {
             .sort((a, b) => a.data.title.localeCompare(b.data.title));
     });
 
+    eleventyConfig.addCollection("citations", function (collectionApi) {
+        let filteredByGlob = collectionApi.getFilteredByGlob(["citation/*.md", "citation/*.html"]);
+        return filteredByGlob
+            .sort((a, b) => a.data.title.compare((b.data.title)))
+            .sort((a, b) => a.data.citation_auteur.compare((b.data.citation_auteur)));
+    });
+
     eleventyConfig.addCollection("kata-logue", function (collectionApi) {
         return collectionApi.getFilteredByGlob(["kata-logue/*.md", "kata-logue/*.html"]);
     });
