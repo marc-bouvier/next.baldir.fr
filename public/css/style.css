@@ -9,6 +9,13 @@ a {
     color: sienna;
 }
 
+a:focus-visible, input:focus-visible{
+  outline-color: sienna;
+}
+
+#search{
+  margin:.375rem;
+}
 blockquote {
     margin-inline: 0px;
     margin-block: 0;
@@ -40,23 +47,27 @@ nav ul li {
     left: .125em;
     z-index: 1001;
     text-align: center;
-    background-color: darkblue;
+    background-color: #ffedcc;
     color: #f1f3f4;
 }
 
-.header-skip-content a:focus {
+.header-skip-content:focus-within {
     display: inline-block;
     cursor: pointer;
     padding: .5em;
     color: #f1f3f4;
 }
 
-.header-skip-content a:not(:focus) {
+.header-skip-content:not(:focus-within) {
     clip: rect(0 0 0 0);
     position: absolute;
     overflow: hidden;
 }
 
+.header-skip-content:focus-within ul{
+  padding-inline-start: 0;
+  margin:0;
+}
 .bold {
     font-weight: bold;
 }
@@ -93,7 +104,7 @@ pre {
     font-size: small;
 }
 
-.menu {
+#menu {
     display: flex;
     justify-content: space-evenly;
     gap: .5rem;

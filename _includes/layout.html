@@ -11,15 +11,19 @@
 </head>
 <body>
 <header>
-    <div class="header-skip-content">
-        <a href="#skip-content">Contenu</a>
-    </div>
+    <nav class="header-skip-content">
+        <ul>
+          <li><a href="#content">Contenu</a></li>
+          <li><a href="#search">Recherche</a></li>
+          <li><a href="#menu">Menu</a></li>
+        </ul>
+    </nav>
     <div role="banner">
         <h1 style="margin: .25rem .5rem;"><a href="/">Baldir</a></h1>
         <span>Marc Bouvier</span>
     </div>
     <p style="font-size: small">{{global.description}}</p>
-    <nav class="menu" role="menu">
+    <nav id="menu" role="menu">
         <a href="/blog" role="menuitem">Articles de blog</a>
         <a href="/a-propos" role="menuitem">À propos</a>
         <a href="/notes" role="menuitem">Notes</a>
@@ -32,17 +36,17 @@
     <div id="search"></div>
     <script>
         window.addEventListener('DOMContentLoaded', (event) => {
-            new PagefindUI({ element: "#search", showSubResults: true });
+            new PagefindUI({ element: "#search", showSubResults: true, showImages: false });
         });
     </script>
-    <data-pagefind-body></data-pagefind-body>
+    <data-pagefind-body  ></data-pagefind-body>
 </header>
-<main id="skip-content">
+<main id="content">
     {{content}}
 </main>
 <hr/>
 <aside>
-    Tu veux en savoir plus ? Prenons <a href="https://calendly.com/baldir-fr">30 minutes pour en parler !</a>
+    Prenons <a href="https://calendly.com/baldir-fr">30 minutes pour en visio</a> pour échanger.
 </aside>
 <footer>
     <a class="modify-from-sources"
