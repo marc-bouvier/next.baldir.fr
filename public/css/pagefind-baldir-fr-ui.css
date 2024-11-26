@@ -471,7 +471,10 @@ legend {
     gap: calc(60px * var(--pagefind-ui-scale));
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    padding: 1rem;
+    border-style: dotted;
+    border-color: #a0522d47;
 }
 
 .pagefind-ui__results-area {
