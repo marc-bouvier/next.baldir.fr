@@ -29,4 +29,9 @@ Pour moi, les bénéfices que j'en retirerais sont bien moindres par rapport aux
 
 Je préfère utiliser mon énergie et ma curiosité à apprendre et mettre en oeuvre et diffuser l'accessibilité numérique, l'éco-conception numérique et la loi d'erooM.
 
+Je ne suis pas contre l'utilisation de ces technologies pour autant.
+Je considère qu'il est important de l'utiliser de façon consciente, éthique, avec transparence sur les données d'entrainement des modèles.
+
+Pour moi, les usages de ces technologies consommatrices en ressources et énergies doivent être restreints à des problèmes où les bénéfices dépassent largement les externalités négatives qu'ils engendrent.
+
 Je me reconnais dans [le "AI manifesto"](https://www.bydamo.la/p/ai-manifesto).
