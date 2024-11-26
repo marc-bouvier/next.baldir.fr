@@ -13,14 +13,13 @@
 <header>
     <nav class="header-skip-content">
         <ul>
-          <li><a href="#content">Contenu</a></li>
-          <li><a href="#search">Recherche</a></li>
-          <li><a href="#menu">Menu</a></li>
+            <li><a href="#content">Contenu</a></li>
+            <li><a href="#search">Recherche</a></li>
+            <li><a href="#menu">Menu</a></li>
         </ul>
     </nav>
     <div role="banner">
-        <h1 style="margin: .25rem .5rem;"><a href="/">Baldir</a></h1>
-        <span>Marc Bouvier</span>
+        <div style="margin: .25rem .5rem; margin-left:0; font-size: larger"><a href="/">Marc Bouvier (Baldir)</a></div>
     </div>
     <p style="font-size: small">{{global.description}}</p>
     <nav id="menu" role="menu">
@@ -36,7 +35,7 @@
     <div id="search"></div>
     <script>
         window.addEventListener('DOMContentLoaded', (event) => {
-            new PagefindUI({ element: "#search", showSubResults: true, showImages: false });
+            new PagefindUI({element: "#search", showSubResults: true, showImages: false});
         });
     </script>
     <data-pagefind-body  ></data-pagefind-body>
