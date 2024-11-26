@@ -38,9 +38,8 @@
             new PagefindUI({element: "#search", showSubResults: true, showImages: false});
         });
     </script>
-    <data-pagefind-body  ></data-pagefind-body>
 </header>
-<main id="content">
+<main id="content" data-pagefind-body {% if draft and draft==true %} data-pagefind-ignore {% endif %}>
     {{content}}
 </main>
 <hr/>
