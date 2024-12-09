@@ -4,7 +4,11 @@ body {
     margin: 0 auto;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
-
+hr{
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #c0c0c0;
+}
 a {
     color: sienna;
 }
