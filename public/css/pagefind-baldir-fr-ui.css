@@ -451,7 +451,8 @@ legend {
 }
 
 .pagefind-ui__search-input::placeholder {
-    opacity: .2
+    opacity: 1;
+    color : #757575; /* minimal contrast ratio (4.6) for AA rating */
 }
 
 .pagefind-ui__search-clear {
