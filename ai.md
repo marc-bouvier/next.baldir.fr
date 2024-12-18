@@ -3,6 +3,8 @@ layout: layout.html
 title: Utilisation des outils "AI"
 ---
 
+# {{title}}
+
 Aucun des posts ou des illustrations créées sur ce site n'a été généré par des LLM.
 
 J'utilise parfois à la marge des outils s'appuyant sur des grands modèles de langage durant mes recherches et le développement de ce site.
