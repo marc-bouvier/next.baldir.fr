@@ -36,4 +36,4 @@ Je considère qu'il est important de l'utiliser de façon consciente, éthique, 
 
 Pour moi, les usages de ces technologies consommatrices en ressources et énergies doivent être restreints à des problèmes pour lesquels les bénéfices dépassent largement les externalités négatives qu'ils engendrent.
 
-Je me reconnais dans [le "AI manifesto"](https://www.bydamo.la/p/ai-manifesto). [D'autres sites](https://slashai.page/) qui ont écrit une page `/ai`
+Je me reconnais dans [le "`/ai` manifesto"](https://www.bydamo.la/p/ai-manifesto). Retrouvez [d'autres sites](https://slashai.page/) qui ont écrit une page  `/ai`
