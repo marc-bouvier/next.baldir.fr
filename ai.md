@@ -17,6 +17,7 @@ J'en fais le détail ci-dessous :
 - Quand je fais évoluer ce site, j'utilise parfois [le modèle local de complétion de code sur une ligne de la suite Jetbrains](https://www.jetbrains.com/help/idea/full-line-code-completion.html)
 - J'utilise les plugins intégrés de la suite jetbrains pour améliorer le tri des résultats de recherche et de la complétion (plugins "Machine Learning in Search-Everywhere", "Machine Learning Code Completion")
 - J'utilise parfois la fonctionnalité de génération de sous-titres de l'outil "Capcut" dans le cadre de production audiovisuelle pour la promotion de mon activité et celle du meetup [Software Craft Strasbourg](https://swcraftstras.github.io/). C'est un cas ou je considère que le bénéfice pour [l'accessibilité](/glossaire/accessibilite-numerique) est plus important que les inconvénients (je n'ai actuellement pas l'énergie ni les moyens de sous-titrer ce contenu de façon traditionnelle aujourd'hui). Je repasse toujours après ces outils pour faire les modifications nécessaires ;
+- [Edit 2025-01-03] j'essaie en ce moment [le système de transcription de Apple Notes](https://support.apple.com/fr-fr/guide/notes/apdb5106e334/4.11/mac/15.0#apdf7fd2b23a) basé sur un modèle hors ligne. Je ne sais pas sur quel données le modèle a été entrainé (hypothèse : Apple Podcast et ITunes) ;
 
 
 ## Ma position
