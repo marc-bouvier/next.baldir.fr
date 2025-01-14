@@ -104,6 +104,8 @@ export default function (eleventyConfig) {
 
     // Copy static styles as is
     eleventyConfig.addPassthroughCopy("public/css");
+    // Copy static documents as is
+    eleventyConfig.addPassthroughCopy("public/pdf");
 
     // Required to support --pathprefix
     eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
