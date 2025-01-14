@@ -102,6 +102,7 @@ pre {
     border-color: orange;
     background-color: papayawhip;
     color: sienna;
+    text-wrap-mode: nowrap;
 }
 
 .modify-from-sources {
