@@ -5,7 +5,7 @@ description: Le 7 janvier 2025 j’ai répondu à une interview proposée par Ra
 tags:
   - Innovation
   - Simplicité
-  - Eprit-critique
+  - Esprit-critique
   - Opinion
   - Machine-learning
   - Transparence
@@ -14,7 +14,9 @@ tags:
   - Sobriété-numérique
 stub: false
 draft: false
-date_updated: 2025-01-14T10:28
+date_updated: 2025-01-14T10:41
+cover_image: /public/img/cover_images/canard.gif
+cover_image_alt: Dessin d’un canard avec un chapeau de sorcier
 ---
 Vous pouvez retrouver la vidéo youtube par ici : https://www.youtube.com/watch?v=G4MghElfJys
 
