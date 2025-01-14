@@ -1,6 +1,8 @@
 ---
 layout: layout.html
 title: Utilisation des outils "AI"
+date: 2025-01-14T10:20
+date_updated: 2025-01-14T10:31
 ---
 
 # {{title}}
@@ -38,3 +40,5 @@ Je considère qu'il est important de l'utiliser de façon consciente, éthique, 
 Pour moi, les usages de ces technologies consommatrices en ressources et énergies doivent être restreints à des problèmes pour lesquels les bénéfices dépassent largement les externalités négatives qu'ils engendrent.
 
 Je me reconnais dans [le "`/ai` manifesto"](https://www.bydamo.la/p/ai-manifesto). Retrouvez [d'autres sites](https://slashai.page/) qui ont écrit une page  `/ai`
+
+Retrouvez une version un peu plus élaborée de ma position dans [une interview vidéo de 1h donnée par Reboot Conseil](https://baldir.fr/notes/2025-01-14_podcast-reboot-slash-ai-manifesto/).
