@@ -144,6 +144,7 @@ export default function (eleventyConfig) {
 
         // output image formats
         formats: ["webp",  "auto"],
+        // formats: [  "auto"],
 
         // output image widths
         widths: ["280", "580", "920",  "auto"],
@@ -162,7 +163,17 @@ export default function (eleventyConfig) {
         sharpPngOptions: {
             palette: true,
             colours: 32,
-        }
+        },
+
+        sharpWebpOptions: {
+            quality: 50,
+            alphaQuality: 50,
+            lossless: false,
+            nearLossless: false,
+            smartSubsample: false,
+            effort: 4, // CPU effort, between 0 (fastest) and 6 (slowest)
+        },
+
     })
 
     // Support yaml data files : https://www.11ty.dev/docs/data-custom/#yaml
