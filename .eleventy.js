@@ -24,7 +24,7 @@ export default function (eleventyConfig) {
 
     eleventyConfig.addFilter("toLocaleTimeStringFr", function (date) {
         return new Date(date).toLocaleTimeString("fr-FR",
-            {hour: "2-digit", minute: "2-digit",timeZone:"CET"})
+            {hour: "2-digit", minute: "2-digit", timeZone: "CET"})
     });
 
     eleventyConfig.addFilter("toLocaleStringFrShort", function (date) {
@@ -104,6 +104,8 @@ export default function (eleventyConfig) {
 
     // Copy static styles as is
     eleventyConfig.addPassthroughCopy("public/css");
+    // Copy static documents as is
+    eleventyConfig.addPassthroughCopy("public/pdf");
 
     // Required to support --pathprefix
     eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
@@ -140,10 +142,10 @@ export default function (eleventyConfig) {
         extensions: "html",
 
         // output image formats
-        formats: ["webp", "jpeg", "png", "auto"],
+        formats: ["webp", "auto"],
 
         // output image widths
-        widths: ["320", "640", "800", "1024", "auto"],
+        widths: ["280", "580", "920",  "auto"],
 
         // attributes assigned on <img> override these values.
         defaultAttributes: {
@@ -154,7 +156,22 @@ export default function (eleventyConfig) {
 
         sharpOptions: {
             animated: true,
-        }
+        },
+
+        sharpPngOptions: {
+            palette: true,
+            colours: 32,
+        },
+
+        sharpWebpOptions: {
+            quality: 50,
+            alphaQuality: 50,
+            lossless: false,
+            nearLossless: false,
+            smartSubsample: false,
+            effort: 4, // CPU effort, between 0 (fastest) and 6 (slowest)
+        },
+
     })
 
     // Support yaml data files : https://www.11ty.dev/docs/data-custom/#yaml

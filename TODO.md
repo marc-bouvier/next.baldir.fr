@@ -26,7 +26,9 @@ Options (pas mutuellement exclusives)
 
 ## Ressources et possibilités en vrac
 
+- [ ] Making of moteur de recherche
 
+- [ ] Essayer de passer à Deno ?
 
 - [x] Rendre l'affichage des actualités plus lisibles.
   - [x] limiter le nombre d'actus
