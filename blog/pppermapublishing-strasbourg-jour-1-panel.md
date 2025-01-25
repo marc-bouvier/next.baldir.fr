@@ -12,10 +12,11 @@ tags:
   - Bidouillage
   - Frugalité
   - Logiciel-libre
-description: "Ma prise de note de PPPermabublishing qui a eu lieu les 28 et 29 octobre 2024 à Strasbourg"
+description: Ma prise de note de PPPermabublishing qui a eu lieu les 28 et 29 octobre 2024 à Strasbourg
 draft: true
 cover_image: /public/img/pre-post-print-logo.png
 cover_image_alt: Logo PrePostPrint
+date_updated: 2025-01-25T19:10
 ---
 
 [PPPermabublishing Strasbourg](https://pouet.chapril.org/@prepostprint@post.lurk.org/113214495560311763)  - [prepostprint.org](https://prepostprint.org/) - [#PPPermapublishing](https://pouet.chapril.org/tags/PPPermapublishing)

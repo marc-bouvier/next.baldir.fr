@@ -1,10 +1,11 @@
 ---
 title: swcraft-strasbourg
-date: 
+date: 2025-01-25T19:10
 tags: 
 description: ""
 stub: false
 draft: true
+date_updated: 2025-01-25T19:10
 ---
 
 Création du squelette

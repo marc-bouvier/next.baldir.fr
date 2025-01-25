@@ -6,6 +6,7 @@ tags:
   - Open-source
 description: "Découvrons la startup d'état “Data.subvention”: sa mission, sa base de code. Embarquons-nous comme si c’était notre premier jour."
 draft: false
+date_updated: 2025-01-25T19:10
 ---
 
 Je poursuis ma quête pour travailler dans des organisations à fort impact social.

@@ -9,6 +9,7 @@ tags:
   - How-to
   - Java
 draft: false
+date_updated: 2025-01-25T19:10
 ---
 Dans cet article, In this article, l'auteur propose une façon d'implémenter [Event-Sourcing](/glossaire/event-sourcing) avec Kafka, et RabbitMQ et JPA en Java. 
 

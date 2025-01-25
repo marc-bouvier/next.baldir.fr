@@ -1,11 +1,12 @@
 ---
-title: "Construire des index pour apprendre"
+title: Construire des index pour apprendre
 date: 2023-01-25
-description: "Les index pour apprendre me permet de “stocker” des sujets pour savoir qu’ils existent et m’y référer en cas de besoin."
+description: Les index pour apprendre me permet de “stocker” des sujets pour savoir qu’ils existent et m’y référer en cas de besoin.
 tags:
-- Base-de-connaissances
-- Développeur-généraliste
-- Second-cerveau
+  - Base-de-connaissances
+  - Développeur-généraliste
+  - Second-cerveau
+date_updated: 2025-01-25T19:10
 ---
 
 En tant que développeur généraliste, je ne peux pas toujours creuser l’ensemble des sujets que je rencontre.

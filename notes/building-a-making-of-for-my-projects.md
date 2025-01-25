@@ -6,6 +6,7 @@ tags:
 description: ""
 stub: true
 draft: true
+date_updated: 2025-01-25T19:10
 ---
 # Building a making-of for my projects
 

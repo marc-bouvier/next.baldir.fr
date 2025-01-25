@@ -1,9 +1,10 @@
 ---
-title: "Ébauches d’articles"
+title: Ébauches d’articles
 date: 2024-09-18T23:29:29+02:00
 description: ""
 tags:
   - 11ty
+date_updated: 2025-01-25T19:10
 ---
 
 

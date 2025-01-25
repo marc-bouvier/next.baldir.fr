@@ -1,5 +1,5 @@
 ---
-title: "Live template pour échapper du code liquid"
+title: Live template pour échapper du code liquid
 date: 2024-09-24T17:32:21+02:00
 tags:
   - Liquid
@@ -10,6 +10,7 @@ tags:
   - How-to
   - DX
   - Raccourcis
+date_updated: 2025-01-25T19:10
 ---
 
 - Abbréviation : `liquid-escape`

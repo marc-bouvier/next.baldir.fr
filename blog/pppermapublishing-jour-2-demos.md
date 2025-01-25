@@ -9,6 +9,7 @@ tags:
 description: Démos du 2ème jour de PPPermapublishing à Strasbourg le dimanche 29 octobre 2024.
 stub: false
 draft: true
+date_updated: 2025-01-25T19:10
 ---
 ## Build a storyboard tool
 

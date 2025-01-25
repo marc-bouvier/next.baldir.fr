@@ -12,6 +12,7 @@ stub: false
 draft: false
 cover_image: /public/img/cover_images/gdcr-2024-glider.gif
 cover_image_alt: "Un Glider (“Flotteur”) du Jeu de la Vie de Conway se déplace par dessus un texte en arrière plan : “Global Day of Code Retreat”."
+date_updated: 2025-01-25T19:10
 ---
 
 Chaque année en novembre des milliers de développeurs et développeuses se réunissent pour participer à "Global Day of Code Retreat".

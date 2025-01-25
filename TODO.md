@@ -1,7 +1,9 @@
 ---
-title: "Devenir de baldir.fr"
-description: "Reflexions et prochaines évolutions possibles"
-layout: "default.html"
+title: Devenir de baldir.fr
+description: Reflexions et prochaines évolutions possibles
+layout: default.html
+date: 2025-01-25T19:10
+date_updated: 2025-01-25T19:10
 ---
 
 ## Réflexions en cours

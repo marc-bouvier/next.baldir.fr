@@ -6,6 +6,7 @@ tags:
   - Métaphore
 description: Quelle est la différence entre un développeur est un archéologue ?
 draft: true
+date_updated: 2025-01-25T19:10
 ---
 
 L'archéologue cherche, découvre et étudie des artéfacts anciens.

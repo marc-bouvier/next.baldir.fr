@@ -12,6 +12,7 @@ stub: false
 draft: false
 cover_image: /public/img/uiua-game-of-life.png
 cover_image_alt: Le jeu de la vie de Conway écrit en quelques lignes de Uiua. Un langage de programmation très compact utilisant des glyphes.
+date_updated: 2025-01-25T19:10
 ---
 [Les langages ésotériques](/glossaire/langage-esoterique) sont issus de blagues. 
 Je les apprécie, car ils me permettent de sortir considérablement de ma zone de confort.

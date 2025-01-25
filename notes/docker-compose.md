@@ -1,6 +1,6 @@
 ---
 date: 2025-01-25T18:25
-date_updated: 2025-01-25T19:02
+date_updated: 2025-01-25T19:10
 tags:
   - Cheat-sheet
   - PostgreSQL

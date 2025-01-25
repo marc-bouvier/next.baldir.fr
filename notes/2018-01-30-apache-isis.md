@@ -1,10 +1,11 @@
 ---
-title: "Apache Isis - Domain driven applications"
+title: Apache Isis - Domain driven applications
 date: 2018-01-30
-description: "Apache Isis propose une approche pour construire des applications centrées sur les objets du métier."
-tags: 
+description: Apache Isis propose une approche pour construire des applications centrées sur les objets du métier.
+tags:
   - Domain-Driven-Design
   - Framework
+date_updated: 2025-01-25T19:10
 ---
 
 [Apache Isis ](https://isis.apache.org/index.html) propose une approche pour construire des applications centrées sur les objets du métier.
