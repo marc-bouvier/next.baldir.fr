@@ -25,7 +25,7 @@ a:focus-visible, input:focus-visible{
 }
 
 #search{
-  margin:.375rem;
+    margin: 1rem .375rem .375rem;
 }
 blockquote {
     margin-inline: 0px;
