@@ -24,7 +24,7 @@ ffmpeg -i "2025-02-03 09-00-38.mkv" \
 
 - `-codec copy` pour copier le stream sans réencoder
 
-Ré-encoder une vidéo avec lix264, garder le son tel quel.
+Ré-encoder une vidéo avec libx264, garder le son tel quel.
 En général la taille du fichier est considérablement réduite (env 5x moins par rapport à h264 (high)) pour une qualité similaire.
 Lors de la lecture, libx264 semble utiliser un peu plus de CPU (+4%).
 
