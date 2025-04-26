@@ -31,7 +31,7 @@ Romeu propose de faire le parallèle avec la lecture du code.
 
 ### Lire du code sous l'influence de ses émotions
 
-Extension du [rasoir de Hanlon](/glossaire/rasoir-de-hanlon) par Romeu :
+Extension du [rasoir de Hanlon](/citation/rasoir-de-hanlon) par Romeu :
 
 > Ne pas attribuer à la malveillance ce que la bêtise peut expliquer.
 
@@ -237,7 +237,7 @@ Des fois c'est plus colérique, triste, désespéré.
 
 Parlons de ça.
 
-Est-ce que vous connaissez le [rasoir de Hanlon](/glossaire/rasoir-de-hanlon) ?
+Est-ce que vous connaissez le [rasoir de Hanlon](/citation/rasoir-de-hanlon) ?
 
 > « Ne jamais attribuer à la malveillance ce que la bêtise suffit à expliquer. »
 > 
