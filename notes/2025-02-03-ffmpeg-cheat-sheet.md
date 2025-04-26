@@ -6,8 +6,7 @@ tags:
   - Ffmpeg
   - Cheat-sheet
 description: Petites astuces pour manipuler vidéo et son en ligne de commande
-stub: false
-draft: false
+permalink: cheat-sheets/ffmpeg/
 ---
 
 ## Couper une vidéo

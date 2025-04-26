@@ -1,11 +1,12 @@
 ---
+title: Antisèche Docker Compose
 date: 2025-01-25T18:25
 date_updated: 2025-01-25T19:10
 tags:
   - Cheat-sheet
   - PostgreSQL
   - Docker
-title: Docker compose cheat sheet
+permalink: cheat-sheets/docker-compose/
 cover_image: /public/img/cover_images/docker.gif
 cover_image_alt: La mascotte Docker redessinée par mes soins
 ---

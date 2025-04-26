@@ -1,5 +1,5 @@
 ---
-title: Nginx Cheat Sheet
+title: Antisèche Nginx
 date: 2024-10-15T15:38:00
 description: Référence rapide des choses que j’oublie quand j’utilise le serveur web Nginx
 tags:
@@ -7,6 +7,7 @@ tags:
   - Infrastructure
   - Architecture
   - Cheat-sheet
+permalink: cheat-sheets/nginx/
 stub: true
 draft: false
 ---
