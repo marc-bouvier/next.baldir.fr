@@ -19,7 +19,7 @@ Contraintes :
 Options (pas mutuellement exclusives)
 
 - Traduire des articles de référence / pratiques en français ; (ex. [traduction du concept de dojo de programmation]())
-- Transcrire des vidéos en français ; (ex. [transcription et synthèse de la présentation “Lire du code sous l’influence de ses émotion de Romeu Moura”)](/blog/lire-du-code-sous-l-influence-de-ses-emotions))
+- Transcrire des vidéos en français ; (ex. [transcription et synthèse de la présentation “Lire du code sous l’influence de ses émotion de Romeu Moura”)](/blog/2024-10-12-lire-du-code-sous-l-influence-de-ses-emotions))
 - Glossaire Français / Anglais du jargon technique : pour aider chacun à connaitre les mots pour faire des recherches par eux-même
 - Contribuer à [Wikipédia](https://fr.wikipedia.org/) ? 
 
