@@ -5,7 +5,7 @@ tags:
 description: ""
 stub: false
 draft: true
-date_updated: 2025-01-25T19:10
+permalink: blog/un-jeu-de-cartes-a-imprimer-en-html-css/
 ---
 
 

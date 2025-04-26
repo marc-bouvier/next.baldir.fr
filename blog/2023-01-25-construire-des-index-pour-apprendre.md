@@ -7,6 +7,7 @@ tags:
   - Développeur-généraliste
   - Second-cerveau
 date_updated: 2025-01-25T19:10
+permalink: blog/construire-des-index-pour-apprendre/
 ---
 
 En tant que développeur généraliste, je ne peux pas toujours creuser l’ensemble des sujets que je rencontre.

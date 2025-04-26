@@ -12,8 +12,6 @@ tags:
   - Interview
   - Frugalité
   - Sobriété-numérique
-stub: false
-draft: false
 date_updated: 2025-01-14T10:41
 cover_image: /public/img/cover_images/canard.gif
 cover_image_alt: Dessin d’un canard avec un chapeau de sorcier

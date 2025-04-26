@@ -11,6 +11,7 @@ tags:
 cover_image: /public/img/cover_images/partager-avec-soin.png
 cover_image_alt: Baldir le mage écrit avec un crayon sur une feuille blanche
 date_updated: 2025-01-25T19:10
+permalink: blog/partager-avec-soin/
 ---
 
 J’aime bien partager les trouvailles que je fais.

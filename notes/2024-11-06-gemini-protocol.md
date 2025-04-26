@@ -7,8 +7,6 @@ tags:
   - Simplicité
   - Permacomputing
   - Sobriété-numérique
-stub: false
-draft: false
 ---
 https://geminiprotocol.net/
 

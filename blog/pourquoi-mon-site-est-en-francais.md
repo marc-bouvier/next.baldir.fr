@@ -9,6 +9,7 @@ tags:
 description: ""
 stub: true
 date_updated: 2025-01-25T19:10
+permalink: blog/pourquoi-mon-site-est-en-francais/
 ---
 
 

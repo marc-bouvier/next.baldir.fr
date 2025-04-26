@@ -11,9 +11,8 @@ tags:
   - Innovation
   - Simplicité
   - Vim
-stub: false
-draft: false
 ---
+
 No Build : Pas de bundle js, pas de bundle CSS, Pas de transpilation
 
 https://youtu.be/-cEn_83zRFw?feature=shared&t=656

@@ -6,8 +6,6 @@ tags:
   - Github
   - Ligne-de-commande
 description: Une petite commande qui permet de publier un dépôt git existant sur GitHub en s'appuyant sur la ligne de commande `gh`
-stub: true
-draft: true
 ---
 
 Installer et configurer [la commande `gh`](https://cli.github.com/).

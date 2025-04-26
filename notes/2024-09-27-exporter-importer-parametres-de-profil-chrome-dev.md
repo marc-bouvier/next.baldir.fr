@@ -5,8 +5,6 @@ description: J'utilise plusieurs profils dans mon mon navigateur basé sur Chrom
 tags:
   - Productivité
   - Chrome
-stub: false
-draft: false
 ---
 
 chrome://version/

@@ -9,6 +9,7 @@ description: Démos du 2ème jour de PPPermapublishing à Strasbourg le samedi 2
 stub: false
 draft: true
 date_updated: 2025-01-25T19:10
+permalink: blog/pppermapublishing-jour-1-demos/
 ---
 
 ## Démos

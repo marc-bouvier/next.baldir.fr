@@ -8,7 +8,6 @@ tags:
 description: Raccourcis des éditeurs Jetbrains que j'oublie en permanence
 permalink: cheat-sheets/jetbrains/
 stub: true
-draft: false
 ---
 
 Curseurs multiples.

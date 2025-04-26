@@ -6,7 +6,7 @@ tags:
 - Rust
 - Cli
 - Terminal
-stub: "true"
+stub: true
 permalink: "blog/outils-en-ligne-de-commande-reecrits-en-rust/"
 date_updated: 2025-04-26T20:11:44+02:00
 ---

@@ -9,6 +9,7 @@ tags:
   - Bidouillage
   - Onboarding
 date_updated: 2025-01-25T19:10
+permalink: blog/
 ---
 
 [HackSxb](https://www.hacksxb.com/), c’est la communauté de développeurs et makers à Strasbourg portée par [Alsace Digitale](https://www.alsacedigitale.org/). 

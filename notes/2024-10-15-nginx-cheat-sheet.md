@@ -9,7 +9,6 @@ tags:
   - Cheat-sheet
 permalink: cheat-sheets/nginx/
 stub: true
-draft: false
 ---
 
 Voir aussi [nginx](/glossaire/nginx) - une autre [cheat sheet existante](https://github.com/SimulatedGREG/nginx-cheatsheet).

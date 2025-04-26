@@ -11,6 +11,7 @@ tags:
 cover_image: /public/img/cover_images/lire-du-code-sous-l-influence-de-ses-emotions.png
 cover_image_alt: Lire du code sous l’influence de ses émotions. Propositions du livre ”How to read a book” appliqués au code.
 date_updated: 2025-01-25T19:10
+permalink: blog/lire-du-code-sous-l-influence-de-ses-emotions/
 ---
 [Vidéo Youtube de la présentation](https://www.youtube.com/watch?v=KSAn98i44S0) | [Board Excalidraw de la présentation](https://excalidraw.com/#room=0855769e48e79c0c12fc,qIEKzaL8rEGRMkPOdQzbOw)
 

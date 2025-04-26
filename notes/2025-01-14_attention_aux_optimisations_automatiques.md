@@ -1,14 +1,12 @@
 ---
 title: Attention aux optimisations automatiques
 date: 2025-01-14T11:01:20+01:00
-description: Parfois les optimisations automatiques sont conteproductives
+description: Parfois les optimisations automatiques sont conte productives
 tags:
   - Simplicité
   - Frugalité
   - Sobriété-numérique
   - Optimisation
-stub: false
-draft: false
 date_updated: 2025-01-25T18:25
 cover_image: /public/img/cover_images/canard.gif
 cover_image_alt: Dessin d’un canard, sujet de l’optimisation dans l’article

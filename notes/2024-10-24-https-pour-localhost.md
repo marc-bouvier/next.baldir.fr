@@ -7,8 +7,7 @@ tags:
   - Administration-système
   - Expérience-développeur
   - How-to
-stub: false
-draft: false
 ---
+
 https://letsencrypt.org/fr/docs/certificates-for-localhost/#pour-le-d%C3%A9veloppement-local
 

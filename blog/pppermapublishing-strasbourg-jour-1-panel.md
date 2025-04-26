@@ -17,6 +17,7 @@ draft: true
 cover_image: /public/img/pre-post-print-logo.png
 cover_image_alt: Logo PrePostPrint
 date_updated: 2025-01-25T19:10
+permalink: blog/pppermapublishing-strasbourg-jour-1-panel.md/
 ---
 
 [PPPermabublishing Strasbourg](https://pouet.chapril.org/@prepostprint@post.lurk.org/113214495560311763)  - [prepostprint.org](https://prepostprint.org/) - [#PPPermapublishing](https://pouet.chapril.org/tags/PPPermapublishing)
