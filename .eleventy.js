@@ -36,6 +36,9 @@ export default function (eleventyConfig) {
         return new Date(date).toISOString()
     });
 
+    eleventyConfig.addCollection("rss_feeds", function (collectionApi) {
+        return collectionApi.getAll()[0].data.rss_feeds
+    });
 
     eleventyConfig.addCollection("blog", function (collectionApi) {
         return collectionApi.getFilteredByGlob(["blog/*.md", "blog/*.html"]);
@@ -145,7 +148,7 @@ export default function (eleventyConfig) {
         formats: ["webp", "auto"],
 
         // output image widths
-        widths: ["280", "580", "920",  "auto"],
+        widths: ["280", "580", "920", "auto"],
 
         // attributes assigned on <img> override these values.
         defaultAttributes: {

@@ -1,0 +1,891 @@
+title: string
+dateCreated: "2026-02-01T18:52:36+01:00"
+ownerName: "Marc Bouvier"
+ownerEmail: "blog@baldir.fr"
+docs: "https://opml.org/spec2.opml"
+outlines:
+- text: Allen Pike
+  title: Allen Pike
+  description: ''
+  type: rss
+  version: RSS
+  htmlUrl: ''
+  xmlUrl: 'https://feeds.allenpike.com/feed/'
+- text: Artisan Développeur
+  title: Artisan Développeur
+  description: ''
+  type: rss
+  version: RSS
+  htmlUrl: ''
+  xmlUrl: 'https://compagnon.artisandeveloppeur.fr/feed.xml'
+- text: Blog Title
+  title: Blog Title
+  description: ''
+  type: rss
+  version: RSS
+  htmlUrl: 'https://example.com/'
+  xmlUrl: 'https://baldir.fr/feed.xml'
+- text: Bon Pote
+  title: Bon Pote
+  description: ''
+  type: rss
+  version: RSS
+  htmlUrl: 'https://bonpote.com/'
+  xmlUrl: 'https://bonpote.com/feed/'
+- text: Colossal
+  title: Colossal
+  description: ''
+  type: rss
+  version: RSS
+  htmlUrl: 'https://www.thisiscolossal.com/'
+  xmlUrl: 'https://www.thisiscolossal.com/feed/'
+- text: Dans les algorithmes
+  title: Dans les algorithmes
+  description: ''
+  type: rss
+  version: RSS
+  htmlUrl: 'https://danslesalgorithmes.net/'
+  xmlUrl: 'https://danslesalgorithmes.net/feed/'
+- text: Daring Fireball
+  title: Daring Fireball
+  description: ''
+  type: rss
+  version: RSS
+  htmlUrl: 'https://daringfireball.net/'
+  xmlUrl: 'https://daringfireball.net/feeds/json'
+- text: Feeder News
+  title: Feeder News
+  description: ''
+  type: rss
+  version: RSS
+  htmlUrl: ''
+  xmlUrl: 'https://news.nononsenseapps.com/index.atom'
+- text: furbo.org
+  title: furbo.org
+  description: ''
+  type: rss
+  version: RSS
+  htmlUrl: 'https://furbo.org/'
+  xmlUrl: 'https://furbo.org/feed/json'
+- text: HTeuMeuLeu
+  title: HTeuMeuLeu
+  description: ''
+  type: rss
+  version: RSS
+  htmlUrl: 'https://www.hteumeuleu.fr/'
+  xmlUrl: 'https://www.hteumeuleu.fr/feed/'
+- text: inessential
+  title: inessential
+  description: ''
+  type: rss
+  version: RSS
+  htmlUrl: 'https://inessential.com/'
+  xmlUrl: 'https://inessential.com/feed.json'
+- text: Julia Evans
+  title: Julia Evans
+  description: ''
+  type: rss
+  version: RSS
+  htmlUrl: ''
+  xmlUrl: 'https://jvns.ca/atom.xml'
+- text: kottke.org
+  title: kottke.org
+  description: ''
+  type: rss
+  version: RSS
+  htmlUrl: 'https://kottke.org/'
+  xmlUrl: 'http://feeds.kottke.org/json'
+- text: Le blog de /ut7
+  title: Le blog de /ut7
+  description: ''
+  type: rss
+  version: RSS
+  htmlUrl: 'https://ut7.fr/blog/'
+  xmlUrl: 'https://ut7.fr/blog/rss.xml'
+- text: 'less code, more software'
+  title: 'less code, more software'
+  description: ''
+  type: rss
+  version: RSS
+  htmlUrl: 'https://jonjagger.blogspot.com/'
+  xmlUrl: 'https://jonjagger.blogspot.com/feeds/posts/default?alt=rss'
+- text: Michael Tsai
+  title: Michael Tsai
+  description: ''
+  type: rss
+  version: RSS
+  htmlUrl: 'https://mjtsai.com/blog'
+  xmlUrl: 'https://mjtsai.com/blog/feed/'
+- text: moser’s frame shop
+  title: moser’s frame shop
+  description: ''
+  type: rss
+  version: RSS
+  htmlUrl: 'http://anthonymoser.github.io/writing/'
+  xmlUrl: 'https://anthonymoser.github.io/writing/feed.xml'
+- text: NetNewsWire
+  title: NetNewsWire
+  description: ''
+  type: rss
+  version: RSS
+  htmlUrl: 'https://netnewswire.blog/'
+  xmlUrl: 'https://netnewswire.blog/feed.json'
+- text: Nutcache
+  title: Nutcache
+  description: ''
+  type: rss
+  version: RSS
+  htmlUrl: ''
+  xmlUrl: 'https://www.nutcache.com/fr/feed/'
+- text: Octopuce
+  title: Octopuce
+  description: ''
+  type: rss
+  version: RSS
+  htmlUrl: 'https://www.octopuce.fr/'
+  xmlUrl: 'https://www.octopuce.fr/feed/'
+- text: 'Pluralistic: Daily links from Cory Doctorow'
+  title: 'Pluralistic: Daily links from Cory Doctorow'
+  description: ''
+  type: rss
+  version: RSS
+  htmlUrl: 'https://pluralistic.net/'
+  xmlUrl: 'https://pluralistic.net/feed/'
+- text: Six Colors
+  title: Six Colors
+  description: ''
+  type: rss
+  version: RSS
+  htmlUrl: 'https://sixcolors.com/'
+  xmlUrl: 'https://feedpress.me/sixcolors?type=xml'
+- text: Tech Lead Journal
+  title: Tech Lead Journal
+  description: ''
+  type: rss
+  version: RSS
+  htmlUrl: 'https://techleadjournal.dev/'
+  xmlUrl: 'https://techleadjournal.dev/index.xml'
+- text: Vlad Mihalcea
+  title: Vlad Mihalcea
+  description: ''
+  type: rss
+  version: RSS
+  htmlUrl: 'https://vladmihalcea.com/'
+  xmlUrl: 'https://vladmihalcea.com/feed/'
+- text: Accessibilité
+  title: Accessibilité
+  _children:
+  - text: Copsaé
+    title: Copsaé
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: 'https://www.copsae.fr/'
+    xmlUrl: 'https://www.copsae.fr/feed/'
+  - text: La Lutine du Web
+    title: La Lutine du Web
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: 'https://www.lalutineduweb.fr/'
+    xmlUrl: 'https://www.lalutineduweb.fr/feed/'
+  - text: Technology in government
+    title: Technology in government
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: 'https://technology.blog.gov.uk/'
+    xmlUrl: 'https://technology.blog.gov.uk/feed/'
+- text: Agile
+  title: Agile
+  _children:
+  - text: Crisp's Blog
+    title: Crisp's Blog
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: 'https://blog.crisp.se/'
+    xmlUrl: 'https://blog.crisp.se/feed'
+  - text: Event Storming Journal
+    title: Event Storming Journal
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: 'https://www.eventstormingjournal.com/'
+    xmlUrl: 'https://www.eventstormingjournal.com/feed.xml'
+  - text: 'L''agilité, radicale on L''agilité radicale'
+    title: 'L''agilité, radicale on L''agilité radicale'
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: 'https://blog.agileradical.org/'
+    xmlUrl: 'https://agileradical.org/index.xml'
+  - text: ronjeffries.com
+    title: ronjeffries.com
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: 'https://ronjeffries.com/'
+    xmlUrl: 'https://ronjeffries.com/feed.xml'
+  - text: socraft
+    title: socraft
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: ''
+    xmlUrl: 'https://blog.socraft.ch/rss/'
+  - text: Welcome to DNA on Dan North &amp; Associates Limited
+    title: Welcome to DNA on Dan North &amp; Associates Limited
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: 'https://dannorth.net/'
+    xmlUrl: 'https://dannorth.net/index.xml'
+- text: Design Web
+  title: Design Web
+  _children:
+  - text: Derniers articles du blog de Joachim
+    title: Derniers articles du blog de Joachim
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: "https://fourbi.eu/"
+    xmlUrl: "http://blog.professeurjoachim.com/feed.xml"
+- text: Dev
+  title: Dev
+  _children:
+  - text: BeyondxScratch
+    title: BeyondxScratch
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: 'https://beyondxscratch.com/'
+    xmlUrl: 'https://beyondxscratch.com/feed/'
+  - text: Blog of Jeroen De Dauw
+    title: Blog of Jeroen De Dauw
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: 'https://www.entropywins.wtf/blog/'
+    xmlUrl: 'https://www.entropywins.wtf/blog/feed/'
+  - text: ChocolateDrivenDevelopment
+    title: ChocolateDrivenDevelopment
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: ''
+    xmlUrl: 'https://www.chocolatedrivendevelopment.com/blog-feed.xml'
+  - text: Mistaeks I Hav Made
+    title: Mistaeks I Hav Made
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: 'http://natpryce.com/'
+    xmlUrl: 'http://natpryce.com/news.feed'
+  - text: Tariq KRIM’s Official website
+    title: Tariq KRIM’s Official website
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: 'https://www.tariqkrim.com/'
+    xmlUrl: 'https://www.tariqkrim.com/rss/'
+  - text: Walid Debbech
+    title: Walid Debbech
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: ''
+    xmlUrl: 'https://debbeca.github.io/atom.xml'
+- text: Developpeur Généraliste
+  title: Developpeur Généraliste
+  _children:
+  - text: '@hgraca'
+    title: '@hgraca'
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: 'https://herbertograca.com/'
+    xmlUrl: 'https://herbertograca.com/feed/'
+  - text: Atelier Logiciel Sandré
+    title: Atelier Logiciel Sandré
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: 'https://enzosandre.fr/'
+    xmlUrl: 'https://enzosandre.fr/feed_french.xml'
+  - text: Azaé
+    title: Azaé
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: ''
+    xmlUrl: 'http://azaé.net/index.xml'
+  - text: Blog - Sebastian Daschner
+    title: Blog - Sebastian Daschner
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: 'https://blog.sebastian-daschner.com/'
+    xmlUrl: 'https://blog.sebastian-daschner.com/feeds/rss'
+  - text: Brain Baking
+    title: Brain Baking
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: 'https://brainbaking.com/'
+    xmlUrl: 'https://brainbaking.com/index.xml'
+  - text: Chelsea Troy
+    title: Chelsea Troy
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: 'https://chelseatroy.com/'
+    xmlUrl: 'https://chelseatroy.com/feed/'
+  - text: fasterthanli.me
+    title: fasterthanli.me
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: ''
+    xmlUrl: 'https://fasterthanli.me/index.xml'
+  - text: Hillel Wayne
+    title: Hillel Wayne
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: 'https://www.hillelwayne.com/'
+    xmlUrl: 'https://www.hillelwayne.com/index.xml'
+  - text: Les \ Articles  on Azaé
+    title: Les \ Articles  on Azaé
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: 'https://azae.net/articles/'
+    xmlUrl: 'https://azae.net/articles/index.xml'
+  - text: Maël
+    title: Maël
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: 'https://boitam.eu/@maeool'
+    xmlUrl: 'https://boitam.eu/@maeool.rss'
+  - text: OCTO Talks !
+    title: OCTO Talks !
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: 'https://blog.octo.com/'
+    xmlUrl: 'https://blog.octo.com/feed/'
+  - text: p2m3ng'
+    title: p2m3ng'
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: ''
+    xmlUrl: 'http://p2m3ng.com/feed/rss'
+  - text: ploeh blog
+    title: ploeh blog
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: 'https://blog.ploeh.dk/'
+    xmlUrl: 'http://blog.ploeh.dk/rss.xml'
+  - text: Technorage
+    title: Technorage
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: 'https://deepu.tech/'
+    xmlUrl: 'https://deepu.tech/feed'
+  - text: The Architect Elevator
+    title: The Architect Elevator
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: 'https://architectelevator.com/'
+    xmlUrl: 'http://architectelevator.com/feed.xml'
+  - text: Things Of Interest
+    title: Things Of Interest
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: 'https://qntm.org/'
+    xmlUrl: 'http://qntm.org/rss.php'
+- text: DevOps
+  title: DevOps
+  _children:
+  - text: (mcorbin.fr)
+    title: (mcorbin.fr)
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: 'https://mcorbin.fr/'
+    xmlUrl: 'https://www.mcorbin.fr/feed.xml'
+  - text: Lydra | Artisans DevOps
+    title: Lydra | Artisans DevOps
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: ''
+    xmlUrl: 'https://lydra.fr/feed/'
+- text: Essais
+  title: Essais
+  _children:
+    - text: PressEnter
+      title: PressEnter
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://pressenter.fr/'
+      xmlUrl: 'http://feeds.feedburner.com/pressenter/rss'
+    - text: Sunday Letter - Jack Cheng
+      title: Sunday Letter - Jack Cheng
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://www.jackcheng.com/'
+      xmlUrl: 'https://www.jackcheng.com/sunday/rss/'
+- text: Expérimentation
+  title: Expérimentation
+  _children:
+  - text: Blog Title
+    title: Blog Title
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: 'https://example.com/green-a11y-11ty/'
+    xmlUrl: 'https://marc-bouvier.github.io/green-a11y-11ty/feed.xml'
+- text: Feeds
+  title: Feeds
+  _children:
+    - text: Adrian Roselli
+      title: Adrian Roselli
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://adrianroselli.com/'
+      xmlUrl: 'https://adrianroselli.com/feed'
+    - text: Andy Hunt's Toolshed Technologies
+      title: Andy Hunt's Toolshed Technologies
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: ''
+      xmlUrl: 'http://blog.toolshed.com/atom.xml'
+    - text: Apprendre + Équipe = Programmes
+      title: Apprendre + Équipe = Programmes
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://sroccaserra.fr/'
+      xmlUrl: 'https://sroccaserra.fr/rss.xml'
+    - text: Aral Balkan
+      title: Aral Balkan
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://ar.al/'
+      xmlUrl: 'https://ar.al/index.xml'
+    - text: arp242.net
+      title: arp242.net
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://www.arp242.net/'
+      xmlUrl: 'https://www.arp242.net/feed.xml'
+    - text: Articles de Gauthier Roussilhe
+      title: Articles de Gauthier Roussilhe
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://gauthierroussilhe.com/articles'
+      xmlUrl: 'https://gauthierroussilhe.com/feed'
+    - text: Baldur Bjarnason - All Writing
+      title: Baldur Bjarnason - All Writing
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: ''
+      xmlUrl: 'https://www.baldurbjarnason.com/index.xml'
+    - text: Blog de Stéphane Bortzmeyer
+      title: Blog de Stéphane Bortzmeyer
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'http:///'
+      xmlUrl: 'https://www.bortzmeyer.org/feed.atom'
+    - text: Blog Deuxfleurs
+      title: Blog Deuxfleurs
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: ''
+      xmlUrl: 'https://plume.deuxfleurs.fr/~/Deuxfleurs/atom.xml'
+    - text: Bonfire
+      title: Bonfire
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: ''
+      xmlUrl: 'https://bonfirenetworks.org/feed/feed.xml'
+    - text: Changelog
+      title: Changelog
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://changelog.com/'
+      xmlUrl: 'https://changelog.com/feed'
+    - text: David Darnes
+      title: David Darnes
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://darn.es/'
+      xmlUrl: 'https://darn.es/rss.xml'
+    - text: Designers Ethiques
+      title: Designers Ethiques
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://mastodon.design/@designersethiques'
+      xmlUrl: 'https://mastodon.design/@designersethiques.rss'
+    - text: Eric Eggert (@yatil) on web accessibility and more.
+      title: Eric Eggert (@yatil) on web accessibility and more.
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://yatil.net/blog'
+      xmlUrl: 'https://yatil.net/feed'
+    - text: fLaMEd fury
+      title: fLaMEd fury
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: ''
+      xmlUrl: 'https://flamedfury.com/feed.xml'
+    - text: Fracas
+      title: Fracas
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://fracas.media/'
+      xmlUrl: 'https://fracas.media/feed/'
+    - text: Framablog
+      title: Framablog
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://framablog.org/'
+      xmlUrl: 'https://framablog.org/feed/'
+    - text: Golang Weekly
+      title: Golang Weekly
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://golangweekly.com/'
+      xmlUrl: 'https://cprss.s3.amazonaws.com/golangweekly.com.xml'
+    - text: Hundred Rabbits
+      title: Hundred Rabbits
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://100r.ca/'
+      xmlUrl: 'http://100r.co/links/rss.xml'
+    - text: JavaScript Weekly
+      title: JavaScript Weekly
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://javascriptweekly.com/'
+      xmlUrl: 'https://javascriptweekly.com/rss/'
+    - text: Jazz Magazine
+      title: Jazz Magazine
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://www.jazzmagazine.com/'
+      xmlUrl: 'https://www.jazzmagazine.com/feed/'
+    - text: Julia Evans
+      title: Julia Evans
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: ''
+      xmlUrl: 'https://jvns.ca/atom.xml'
+    - text: L'Atelier Paysan
+      title: L'Atelier Paysan
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: ''
+      xmlUrl: 'https://www.latelierpaysan.org/spip.php?page=backend=14'
+    - text: L'épaule d'Orion
+      title: L'épaule d'Orion
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://lepauledorion.com/'
+      xmlUrl: 'https://lepauledorion.com/feed/'
+    - text: La Fabrique de l'information
+      title: La Fabrique de l'information
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: >-
+        https://www.radiofrance.fr/franceculture/podcasts/le-meilleur-des-mondes
+      xmlUrl: 'https://radiofrance-podcast.net/podcast09/rss_22826.xml'
+    - text: La Lutine du Web
+      title: La Lutine du Web
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://www.lalutineduweb.fr/'
+      xmlUrl: 'https://www.lalutineduweb.fr/feed/'
+    - text: La Quadrature du Net
+      title: La Quadrature du Net
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://www.laquadrature.net/'
+      xmlUrl: 'https://www.laquadrature.net/feed/'
+    - text: Le code a changé
+      title: Le code a changé
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://www.radiofrance.fr/franceinter/podcasts/le-code-a-change'
+      xmlUrl: 'https://radiofrance-podcast.net/podcast09/rss_20856.xml'
+    - text: Les Ami·e·s de la Confédération Paysanne
+      title: Les Ami·e·s de la Confédération Paysanne
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://lesamisdelaconf.org/'
+      xmlUrl: 'http://lesamisdelaconf.org/feed/'
+    - text: Les Communs d'Abord
+      title: Les Communs d'Abord
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://www.les-communs-dabord.org/'
+      xmlUrl: 'https://www.les-communs-dabord.org/feed'
+    - text: libre à vous - Radio Cause Commune
+      title: libre à vous - Radio Cause Commune
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://cause-commune.fm/'
+      xmlUrl: 'https://cause-commune.fm/feed/podcast/libre-a-vous'
+    - text: Louis Derrac
+      title: Louis Derrac
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: ''
+      xmlUrl: 'https://louisderrac.com/feed/'
+    - text: LOW←TECH MAGAZINE Français
+      title: LOW←TECH MAGAZINE Français
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://solar.lowtechmagazine.com/fr/posts/'
+      xmlUrl: 'https://solar.lowtechmagazine.com/fr/feeds/all-fr.atom.xml'
+    - text: Martin Fowler
+      title: Martin Fowler
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: ''
+      xmlUrl: 'https://martinfowler.com/feed.atom'
+    - text: MDN Blog
+      title: MDN Blog
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://developer.mozilla.org/en-US/blog/'
+      xmlUrl: 'https://developer.mozilla.org/en-US/blog/rss.xml'
+    - text: Mowno
+      title: Mowno
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://www.mowno.com/'
+      xmlUrl: 'https://www.mowno.com/feed/'
+    - text: "Nosebook \U0001F443\U0001F3FF\U0001F4D3"
+      title: "Nosebook \U0001F443\U0001F3FF\U0001F4D3"
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'http://leetusman.com/nosebook/'
+      xmlUrl: 'https://leetusman.com/nosebook/feed.xml'
+    - text: Numériques Essentiels 2030
+      title: Numériques Essentiels 2030
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://www.frugarilla.fr/'
+      xmlUrl: >-
+        https://feeds.soundcloud.com/users/soundcloud:users:1221544282/sounds.rss
+    - text: Plain Vanilla Blog
+      title: Plain Vanilla Blog
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://plainvanillaweb.com/blog/'
+      xmlUrl: 'https://plainvanillaweb.com/blog/feed.xml'
+    - text: Ploum.net
+      title: Ploum.net
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://ploum.net/'
+      xmlUrl: 'https://ploum.net/atom_fr.xml'
+    - text: Posts on Adriano Caloiaro's personal blog
+      title: Posts on Adriano Caloiaro's personal blog
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://adriano.fyi/posts/'
+      xmlUrl: 'https://adriano.fyi/posts/index.xml'
+    - text: Release notes from immich
+      title: Release notes from immich
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://github.com/immich-app/immich/releases'
+      xmlUrl: 'https://github.com/immich-app/immich/releases.atom'
+    - text: Release notes from wiki
+      title: Release notes from wiki
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://github.com/requarks/wiki/releases'
+      xmlUrl: 'https://github.com/Requarks/wiki/releases.atom'
+    - text: Richard Hanna
+      title: Richard Hanna
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: ''
+      xmlUrl: 'https://richardhanna.dev/feed.xml'
+    - text: Sécurité sociale de l'alimentation
+      title: Sécurité sociale de l'alimentation
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://securite-sociale-alimentation.org/'
+      xmlUrl: 'https://securite-sociale-alimentation.org/feed/'
+    - text: 'starbreaker.org: latest'
+      title: 'starbreaker.org: latest'
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://starbreaker.org/blog/latest.html'
+      xmlUrl: 'https://starbreaker.org/feeds/latest.xml'
+    - text: Techologie
+      title: Techologie
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://piaille.fr/@techologie'
+      xmlUrl: >-
+        http://feeds.soundcloud.com/users/soundcloud:users:555069720/sounds.rss
+    - text: The Go Blog
+      title: The Go Blog
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: ''
+      xmlUrl: 'https://go.dev/blog/feed.atom'
+    - text: The Leafslug - All
+      title: The Leafslug - All
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://theleafslug.com/'
+      xmlUrl: 'https://prma.dev/atom.xml'
+    - text: Tout Et Rien
+      title: Tout Et Rien
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://toutetrien.lithio.fr/'
+      xmlUrl: 'https://toutetrien.lithio.fr/feed.xml'
+    - text: W3C - News
+      title: W3C - News
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://www.w3.org/news/'
+      xmlUrl: 'https://www.w3.org/blog/news/feed'
+    - text: 'web.dev: Blog'
+      title: 'web.dev: Blog'
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://web.dev/blog/'
+      xmlUrl: 'https://web.dev/feed.xml'
+- text: 'Humour '
+  title: 'Humour '
+  _children:
+  - text: xkcd.com
+    title: xkcd.com
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: 'https://xkcd.com/'
+    xmlUrl: 'https://xkcd.com/atom.xml'
+- text: Origines
+  title: Origines
+  _children:
+  - text: Upsilandre Retrogaming
+    title: Upsilandre Retrogaming
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: 'https://upsilandre.over-blog.com/'
+    xmlUrl: 'https://upsilandre.over-blog.com/rss'
+- text: Product
+  title: Product
+  _children:
+  - text: The Beautiful Mess
+    title: The Beautiful Mess
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: 'https://cutlefish.substack.com/'
+    xmlUrl: 'https://cutlefish.substack.com/feed'
+- text: SecondBrain
+  title: SecondBrain
+  _children:
+  - text: Zsolt's blog
+    title: Zsolt's blog
+    description: ''
+    type: rss
+    version: RSS
+    htmlUrl: 'https://www.zsolt.blog/'
+    xmlUrl: 'https://www.zsolt.blog/feeds/posts/default'
+- text: Sobriété numérique
+  title: Sobriété numérique
+  _children:
+    - text: Articles de Gauthier Roussilhe
+      title: Articles de Gauthier Roussilhe
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://gauthierroussilhe.com/articles'
+      xmlUrl: 'https://gauthierroussilhe.com/feed'
+    - text: Le blog d’Iroco
+      title: Le blog d’Iroco
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://blog.iroco.co/'
+      xmlUrl: 'https://blog.iroco.co/feed.xml'
+    - text: Vlad's Website
+      title: Vlad's Website
+      description: ''
+      type: rss
+      version: RSS
+      htmlUrl: 'https://vlad.website/'
+      xmlUrl: 'https://vladh.net/index.xml'
