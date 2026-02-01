@@ -1,0 +1,14 @@
+title: "Bibliothèque"
+description: "Livres / médias que je lis où qui sont pertinents de lire"
+events:
+  - title: "Fooo"
+    sujet: "Foo"
+    goodread_href: https://www.goodreads.com/book/show/foooooooooo
+    auteurs:
+      - Foo
+      - Bar
+    type: "Livre"
+    langue: "FR"
+    isbn: "ISBN"
+
+
