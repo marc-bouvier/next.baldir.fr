@@ -6,10 +6,7 @@ tags:
   - PPPermapublishing
   - Bidouillage
 description: Démos du 2ème jour de PPPermapublishing à Strasbourg le samedi 28 octobre 2024.
-stub: false
-draft: true
-date_updated: 2025-01-25T19:10
-permalink: blog/pppermapublishing-jour-1-demos/
+date_updated: 2026-03-22T17:31:48+01:00
 ---
 
 ## Démos
