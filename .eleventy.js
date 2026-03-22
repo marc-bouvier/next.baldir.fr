@@ -146,7 +146,7 @@ export default function (eleventyConfig) {
         extensions: "html",
 
         // output image formats
-        formats: ["webp", "auto"],
+        formats: ["webp", "jpg", "auto"],
 
         // output image widths
         widths: ["280", "580", "920", "auto"],
