@@ -4,18 +4,19 @@ import {EleventyHtmlBasePlugin, EleventyI18nPlugin, IdAttributePlugin} from "@11
 import {feedPlugin} from "@11ty/eleventy-plugin-rss";
 import yaml from "js-yaml"
 import markdownIt from "markdown-it";
+import markdownItFootnote from "markdown-it-footnote";
 
 export default function (eleventyConfig) {
 
-
-    let options = {
+    const mdIt = markdownIt({
         html: true,
         breaks: true,
         linkify: true,
+    })
 
-    };
+    eleventyConfig.setLibrary("md", mdIt);
 
-    eleventyConfig.setLibrary("md", markdownIt(options));
+    mdIt.use(markdownItFootnote);
 
     eleventyConfig.addFilter("toLocaleStringFr", function (date) {
         return new Date(date).toLocaleString("fr-FR",

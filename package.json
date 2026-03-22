@@ -23,6 +23,7 @@
     "ical-generator": "^10.0.0",
     "js-yaml": "^4.1.1",
     "markdown-it": "^14.1.0",
+    "markdown-it-footnote": "^4.0.0",
     "opml-generator2": "^1.0.3",
     "pagefind": "^1.4.0",
     "vitest": "^4.0.18"
