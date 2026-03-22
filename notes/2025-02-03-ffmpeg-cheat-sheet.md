@@ -6,6 +6,7 @@ tags:
   - Ffmpeg
   - Cheat-sheet
 description: Petites astuces pour manipuler vidéo et son en ligne de commande
+date_updated: 2025-05-12T23:06
 permalink: cheat-sheets/ffmpeg/
 ---
 
