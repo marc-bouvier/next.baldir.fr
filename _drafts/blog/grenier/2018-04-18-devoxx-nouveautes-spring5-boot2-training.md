@@ -1,14 +1,15 @@
 ---
 layout: post
-title: "Devoxx - Nouveeautés de Spring 5 SpringBoot2, reactor"
-description: Cette année, à Devoxx France, j'ai eu la chance d'assister à un "hands on" sur les nouveautés de Spring 5, Spring Boot 2. 
-tags: 
-- Spring 
-- Reactive-Programming 
-- SpringBoot 
-- Devoxx
-- French
+title: Devoxx - Nouveeautés de Spring 5 SpringBoot2, reactor
+description: Cette année, à Devoxx France, j'ai eu la chance d'assister à un "hands on" sur les nouveautés de Spring 5, Spring Boot 2.
+tags:
+  - Spring
+  - Reactive-Programming
+  - SpringBoot
+  - Devoxx
+  - French
 date: 2018-04-18
+date_updated: 2026-03-22T17:19
 ---
 Cette année, à Devoxx France, j'ai eu la chance d'assister à un ["hands on" sur les nouveautés de Spring 5, Spring Boot 2](https://cfp.devoxx.fr/2018/talk/CAA-2373/Decouvrir_les_nouveautes_de_Spring_5_&_Spring_Boot_2_par_la_pratique). 
 

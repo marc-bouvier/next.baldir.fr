@@ -1,17 +1,17 @@
 ---
-title: "Write your own TDD lib in CodeWars and Codingame"
+title: Write your own TDD lib in CodeWars and Codingame
 date: 2022-09-11
-lang: "en"
-description: "You want to practice TDD. Did you know you can write you own testing library inside CodeWars or Codingame? Here's how you can do it."
-cover_image: "/2022-09-11-write-your-own-TDD-lib-in-codewars-lowres.png"
+lang: en
+description: You want to practice TDD. Did you know you can write you own testing library inside CodeWars or Codingame? Here's how you can do it.
+cover_image: /2022-09-11-write-your-own-TDD-lib-in-codewars-lowres.png
 tag:
-- TDD
-- TestDrivenDevelopment
-- Kata
-- Codingame
-- CodeWars
-- Typescript
-
+  - TDD
+  - TestDrivenDevelopment
+  - Kata
+  - Codingame
+  - CodeWars
+  - Typescript
+date_updated: 2026-03-22T17:19
 ---
 [Codewars](https://www.codewars.com/) and [Codinggame](https://www.codingame.com/) can be great tools for programming [deliberate practice](https://codingdojo.org/practices/DeliberatePractice/).
 

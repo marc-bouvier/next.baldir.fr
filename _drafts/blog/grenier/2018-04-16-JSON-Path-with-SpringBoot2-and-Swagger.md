@@ -1,14 +1,15 @@
 ---
 layout: post
-title: "Update partially ressource with JSON Path and SpringBoot 2"
+title: Update partially ressource with JSON Path and SpringBoot 2
 description: Implémentation personnalisée partielle de JSON Path pour mise à jour partielle de ressource. En n'autorisant que certains attributs.
 tags:
-- JSONPath
-- SpringBoot
-- Java
-- Rest
-- French
+  - JSONPath
+  - SpringBoot
+  - Java
+  - Rest
+  - French
 date: 2018-04-16
+date_updated: 2026-03-22T17:19
 ---
 Implémentation personnalisée partielle de JSON Path pour mise à jour partielle de ressource. En n'autorisant que certains attributs.
 

@@ -1,9 +1,13 @@
 ---
-title: "Build layered Docker images with Spring Boot 2.3.1"
+title: Build layered Docker images with Spring Boot 2.3.1
 date: 2020-06-21
-tags: ["SpringBoot", "How-to", "Docker"]
-description: "Since Spring Boot 2.3.1, layered application layout is supported."
+tags:
+  - SpringBoot
+  - How-to
+  - Docker
+description: Since Spring Boot 2.3.1, layered application layout is supported.
 series: false
+date_updated: 2026-03-22T17:19
 ---
 
 This allows to extract and separate dependencies from a fat jar. Dependencies 

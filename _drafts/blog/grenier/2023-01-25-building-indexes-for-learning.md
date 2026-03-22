@@ -1,11 +1,12 @@
 ---
-title: "Building indexes for learning"
+title: Building indexes for learning
 date: 2023-01-25
-lang: "en"
-description: "As a generalist developer, I cannot dive deeply in each topic I encounter. But I still want to have it accessible somewhere. Building indexes for learning allows me to “store” look for it when I need it."
+lang: en
+description: As a generalist developer, I cannot dive deeply in each topic I encounter. But I still want to have it accessible somewhere. Building indexes for learning allows me to “store” look for it when I need it.
 tags:
-- KnowledgeBase
-- GeneralistDeveloper
+  - KnowledgeBase
+  - GeneralistDeveloper
+date_updated: 2026-03-22T17:19
 ---
 
 Open the following like and search "building index for learning".

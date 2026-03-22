@@ -3,16 +3,16 @@ title: ""
 date: 2025-04-03T23:07
 description: ""
 tags: []
-content_problematique: 
+content_problematique:
 content_prio: 10
-content_published: 
+content_published:
 content_pub_target:
   - baldir.fr
   - LinkedIn
 content_audience:
   - Offre 1 - Coaching Technique
   - Offre 2 - Dev Régie
-date_updated: 2025-04-03T23:28
+date_updated: 2026-03-22T17:19
 ---
 
 Cible : 

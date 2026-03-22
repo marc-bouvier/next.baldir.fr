@@ -1,18 +1,17 @@
 ---
-layout: "post"
+layout: post
 lang: en
-title: "\U0001F3A6 Turn any keyboard into a Stream Deck on Windows"
+title: 🎦 Turn any keyboard into a Stream Deck on Windows
 date: 2021-12-07T13:54:00Z
-description: With a key binder and an extra keyboard or numpad we can create a budget
-  stream deck to command OBS Studio or any application that can accept key bindings.
-cover_image: "/2021-12-07/tony_cuozzo_number_pad_2011_cc-by-2-0_flickr_toncu_5623834240_400x386.jpg"
+description: With a key binder and an extra keyboard or numpad we can create a budget stream deck to command OBS Studio or any application that can accept key bindings.
+cover_image: /2021-12-07/tony_cuozzo_number_pad_2011_cc-by-2-0_flickr_toncu_5623834240_400x386.jpg
 tags:
-- DIY
-- Windows
-- How-to
-- OBS
-- Content-Streaming
-
+  - DIY
+  - Windows
+  - How-to
+  - OBS
+  - Content-Streaming
+date_updated: 2026-03-22T17:19
 ---
 With a key binder and an extra keyboard or numpad we can create a budget stream deck to command OBS Studio or any application that can accept key bindings.
 

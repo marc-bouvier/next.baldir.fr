@@ -1,8 +1,11 @@
 ---
-title: "Custom Hamcrest closeTo matcher"
-tags : ["Java", "JUnit"]
+title: Custom Hamcrest closeTo matcher
+tags:
+  - Java
+  - JUnit
 date: 2018-12-19
-description: "A practical hamcrest matcher `closeTo` to know if a date is close to another (of the same type). Supports `java.util.Date`, `java.time.LocalDateTime`, `java.time.ZonedDateTime`, `java.time.OffsetDataTime`. No dependencies other than hamcrest." 
+description: A practical hamcrest matcher `closeTo` to know if a date is close to another (of the same type). Supports `java.util.Date`, `java.time.LocalDateTime`, `java.time.ZonedDateTime`, `java.time.OffsetDataTime`. No dependencies other than hamcrest.
+date_updated: 2026-03-22T17:19
 ---
 
 A practical hamcrest matcher `closeTo` to know if a date is close to another (of the same type). Supports `java.util.Date`, `java.time.LocalDateTime`, `java.time.ZonedDateTime`, `java.time.OffsetDataTime`. No dependencies other than hamcrest.

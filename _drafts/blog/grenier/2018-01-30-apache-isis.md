@@ -1,8 +1,11 @@
 ---
-title: "Apache Isis - Domain driven applications"
+title: Apache Isis - Domain driven applications
 date: 2018-01-30
-tags: ["Domain-Driven-Design", "Framework"]
-description: "<a href='https://isis.apache.org/index.njk'>Apache Isis</a> proposes an approach to build applications centered around domain objects."
+tags:
+  - Domain-Driven-Design
+  - Framework
+description: <a href='https://isis.apache.org/index.njk'>Apache Isis</a> proposes an approach to build applications centered around domain objects.
+date_updated: 2026-03-22T17:19
 ---
 
 [Apache Isis ](https://isis.apache.org/index.html) proposes an approach to build applications cented around domain objects. 

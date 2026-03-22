@@ -1,14 +1,15 @@
 ---
-title: "Building a blog with Jekyll and GitHub Pages"
+title: Building a blog with Jekyll and GitHub Pages
 date: 2018-01-29
-tags: 
-- Jekyll
-- How-to
-- Markdown
-- Github-pages
-- JamStack
-- SSite-statique
-description: "Some resources to help building a blog like this one with Jekyll and GitHub pages."
+tags:
+  - Jekyll
+  - How-to
+  - Markdown
+  - Github-pages
+  - JamStack
+  - SSite-statique
+description: Some resources to help building a blog like this one with Jekyll and GitHub pages.
+date_updated: 2026-03-22T17:19
 ---
 Some resources to help building a blog like this one with Jekyll and GitHub pages.
 

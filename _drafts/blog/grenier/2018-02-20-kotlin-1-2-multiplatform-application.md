@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "Multiplatform applications with Kotlin 1.2"
+title: Multiplatform applications with Kotlin 1.2
 date: 2018-02-20
-description: "Kotlin 1.2 introduces kotlin multiplatform to share code for different targets."
-
+description: Kotlin 1.2 introduces kotlin multiplatform to share code for different targets.
 tags:
-- Kotlin
-- How-to
-- Multi-Platform
-- Android
-- Ios
-- Jvm
-- Javascript
+  - Kotlin
+  - How-to
+  - Multi-Platform
+  - Android
+  - Ios
+  - Jvm
+  - Javascript
+date_updated: 2026-03-22T17:19
 ---
 
 Kotlin 1.2 allows to build application with shared code between plaftorms. Using gradle and the language

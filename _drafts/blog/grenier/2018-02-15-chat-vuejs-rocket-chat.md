@@ -1,9 +1,15 @@
 ---
-title: "Simple chat with VueJS & Rocket.Chat"
-tags: ["RocketChat", "VueJs", "Demo", "WebSocket", "Open-Source"]
+title: Simple chat with VueJS & Rocket.Chat
+tags:
+  - RocketChat
+  - VueJs
+  - Demo
+  - WebSocket
+  - Open-Source
 date: 2018-02-15
 cover_image: ./images/2018-02-15/minimalistic-vuejs-rocket.chat.gif
-description: "A minimalistic real time chat made with VueJS and Rocket.Chat API"
+description: A minimalistic real time chat made with VueJS and Rocket.Chat API
+date_updated: 2026-03-22T17:19
 ---
 
 * [See live version.](https://marc-bouvier.github.io/rx-rocket.chat-sample/#/)

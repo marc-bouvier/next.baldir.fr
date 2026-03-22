@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Front dev digest 2018-02-21"
+title: Front dev digest 2018-02-21
 description: Technical resources that interested me. This week about VueJs anti-patterns
 date: 2018-02-21
-tags: 
-- VueJs 
-- Auth-0 
-- Anti-Pattern
+tags:
+  - VueJs
+  - Auth-0
+  - Anti-Pattern
+date_updated: 2026-03-22T17:19
 ---
 
 Tech digest: 2018-02-21

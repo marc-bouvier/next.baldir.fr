@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Reset and revert with GIT"
+title: Reset and revert with GIT
 date: 2018-02-20
-tags: 
-- Git 
-- How-to
-- Version-Control
-description : "Some commands that allow to go back in time with git."
+tags:
+  - Git
+  - How-to
+  - Version-Control
+description: Some commands that allow to go back in time with git.
+date_updated: 2026-03-22T17:19
 ---
 
 Some commands that allow to go back in time with git.

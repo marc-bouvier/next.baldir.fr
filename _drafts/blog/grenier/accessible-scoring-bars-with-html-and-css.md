@@ -3,14 +3,13 @@ layout: post
 lang: en
 title: Accessible scoring bars with HTML and CSS
 date: 2022-01-15T18:00:00.000+00:00
-description: Colorful but accessible scoring (progress) bars with descriptive CSS
-  and Html.
-cover_image: ''
+description: Colorful but accessible scoring (progress) bars with descriptive CSS and Html.
+cover_image: ""
 tags:
-- Accessibility
-- CSS
-- HTML
-
+  - Accessibility
+  - CSS
+  - HTML
+date_updated: 2026-03-22T17:19
 ---
 Colorful but accessible scoring (progress) bars with descriptive CSS and Html.
 

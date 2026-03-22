@@ -1,7 +1,11 @@
 ---
 date: 2018-02-02
-tags: ["Efficiency", "Distributed-Organization", "XDSD"]
-description: "This article has very interesting reactions in the comment section. And is worth analysing."
+tags:
+  - Efficiency
+  - Distributed-Organization
+  - XDSD
+description: This article has very interesting reactions in the comment section. And is worth analysing.
+date_updated: 2026-03-22T17:19
 ---
 
 ## Are you a coder or a developer?

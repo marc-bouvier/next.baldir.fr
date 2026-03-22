@@ -1,26 +1,26 @@
 ---
 layout: post
 lang: en
-title: "Host a static site with Nginx subdomains and SSL"
+title: Host a static site with Nginx subdomains and SSL
 date: 2022-04-13T14:00:00Z
-description: "This is the beginning of a new series in which I will incrementally evolve an accessible and green static website. In order to optimize costs, save up energy and memory, we will mutualize hosting of several static sites on the same server. To do so we will configure nginx to host the static sites on different (sub)domains and secure them with SSL."
+description: This is the beginning of a new series in which I will incrementally evolve an accessible and green static website. In order to optimize costs, save up energy and memory, we will mutualize hosting of several static sites on the same server. To do so we will configure nginx to host the static sites on different (sub)domains and secure them with SSL.
 tags:
-- Accessibility
-- GreenIt
-- Nginx
-- Html
-- Dns
-- Hosting
-- SelfHosting
-- Certbot
-- LetsEncrypt
-- CiCd
-- StaticSite
-- IndieWeb
-- FullStack
-- Linux
-- Makefile
-
+  - Accessibility
+  - GreenIt
+  - Nginx
+  - Html
+  - Dns
+  - Hosting
+  - SelfHosting
+  - Certbot
+  - LetsEncrypt
+  - CiCd
+  - StaticSite
+  - IndieWeb
+  - FullStack
+  - Linux
+  - Makefile
+date_updated: 2026-03-22T17:19
 ---
 
 This is the beginning of a new series in which I will incrementally evolve an accessible and green static website.

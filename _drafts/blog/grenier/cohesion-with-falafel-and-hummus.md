@@ -1,12 +1,13 @@
 ---
 layout: post
 lang: en
-title: "Cohesion with falafel and hummus"
+title: Cohesion with falafel and hummus
 date: 2022-06-23T14:15:00Z
-description: "Today I wanted to cook something. What about some falafel? I dug a bit more and found a can of hummus. It made me think about cohesion."
+description: Today I wanted to cook something. What about some falafel? I dug a bit more and found a can of hummus. It made me think about cohesion.
 tags:
-- Cohesion
-cover_image: "/cohesion-falafel-and-hummus/fallafel-hoummous-cohesive.jpg"
+  - Cohesion
+cover_image: /cohesion-falafel-and-hummus/fallafel-hoummous-cohesive.jpg
+date_updated: 2026-03-22T17:19
 ---
 
 Today I wanted to cook something. What about some falafel? I dug a bit more and found a can of hummus. It made me think about cohesion.

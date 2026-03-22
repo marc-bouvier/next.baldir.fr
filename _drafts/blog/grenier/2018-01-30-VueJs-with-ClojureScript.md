@@ -1,7 +1,10 @@
 ---
 date: 2018-01-30
-title: "ClojureScript + VueJs, Is it possible for now?"
-tags: ["VueJs", "ClojureScript"]
+title: ClojureScript + VueJs, Is it possible for now?
+tags:
+  - VueJs
+  - ClojureScript
+date_updated: 2026-03-22T17:19
 ---
 
 At the moment it does not seem to be a good Idea to use these technologies together.

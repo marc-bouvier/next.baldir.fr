@@ -1,8 +1,12 @@
 ---
-title: "Install adr-tools on windows with git bash"
-tags: ["How-to", "Architecture-Decision-Records", "Architecture"]
+title: Install adr-tools on windows with git bash
+tags:
+  - How-to
+  - Architecture-Decision-Records
+  - Architecture
 date: 2019-02-17
-description: "Guide to install adr-tools command line to automate ADR creation on windows with git bash."
+description: Guide to install adr-tools command line to automate ADR creation on windows with git bash.
+date_updated: 2026-03-22T17:19
 ---
 
 Assuming that git-bash is installed here is how to install `adr-tools` with git for windows. 

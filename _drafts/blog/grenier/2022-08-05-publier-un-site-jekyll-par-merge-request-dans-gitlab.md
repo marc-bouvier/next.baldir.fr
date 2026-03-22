@@ -1,15 +1,16 @@
 ---
-title: "Publier un site jekyll par merge-request dans Gitlab"
-description: "Il est parfois utile d'avoir un aperçu d'un site statique lorsqu'on est en train de préparer une mise à jour d'un site statique. Voici une façon de publier temporairement un site statique avec Jekyll à partir d'une merge request dans GitLab."
+title: Publier un site jekyll par merge-request dans Gitlab
+description: Il est parfois utile d'avoir un aperçu d'un site statique lorsqu'on est en train de préparer une mise à jour d'un site statique. Voici une façon de publier temporairement un site statique avec Jekyll à partir d'une merge request dans GitLab.
 lang: fr
 date: 2022-08-05
 tag:
-- Gitlab
-- ci-cd
-- jekyll
-- SSR
-- SEO
-- StaticSite
+  - Gitlab
+  - ci-cd
+  - jekyll
+  - SSR
+  - SEO
+  - StaticSite
+date_updated: 2026-03-22T17:19
 ---
 Il est parfois utile d'avoir un aperçu d'un site statique lorsqu'on est en train de préparer une mise à jour d'un site statique. Voici une façon de publier temporairement un site statique avec Jekyll à partir d'une merge request dans GitLab.
 

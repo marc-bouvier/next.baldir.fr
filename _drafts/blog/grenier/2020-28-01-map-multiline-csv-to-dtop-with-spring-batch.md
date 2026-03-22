@@ -1,9 +1,14 @@
 ---
-title: "Mapping CSV file with multiline Strings to Java Object with Spring Batch"
+title: Mapping CSV file with multiline Strings to Java Object with Spring Batch
 date: 2020-01-28
-tags: ["Java", "Spring", "How-to", "Spring Batch"]
-description: "Parse CSV file that contains multiline strings. Spring Batch allows us to make this task easier."
+tags:
+  - Java
+  - Spring
+  - How-to
+  - Spring Batch
+description: Parse CSV file that contains multiline strings. Spring Batch allows us to make this task easier.
 series: false
+date_updated: 2026-03-22T17:19
 ---
 Parse CSV file that contains multiline strings. Spring Batch allows us to make this task easier.
 

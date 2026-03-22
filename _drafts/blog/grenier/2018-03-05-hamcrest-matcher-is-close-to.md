@@ -8,6 +8,7 @@ tags:
   - Amélioration-continue
   - Affuter-ses-outils
 date: 2018-03-05
+date_updated: 2026-03-22T17:19
 ---
 
 This Hamcrest matcher allows to know if a LocalDateTime is close (with parametrable tolerance) to another. I know it can be generalized with additional types supported. But for now it does the job.

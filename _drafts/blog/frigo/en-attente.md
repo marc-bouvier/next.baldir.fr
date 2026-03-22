@@ -1,12 +1,12 @@
 ---
 title: en-attente
 date: 2024-09-27T09:45
-tags: 
+tags:
 description: ""
 stub: true
 draft: true
 priority: 0
-date_updated: 2024-12-22T16:16
+date_updated: 2026-03-22T17:19
 ---
 
 comme l’archéologie de logiciels peut se faire avec les humains qui ont travaillé sur l’artefact. On peut considérer que c’est une forme d’archéologie des humains.

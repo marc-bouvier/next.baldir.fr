@@ -1,15 +1,16 @@
 ---
 layout: post
-title: "Tech digest 2018-03-01"
+title: Tech digest 2018-03-01
 description: How technology stopped being innovation, The cost of javascript, Power use of Value Objects in DDD.
 date: 2018-03-01
-tags: 
-- Performance 
-- Javascript 
-- Technology 
-- Innovation 
-- Domain-Driven-Design 
-- Value-Object Digest
+tags:
+  - Performance
+  - Javascript
+  - Technology
+  - Innovation
+  - Domain-Driven-Design
+  - Value-Object Digest
+date_updated: 2026-03-22T17:19
 ---
 
 How technology stopped being innovation, The cost of javascript

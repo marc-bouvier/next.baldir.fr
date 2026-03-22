@@ -3,17 +3,14 @@ layout: post
 lang: fr
 title: En 2022, focus de Framasoft sur l'usage du numérique dans les associations
 date: 2022-01-19T23:00:00Z
-description: En ce début d'année 2022, l'association a publié un article pour expliquer
-  les objectifs de cette année. Et pour 2022, framasoft veut porter un focus tout
-  particulier à l'usage du numérique dans les associations. Le logo est de JosephK
-  sous licence Creative Commons By-SA 4.0
-cover_image: "/2022-01-20/biglogo-notxt.png"
+description: En ce début d'année 2022, l'association a publié un article pour expliquer les objectifs de cette année. Et pour 2022, framasoft veut porter un focus tout particulier à l'usage du numérique dans les associations. Le logo est de JosephK sous licence Creative Commons By-SA 4.0
+cover_image: /2022-01-20/biglogo-notxt.png
 tags:
-- Communs
-- Logiciel-Libre
-- Open-Source
-- Associatif
-
+  - Communs
+  - Logiciel-Libre
+  - Open-Source
+  - Associatif
+date_updated: 2026-03-22T17:19
 ---
 [Framasoft](https://framasoft.org) est une association d’éducation populaire, un groupe d’ami·es convaincu·es qu’un monde numérique émancipateur est possible, persuadé·es qu’il adviendra grâce à des actions concrètes sur le terrain et en ligne avec vous et pour vous !
 

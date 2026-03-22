@@ -1,8 +1,12 @@
 ---
-title: "Mob programming (French)"
+title: Mob programming (French)
 date: 2018-02-15
-tags: ["Mob-Programming", "Agility", "French"]
-description: "Une journée en Mob programming"
+tags:
+  - Mob-Programming
+  - Agility
+  - French
+description: Une journée en Mob programming
+date_updated: 2026-03-22T17:19
 ---
 
 Une journée en Mob programming.

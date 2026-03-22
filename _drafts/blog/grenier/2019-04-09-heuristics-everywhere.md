@@ -1,8 +1,14 @@
 ---
-title: "Heuristics everywhere!"
-tags : ["DomainDrivenDesign", "Heuristics", "Design", "Architecture", "SoftwareCraftsmanship"]
-description: "Quit thinking with rules, laws and principles but with heuristics. A list of resources on this topic."
+title: Heuristics everywhere!
+tags:
+  - DomainDrivenDesign
+  - Heuristics
+  - Design
+  - Architecture
+  - SoftwareCraftsmanship
+description: Quit thinking with rules, laws and principles but with heuristics. A list of resources on this topic.
 date: 2019-04-09
+date_updated: 2026-03-22T17:19
 ---
 
 Quit thinking with rules, laws and principles but with heuristics.

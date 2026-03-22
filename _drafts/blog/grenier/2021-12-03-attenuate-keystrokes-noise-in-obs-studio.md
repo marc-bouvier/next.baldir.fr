@@ -1,14 +1,13 @@
 ---
 title: Attenuate keystrokes noise in OBS Studio
 tags:
-- Content-Streaming
-- How-to
-- OBS
+  - Content-Streaming
+  - How-to
+  - OBS
 date: 2021-12-03T23:00:00Z
-cover_image: "/2021-12-04/clean-mechanical-keyboard_w500.jpg"
-description: 'Let''s see a way to attenuate the keystrokes noise of a mechanical keyboard
-  when streaming with OBS Studio. '
-
+cover_image: /2021-12-04/clean-mechanical-keyboard_w500.jpg
+description: "Let's see a way to attenuate the keystrokes noise of a mechanical keyboard when streaming with OBS Studio. "
+date_updated: 2026-03-22T17:19
 ---
 I have been streaming a few times lately. I am using a mechanical keyboard which is quite noisy.
 

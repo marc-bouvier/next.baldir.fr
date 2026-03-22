@@ -1,7 +1,12 @@
 ---
-tags: ["Java", "Docker", "DevOps"]
-title : "Cgroup support backported in java 8"
-description : "TLDR; <code>-XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap</code>"
+tags:
+  - Java
+  - Docker
+  - DevOps
+title: Cgroup support backported in java 8
+description: TLDR; <code>-XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap</code>
+date: 2022-04-10T12:05
+date_updated: 2026-03-22T17:19
 ---
 
 TLDR; `-XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap`

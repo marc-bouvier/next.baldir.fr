@@ -1,8 +1,12 @@
 ---
-title: "OpenLiberty fast and flexible JavaEE server"
+title: OpenLiberty fast and flexible JavaEE server
 date: 2018-01-30
-tags: ["Java-EE", "MicroService", "Cloud"]
-description: "<a href='https://openliberty.io'>Open liberty</a> is an open source IBM JavaEE server. It promises to allow building Cloud native apps & mirco-services."
+tags:
+  - Java-EE
+  - MicroService
+  - Cloud
+description: <a href='https://openliberty.io'>Open liberty</a> is an open source IBM JavaEE server. It promises to allow building Cloud native apps & mirco-services.
+date_updated: 2026-03-22T17:19
 ---
 
 [Open liberty](https://openliberty.io) is an open source IBM JavaEE server. It promises to allow building Cloud native apps & mirco-services.

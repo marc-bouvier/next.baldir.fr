@@ -1,18 +1,19 @@
 ---
-title: "Building a simple static URL shortener with Gridsome & GitLab"
+title: Building a simple static URL shortener with Gridsome & GitLab
 date: 2019-12-17
-tags: 
-- Gridsome
-- VueJs
-- How-to
-- GraphQL
-- yaml
-- Gitlab
-- Gitlab-CI
-- JamStack
-- Site-statique
-description: "This is the making of u.baldir.fr, a simple static URL shortener made with Gridsome and actionned with Gitlab CI"
+tags:
+  - Gridsome
+  - VueJs
+  - How-to
+  - GraphQL
+  - yaml
+  - Gitlab
+  - Gitlab-CI
+  - JamStack
+  - Site-statique
+description: This is the making of u.baldir.fr, a simple static URL shortener made with Gridsome and actionned with Gitlab CI
 series: false
+date_updated: 2026-03-22T17:19
 ---
 
 https://u.baldir.fr is a static URL shortener. It means it is generated and 

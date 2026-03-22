@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Get code of event listener present on DOM object on webkit browsers"
+title: Get code of event listener present on DOM object on webkit browsers
 description: In webkit based browsers, you can get informations about added event listener using getEventListeners(domObject).
 date: 2018-03-14
-tags: 
-- Javascript 
-- Webkit 
-- Browser
+tags:
+  - Javascript
+  - Webkit
+  - Browser
+date_updated: 2026-03-22T17:19
 ---
 In webkit based browsers, you can get informations about added event listener using `getEventListeners(domObject)`.
 

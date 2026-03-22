@@ -1,14 +1,14 @@
 ---
 layout: post
 lang: en
-title: "A Kotlin tiny assertion DSL"
+title: A Kotlin tiny assertion DSL
 date: 2022-01-14T18:30:00Z
-description: "Sometimes I don't want to import a full testing framework, or I want some assertions in a REPL. Here is a minimalist colorful testing utility in Kotlin."
-cover_image: ''
+description: Sometimes I don't want to import a full testing framework, or I want some assertions in a REPL. Here is a minimalist colorful testing utility in Kotlin.
+cover_image: ""
 tags:
-- Testing
-- Kotlin
-
+  - Testing
+  - Kotlin
+date_updated: 2026-03-22T17:19
 ---
 Sometimes I don't want to import a full testing framework, or I want some assertions in a REPL. Here is a minimalist colorful testing utility in Kotlin.
 

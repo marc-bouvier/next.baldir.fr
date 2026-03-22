@@ -1,18 +1,19 @@
 ---
 layout: post
-title: "Devoxx - Why are we still writing javascript? (French)"
+title: Devoxx - Why are we still writing javascript? (French)
 description: Devoxx 2018. Mais alors pourquoi encore coder en JavaScript ? (W. Goedel)
 tags:
-- Language
-- French
-- Abstraction
-- Javascript
-- Elm
-- Closure
-- TypeScript
-- ReasonMl
-- PureScript
+  - Language
+  - French
+  - Abstraction
+  - Javascript
+  - Elm
+  - Closure
+  - TypeScript
+  - ReasonMl
+  - PureScript
 date: 2018-04-19
+date_updated: 2026-03-22T17:19
 ---
 [Devoxx 2018. Mais alors pourquoi encore coder en JavaScript ? (W. Goedel)](https://www.youtube.com/watch?v=Sjaur6Tvk2s)
 

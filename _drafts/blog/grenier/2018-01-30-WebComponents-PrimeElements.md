@@ -1,8 +1,12 @@
 ---
 date: 2018-01-30
-title: "The rise of WebComponents"
-tags: ["WebComponents", "Standard", "FrontEnd"]
-description: "More and more companies propose WebComponents based elements."
+title: The rise of WebComponents
+tags:
+  - WebComponents
+  - Standard
+  - FrontEnd
+description: More and more companies propose WebComponents based elements.
+date_updated: 2026-03-22T17:19
 ---
 
 More and more companies propose WebComponents based elements.

@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Technology digest march 12th 2018"
+title: Technology digest march 12th 2018
 description: In this blog post, Shawn McKay first explains some caracteristics of state management in frontend applications and how Redux tries to solve it.
 date: 2018-03-12
-tags: 
-- Redux 
-- State-Management 
-- Javascript
+tags:
+  - Redux
+  - State-Management
+  - Javascript
+date_updated: 2026-03-22T17:19
 ---
 
 ## Redesigning Redux

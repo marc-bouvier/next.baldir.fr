@@ -1,15 +1,16 @@
 ---
 layout: post
-title: "Devoxx - Devenir meilleur avec le terminal (french)"
+title: Devoxx - Devenir meilleur avec le terminal (french)
 description: Devoxx France 2018. Gagner des super pouvoirs avec le terminal (S. Ehret)
-tags: 
-- Script 
-- French 
-- Terminal 
-- Bash 
-- Linux 
-- Linux French 
+tags:
+  - Script
+  - French
+  - Terminal
+  - Bash
+  - Linux
+  - Linux French
 date: 2018-04-19
+date_updated: 2026-03-22T17:19
 ---
 [Gagner des super pouvoirs avec le terminal (S. Ehret)](https://www.youtube.com/watch?v=mxRpBHar_BQ)
 

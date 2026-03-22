@@ -1,13 +1,13 @@
 ---
-title: "Automate building Index for learning"
+title: Automate building Index for learning
 date: 2023-01-25
-lang: "en"
-description: "In this article I will show you how I automated writing indexes for learning with Obsidian."
+lang: en
+description: In this article I will show you how I automated writing indexes for learning with Obsidian.
 tags:
-- Automation
-- Obsidian
-- QuickAdd
-
+  - Automation
+  - Obsidian
+  - QuickAdd
+date_updated: 2026-03-22T17:19
 ---
 
 In this article I will show you how I automated writing indexes for learning with Obsidian.

@@ -9,6 +9,7 @@ tags:
   - Complexité
 date: 2019-03-31
 description: Prise de notes lors du premier meetup Software Crafters Strasbourg
+date_updated: 2026-03-22T17:19
 ---
 
 Software crafters = Tous les professionnels du logiciel

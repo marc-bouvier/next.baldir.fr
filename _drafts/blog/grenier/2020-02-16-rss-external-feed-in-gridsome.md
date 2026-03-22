@@ -1,9 +1,17 @@
 ---
-title: "External rss feed in your Gridsome site"
+title: External rss feed in your Gridsome site
 date: 2020-02-16
-tags: ["Gridsome", "VueJs", "How-to", "GraphQL", "RSS", "JamStack", "Static-Site"]
-description: "In this article, we will create a list of last posts from an external Rss feed in a gridsome site."
+tags:
+  - Gridsome
+  - VueJs
+  - How-to
+  - GraphQL
+  - RSS
+  - JamStack
+  - Static-Site
+description: In this article, we will create a list of last posts from an external Rss feed in a gridsome site.
 series: false
+date_updated: 2026-03-22T17:19
 ---
 
 In this article, we will create a list of last posts from an external Rss feed in a gridsome site.

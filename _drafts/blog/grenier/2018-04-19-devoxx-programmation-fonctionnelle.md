@@ -1,14 +1,15 @@
 ---
 layout: post
-title: "Devoxx - Tout ce que vous avez toujours voulu savoir sur la programmation fonctionnelle (french)"
-description : Devoxx France 2018. Tout ce que vous avez toujours voulu savoir sur la programmation fonctionnelle (X. Detant)
-tags: 
-- Devoxx
-- French
-- Functional-Programming
-- Closure
-- Lambda
+title: Devoxx - Tout ce que vous avez toujours voulu savoir sur la programmation fonctionnelle (french)
+description: Devoxx France 2018. Tout ce que vous avez toujours voulu savoir sur la programmation fonctionnelle (X. Detant)
+tags:
+  - Devoxx
+  - French
+  - Functional-Programming
+  - Closure
+  - Lambda
 date: 2018-04-19
+date_updated: 2026-03-22T17:19
 ---
 Devoxx France 2018. Tout ce que vous avez toujours voulu savoir sur la programmation fonctionnelle (X. Detant)
 

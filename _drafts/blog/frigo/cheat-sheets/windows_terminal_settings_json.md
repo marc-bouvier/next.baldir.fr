@@ -1,8 +1,9 @@
 ---
-title: "Windows Terminal settings.json"
+title: Windows Terminal settings.json
 date: 2020-12-17
-description: "Paramétrage du terminal windows"
+description: Paramétrage du terminal windows
 cover_image: ./images/default-cheat-sheet.png
+date_updated: 2026-03-22T17:19
 ---
 Windows terminal settings.json
 
