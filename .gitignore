@@ -13,3 +13,6 @@ node_modules
 broken links output.md
 _sandbox
 .cache
+.DS_Store
+public/.DS_Store
+public/img/.DS_Store
