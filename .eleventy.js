@@ -121,10 +121,20 @@ export default function (eleventyConfig) {
 
     // RSS feed
     eleventyConfig.addPlugin(feedPlugin, {
-        type: "rss",
+        type: "atom",
         outputPath: "/feed.xml",
         collection: {
             name: "blog"
+        },
+        metadata:{
+            language:"fr",
+            title:"Marc Bouvier (Baldir)",
+            subtitle:"Développeur logiciel en quête du sens dans un monde aux ressources limitées.",
+            base: "https://baldir.fr",
+            author:{
+                name:"Marc Bouvier",
+                email:"contact@baldir.fr"
+            }
         }
     })
 
