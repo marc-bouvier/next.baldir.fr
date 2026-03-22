@@ -136,3 +136,13 @@ header {
 footer {
     margin-top: .5rem;
 }
+
+footer nav ul{
+    display: flex;
+    gap:1rem;
+    justify-content: center;
+}
+
+.a-propos-baldir-animated{
+    width: clamp(160px,100vw,320px);
+}
