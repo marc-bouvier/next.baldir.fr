@@ -3,7 +3,7 @@ title: Devenir de baldir.fr
 description: Reflexions et prochaines évolutions possibles
 layout: default.html
 date: 2025-01-25T19:10
-date_updated: 2025-01-25T19:10
+date_updated: 2026-03-22T15:51:07+01:00
 ---
 
 ## Réflexions en cours
@@ -23,7 +23,68 @@ Options (pas mutuellement exclusives)
 - Glossaire Français / Anglais du jargon technique : pour aider chacun à connaitre les mots pour faire des recherches par eux-même
 - Contribuer à [Wikipédia](https://fr.wikipedia.org/) ? 
 
+## Alimenter une partie du site avec Grist
 
+Pour pouvoir utiliser des formulaires pour ajouter des informations rapidement
+
+
+
+- notes rapides
+- actus
+- glossaire
+- citations
+
+Selon le prototype imaginé sur le prochain site de strasbourg-craft : https://gitlab.com/strasbourg-craft/2027/bretzel-craft#synchroniser-les-donn%C3%A9es-depuis-grist
+Le site chargerait des informations depuis l'API grist pour mettre à jour des fichiers json
+
+```js
+import {gristApi} from "./_src/grist-api.js"
+import {mapGristSpeakerToSpeaker} from "./_src/speaker.js"
+import {writeFile} from 'node:fs/promises'
+import {existsSync} from 'node:fs'
+
+// Synchronization from Grist database
+// Using Grist API key from .env
+
+// Loads data from Grist tables
+// Generates json files to ./data
+// Downloads images to ./img
+
+// refresh-images : force downloading already downloaded images
+const refresh_images = process.argv.find(it => it === "refresh-images") != null
+
+
+const collectionsPath = "./_data/"
+let gristSpeakers = await gristApi.getSpeakers();
+/** @type {Speaker[]} */
+let speakers = []
+
+for (const gristSpeaker of gristSpeakers) {
+    // Only publish speakers that commited their presence
+    if (gristSpeaker.fields.is_visible) {
+        let item = await mapGristSpeakerToSpeaker(gristSpeaker, gristApi);
+        speakers.push(item)
+    }
+}
+for (const speaker of speakers) {
+    const pictureId = speaker.picture_id;
+    const pictureUrlMax = speaker.picture.url_max;
+    const path = `.${pictureUrlMax}`
+    let fileExists = existsSync(path);
+    if (!fileExists || (fileExists && refresh_images)) {
+        console.log("redownload " + path)
+        const blob = await gristApi.downloadAttachment(pictureId)
+        await writeFile(path, blob.stream());
+    }
+}
+const jsonSpeakers = JSON.stringify(speakers,null,2);
+
+try {
+    await writeFile(collectionsPath + 'speakers.json', jsonSpeakers);
+} catch (e) {
+    console.error(err);
+}
+```
 ## Ressources et possibilités en vrac
 
 - [ ] Making of moteur de recherche
