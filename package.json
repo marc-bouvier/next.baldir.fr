@@ -27,6 +27,8 @@
     "js-yaml": "^4.1.0",
     "markdown-it": "^14.1.1",
     "markdown-it-footnote": "^4.0.0",
+    "pagefind": "^1.2.0",
+    "vitest": "^4.1.0",
     "opml-generator2": "^1.0.3",
     "pagefind": "^1.4.0",
     "vitest": "^4.0.18"
