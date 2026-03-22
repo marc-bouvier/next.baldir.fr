@@ -12,3 +12,4 @@ node_modules
 !/.obsidian/plugins/templater-obsidian/data.json
 broken links output.md
 _sandbox
+.cache

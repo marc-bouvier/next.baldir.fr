@@ -12,3 +12,4 @@ package-lock.json
 package.json
 **/*.test.js
 _drafts
+.cache
