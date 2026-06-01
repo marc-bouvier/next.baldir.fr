@@ -1,0 +1,58 @@
+---
+layout: layout.html
+title: Services
+description: "Offre de valeur"
+---
+
+<hgroup>
+    <h1>{{title}}</h1>
+    <p> {{slogan}} </p>
+</hgroup>
+
+{% if cover_image %}
+<div class="cover_image" {% if cover_aria_hidden %}aria-hidden="true" {% endif %}>
+    <img alt="{{cover_image_alt}}" src="{{cover_image}}"/>
+</div>
+{% endif %}
+
+<section>
+    <header>
+        <hgroup>
+        <h2>Mes offres</h2>
+            <p>{{offres_description}}</p>
+        </hgroup>
+    </header>
+
+    {% for offre in offres %}
+    <article aria-label="{{ offre.intervention_titre}}">
+        <header>
+            <h3> {{ offre.titre }} </h3>
+        </header>
+
+        <p> {{ offre.probleme }} </p>
+
+        <p><b>{{ offre.intervention_titre }}</b> : {{ offre.intervention_description }}</p>
+
+        <p> {{ offre.cible }}</p>
+
+        <div>
+            <div>
+                <a class="offre-appel-action" href="{{ offre.appel_action_href }}">{{ offre.appel_action }}</a>
+            </div>
+            <div>
+                <a class="offre-appel-action-email" href="mailto:{{ offre.appel_action_href_email }}">{{
+                    offre.appel_action_href_email
+                    }}</a>
+            </div>
+        </div>
+        <aside>
+            <!-- {{illustration_href}} -->
+        </aside>
+    </article>
+    {% endfor %}
+</section>
+
+<section>
+    {{content}}
+</section>
+
