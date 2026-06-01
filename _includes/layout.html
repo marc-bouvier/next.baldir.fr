@@ -20,7 +20,8 @@
         </ul>
     </nav>
     <div role="banner">
-        <div style="margin: .25rem .5rem; margin-left:0; font-size: larger"><a href="/" aria-label="Accueil">Marc Bouvier (Baldir)</a></div>
+        <div style="margin: .25rem .5rem; margin-left:0; font-size: larger"><a href="/" aria-label="Accueil">Marc
+            Bouvier (Baldir)</a></div>
     </div>
     <p style="font-size: small">{{global.description}}</p>
     <nav id="menu" role="menu">
@@ -43,8 +44,14 @@
 <hr/>
 <main id="content" data-pagefind-body {% if draft and draft==true %} data-pagefind-ignore {% endif %}>
     {{content}}
-    {% if slash_ai_partial_model %}<aside><span aria-hidden="true">🤖💩</span>Ce contenu a été partiellement généré en utilisant le modèle <b>{{slash_ai_partial_model}}</b>. En savoir plus
-    <a href="/ai">sur ma page /ai</a></aside>{% endif %}
+    {% if slash_ai_partial_model %}
+    <aside>
+        <p>
+            <span aria-hidden="true">🤖💩</span>Ce contenu a été partiellement généré en utilisant le modèle <b>{{slash_ai_partial_model}}</b>.
+            En savoir plus <a href="/ai">sur ma page /ai</a>
+        </p>
+    </aside>
+    {% endif %}
 </main>
 <hr/>
 <aside>

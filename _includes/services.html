@@ -18,86 +18,95 @@ description: "Offre de valeur"
 <section>
     <header>
         <hgroup>
-        <h2>Mes offres</h2>
+            <h2>Mes offres</h2>
             <p>{{offres_description}}</p>
         </hgroup>
     </header>
 
-    <article aria-label="{{ offre_1_intervention_titre}}">
-        <header>
-            <h3> {{ offre_1_titre }} </h3>
-        </header>
-
-        <p> {{ offre_1_probleme }} </p>
-
-        <p><b>{{ offre_1_intervention_titre }}</b> : {{ offre_1_intervention_description }}</p>
-
-        <p> {{ offre_1_cible }}</p>
-
+    <article aria-label="{{ offre_1_intervention_titre}}" class="offre-services">
         <div>
+
+            <header>
+                <h3> {{ offre_1_titre }} </h3>
+            </header>
+
+            <p> {{ offre_1_probleme }} </p>
+
+            <p><b>{{ offre_1_intervention_titre }}</b> : {{ offre_1_intervention_description }}</p>
+
+            <p> {{ offre_1_cible }}</p>
+
             <div>
-                <a class="offre-appel-action" href="{{ offre_1_appel_action_href }}">{{ offre_1_appel_action }}</a>
-            </div>
-            <div>
-                <a class="offre-appel-action-email" href="mailto:{{ offre_1_appel_action_href_email }}">{{
-                    offre_1_appel_action_href_email
-                    }}</a>
+                <div>
+                    <a class="offre-appel-action" href="{{ offre_1_appel_action_href }}">{{ offre_1_appel_action }}</a>
+                </div>
+                <div>
+                    <a class="offre-appel-action-email" href="mailto:{{ offre_1_appel_action_href_email }}">{{
+                        offre_1_appel_action_href_email
+                        }}</a>
+                </div>
             </div>
         </div>
-        <aside>
-            <!-- {{ offre_1_illustration_href}} -->
+        <aside class="offre-image-decoration" aria-hidden="true">
+            <img  src="{% if offre_1_illustration_href %}{{ offre_1_illustration_href}}{% else %}/public/img/offres-services/offre-1-placeholder.gif{% endif %}" alt="" width="320" height="240">
         </aside>
     </article>
 
-    <article aria-label="{{ offre_2_intervention_titre}}">
-        <header>
-            <h3> {{ offre_2_titre }} </h3>
-        </header>
-
-        <p> {{ offre_2_probleme }} </p>
-
-        <p><b>{{ offre_2_intervention_titre }}</b> : {{ offre_2_intervention_description }}</p>
-
-        <p> {{ offre_2_cible }}</p>
-
+    <article aria-label="{{ offre_2_intervention_titre}}"  class="offre-services mirror">
         <div>
+
+            <header>
+                <h3> {{ offre_2_titre }} </h3>
+            </header>
+
+            <p> {{ offre_2_probleme }} </p>
+
+            <p><b>{{ offre_2_intervention_titre }}</b> : {{ offre_2_intervention_description }}</p>
+
+            <p> {{ offre_2_cible }}</p>
+
             <div>
-                <a class="offre-appel-action" href="{{ offre_2_appel_action_href }}">{{ offre_2_appel_action }}</a>
-            </div>
-            <div>
-                <a class="offre-appel-action-email" href="mailto:{{ offre_2_appel_action_href_email }}">{{
-                    offre_2_appel_action_href_email
-                    }}</a>
+                <div>
+                    <a class="offre-appel-action" href="{{ offre_2_appel_action_href }}">{{ offre_2_appel_action }}</a>
+                </div>
+                <div>
+                    <a class="offre-appel-action-email" href="mailto:{{ offre_2_appel_action_href_email }}">{{
+                        offre_2_appel_action_href_email
+                        }}</a>
+                </div>
             </div>
         </div>
-        <aside>
-            <!-- {{ offre_2_illustration_href}} -->
+        <aside class="offre-image-decoration" aria-hidden="true">
+            <img  src="{% if offre_2_illustration_href %}{{ offre_2_illustration_href}}{% else %}/public/img/offres-services/offre-2-placeholder.gif{% endif %}" alt="" width="320" height="240">
         </aside>
     </article>
 
-    <article aria-label="{{ offre_3_intervention_titre}}">
-        <header>
-            <h3> {{ offre_3_titre }} </h3>
-        </header>
-
-        <p> {{ offre_3_probleme }} </p>
-
-        <p><b>{{ offre_3_intervention_titre }}</b> : {{ offre_3_intervention_description }}</p>
-
-        <p> {{ offre_3_cible }}</p>
-
+    <article aria-label="{{ offre_3_intervention_titre}}"  class="offre-services">
         <div>
+
+            <header>
+                <h3> {{ offre_3_titre }} </h3>
+            </header>
+
+            <p> {{ offre_3_probleme }} </p>
+
+            <p><b>{{ offre_3_intervention_titre }}</b> : {{ offre_3_intervention_description }}</p>
+
+            <p> {{ offre_3_cible }}</p>
+
             <div>
-                <a class="offre-appel-action" href="{{ offre_3_appel_action_href }}">{{ offre_3_appel_action }}</a>
-            </div>
-            <div>
-                <a class="offre-appel-action-email" href="mailto:{{ offre_3_appel_action_href_email }}">{{
-                    offre_3_appel_action_href_email
-                    }}</a>
+                <div>
+                    <a class="offre-appel-action" href="{{ offre_3_appel_action_href }}">{{ offre_3_appel_action }}</a>
+                </div>
+                <div>
+                    <a class="offre-appel-action-email" href="mailto:{{ offre_3_appel_action_href_email }}">{{
+                        offre_3_appel_action_href_email
+                        }}</a>
+                </div>
             </div>
         </div>
-        <aside>
-            <!-- {{ offre_3_illustration_href}} -->
+        <aside class="offre-image-decoration" aria-hidden="true">
+            <img  src="{% if offre_3_illustration_href %}{{ offre_3_illustration_href}}{% else %}/public/img/offres-services/offre-3-placeholder.gif{% endif %}" alt="" width="320" height="240">
         </aside>
     </article>
 </section>
