@@ -23,33 +23,83 @@ description: "Offre de valeur"
         </hgroup>
     </header>
 
-    {% for offre in offres %}
-    <article aria-label="{{ offre.intervention_titre}}">
+    <article aria-label="{{ offre_1_intervention_titre}}">
         <header>
-            <h3> {{ offre.titre }} </h3>
+            <h3> {{ offre_1_titre }} </h3>
         </header>
 
-        <p> {{ offre.probleme }} </p>
+        <p> {{ offre_1_probleme }} </p>
 
-        <p><b>{{ offre.intervention_titre }}</b> : {{ offre.intervention_description }}</p>
+        <p><b>{{ offre_1_intervention_titre }}</b> : {{ offre_1_intervention_description }}</p>
 
-        <p> {{ offre.cible }}</p>
+        <p> {{ offre_1_cible }}</p>
 
         <div>
             <div>
-                <a class="offre-appel-action" href="{{ offre.appel_action_href }}">{{ offre.appel_action }}</a>
+                <a class="offre-appel-action" href="{{ offre_1_appel_action_href }}">{{ offre_1_appel_action }}</a>
             </div>
             <div>
-                <a class="offre-appel-action-email" href="mailto:{{ offre.appel_action_href_email }}">{{
-                    offre.appel_action_href_email
+                <a class="offre-appel-action-email" href="mailto:{{ offre_1_appel_action_href_email }}">{{
+                    offre_1_appel_action_href_email
                     }}</a>
             </div>
         </div>
         <aside>
-            <!-- {{illustration_href}} -->
+            <!-- {{ offre_1_illustration_href}} -->
         </aside>
     </article>
-    {% endfor %}
+
+    <article aria-label="{{ offre_2_intervention_titre}}">
+        <header>
+            <h3> {{ offre_2_titre }} </h3>
+        </header>
+
+        <p> {{ offre_2_probleme }} </p>
+
+        <p><b>{{ offre_2_intervention_titre }}</b> : {{ offre_2_intervention_description }}</p>
+
+        <p> {{ offre_2_cible }}</p>
+
+        <div>
+            <div>
+                <a class="offre-appel-action" href="{{ offre_2_appel_action_href }}">{{ offre_2_appel_action }}</a>
+            </div>
+            <div>
+                <a class="offre-appel-action-email" href="mailto:{{ offre_2_appel_action_href_email }}">{{
+                    offre_2_appel_action_href_email
+                    }}</a>
+            </div>
+        </div>
+        <aside>
+            <!-- {{ offre_2_illustration_href}} -->
+        </aside>
+    </article>
+
+    <article aria-label="{{ offre_3_intervention_titre}}">
+        <header>
+            <h3> {{ offre_3_titre }} </h3>
+        </header>
+
+        <p> {{ offre_3_probleme }} </p>
+
+        <p><b>{{ offre_3_intervention_titre }}</b> : {{ offre_3_intervention_description }}</p>
+
+        <p> {{ offre_3_cible }}</p>
+
+        <div>
+            <div>
+                <a class="offre-appel-action" href="{{ offre_3_appel_action_href }}">{{ offre_3_appel_action }}</a>
+            </div>
+            <div>
+                <a class="offre-appel-action-email" href="mailto:{{ offre_3_appel_action_href_email }}">{{
+                    offre_3_appel_action_href_email
+                    }}</a>
+            </div>
+        </div>
+        <aside>
+            <!-- {{ offre_3_illustration_href}} -->
+        </aside>
+    </article>
 </section>
 
 <section>
