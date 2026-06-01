@@ -7,6 +7,9 @@ date_updated: 2026-03-22T17:19
 
 - [Bac à sable CSS](/bac-a-sable-css)
 - [TODO list](/TODO)
+
+## Itérations sur pages d'offres de services
+
 - [Services 1](/services-1) : 
     - [Services 2](/services-2) : idem Services 1 avec un titre différent (sans section philosophie)
 - [Services 3](/services-3) :  
