@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="description" content="{% if description %}{{description}}{% else %}{{global.description}}{% endif %}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baldir - {{title}}</title>
-    <link rel="alternate" href="/feed.xml" title="Baldir - Flux RSS des articles de blog" type="application/rss+xml">
+    <title>{{title}} - Baldir</title>
+    <link rel="alternate" href="/feed.xml" title="Flux RSS des articles de blog - Baldir" type="application/rss+xml">
     <link href="/public/css/a11y-light.min.css" rel="stylesheet"/>
     <link href="/public/css/style.css" rel="stylesheet"/>
 </head>
@@ -47,7 +47,7 @@
 <aside>
     Prenons <a href="https://calendly.com/baldir-fr">30 minutes pour en visio</a> pour échanger.
 </aside>
-<footer>
+<footer id="footer">
     <a class="modify-from-sources"
        href="https://github.com/marc-bouvier/next.baldir.fr/blob/main/{{ page.inputPath }}"
        target="_blank">
