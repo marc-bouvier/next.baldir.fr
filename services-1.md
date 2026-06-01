@@ -18,7 +18,7 @@ offre_1_appel_action: Découvrons les prochaines étapes de votre parcours
 offre_1_appel_action_href: "https://calendly.com/baldir-fr/30min"
 offre_1_appel_action_href_email: "mentorat@baldir.fr"
 offre_2_titre: Entreprise/Équipe
-offre_2_cible: Pour les développeur·euse·s solos
+offre_2_cible: Pour les équipes de développement souhaitant retrouver l'excellence
 offre_2_probleme: Votre équipe est là, mais la productivité n'est plus au rendez-vous. Les problèmes sont organisationnels, techniques, ou humains.
 offre_2_intervention_titre: Coaching Technique d'équipe
 offre_2_intervention_description: Redonnez vitalité et qualité à votre processus de développement. De la reproduction au véritable savoir-faire. Équipes de développement souhaitant retrouver l'excellence.
