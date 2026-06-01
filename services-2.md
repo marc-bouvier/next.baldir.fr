@@ -1,5 +1,6 @@
 ---
 layout: services.html
+slash_ai_partial_model: "Google Gemma 4 E4B (local)"
 title: "Marc Bouvier Artisan du Code, Guide de l'Intelligence Collective"
 slogan: "Je transforme le potentiel du code en solutions humaines, pérennes et éthiques."
 offres_description: "Besoin de faire évoluer votre pratique ou votre équipe? Je vous accompagne à chaque étape."

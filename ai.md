@@ -7,7 +7,7 @@ date_updated: 2026-03-22T15:10
 
 # {{title}}
 
-Aucun des posts ou des illustrations créées sur ce site n'a été généré par des LLM.
+Aucun des **posts** ou des **illustrations** créées sur ce site n'a été généré par des LLM.
 
 J'utilise parfois à la marge des outils s'appuyant sur des grands modèles de langage durant mes recherches et le développement de ce site.
 Je n'utilise en aucun cas ces outils d'une façon qui puisse à ma connaissance blesser autrui.
@@ -30,6 +30,7 @@ Edit 2025-01-03 :
 
 J'essaie en ce moment [le système de transcription de Apple Notes](https://support.apple.com/fr-fr/guide/notes/apdb5106e334/4.11/mac/15.0#apdf7fd2b23a) basé sur un modèle hors ligne. Je ne sais pas sur quel données le modèle a été entrainé (hypothèse : Apple Podcast et ITunes) ;
 
+Edit 2026-06-01 : [Certaines expérimentations](/labo) peuvent avoir du contenu partiellement généré par des LLM locaux ou de petite taille. En bas des pages concernées, un paragraphe l'indique ainsi que le mod!le utilisé.
 
 ## Ma position
 

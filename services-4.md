@@ -1,5 +1,6 @@
 ---
 layout: services.html
+slash_ai_partial_model: "Google Gemma 4 E4B (local)"
 title: "Mon accompagnement au service de l'excellence numérique partagée"
 slogan: "En tant que développeur, coach et pédagogue, mon approche du logiciel dépasse le simple code. Je crois que la technologie doit être un levier au service de l'humain, de l'éthique et de la durabilité. Je collabore avec les acteurs qui souhaitent construire ce futur numérique de manière responsable."
 offres_description: ""

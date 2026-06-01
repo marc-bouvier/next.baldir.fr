@@ -1,5 +1,6 @@
 ---
 layout: services.html
+slash_ai_partial_model: "Google Gemma 4 E4B (local)"
 title: "Coaching Technique, Accompagnement Agile & Transmission pour faire évoluer vos projets"
 slogan: "En tant que développeur aguerri, coach technique et éducateur, j'accompagne les individus et les équipes qui souhaitent élever la qualité de leur code, la robustesse de leurs processus ou la profondeur de leur réflexion collective. Mon approche est ancrée dans la philosophie de l'artisanat logiciel et du partage de savoir."
 offres_description: "Besoin de faire évoluer votre pratique ou votre équipe? Je vous accompagne à chaque étape."
