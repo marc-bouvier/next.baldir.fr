@@ -8,10 +8,12 @@ date_updated: 2026-03-22T17:19
 - [Bac à sable CSS](/bac-a-sable-css)
 - [TODO list](/TODO)
 
-## Prochaine tâche
+## Prochaines tâches
 
 - `og:description`, `og:image:url` ... pour avoir des jolis aperçus et résultats de recherche sur mes pages
-
+- Liste des BBL
+- Page des gens que je recommande (avec des vignettes dessinées main)
+  - Laura Haas, Paul gallo, Superflux, Dinorose, Marina Bourny, Marion Vancampen....
 ## Itérations sur pages d'offres de services
 
 - [Services 1](/services-1) : 
