@@ -8,6 +8,10 @@ date_updated: 2026-03-22T17:19
 - [Bac à sable CSS](/bac-a-sable-css)
 - [TODO list](/TODO)
 
+## Prochaine tâche
+
+- `og:description`, `og:image:url` ... pour avoir des jolis aperçus et résultats de recherche sur mes pages
+
 ## Itérations sur pages d'offres de services
 
 - [Services 1](/services-1) : 
