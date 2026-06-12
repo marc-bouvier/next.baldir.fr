@@ -10,6 +10,12 @@ events:
     end: 2026-06-24T13:19:30+02:00
     url: https://demain-maintenant.fr/
     uid: 1051892E-2DB4-45C8-BC44-10359F143006
+  - title: "Fishbowl : Nos pratiques secrètes"
+    description: "Je facilite un atelier au format fishbowl. Puisons nos vécus, et découvrons ce qui nous sert dans nos pratiques de développement."
+    start: 2026-06-11T18:45:00+02:00
+    end: 2026-06-11T21:00:00+02:00
+    url: https://www.meetup.com/fr-fr/software-crafters-strasbourg/events/315086850
+    uid: 25D9EA43-0E28-42BD-9213-AB6CF5030B09
   - title: "Podcast ”Toujours Plus“"
     description: "Webinaire interview — ”Pourquoi j’ai choisi de ne pas utiliser l’IA ?“"
     start: 2025-01-07T13:00:00+01:00
