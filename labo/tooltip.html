@@ -1,0 +1,24 @@
+<style>
+    [interestfor] {
+        anchor-name: attr(id type(<custom-ident>));
+    }
+
+    [popover=hint] {
+        /*position: absolute;*/
+        position-anchor: attr(anchor type(<custom-ident>));
+        /*top: anchor(bottom);*/
+        /*left: anchor(center);*/
+        /*translate: -50% 8px;*/
+    }
+
+</style>
+<p>Texte sans intérêt.
+    <a id="trigger"
+       interestfor="tooltip" href="#">
+        Concept de glossaire
+    </a>
+</p>
+<p>Un autre paragraphe.</p>
+<div id="tooltip" popover=hint>
+  Courte définition du concept de glossaire
+</div>
