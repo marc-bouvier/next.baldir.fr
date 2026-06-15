@@ -1,24 +1,101 @@
 <style>
-    [interestfor] {
-        anchor-name: attr(id type(<custom-ident>));
+
+    @layer castd {
+        :root {
+            --unit: 0.5rem;
+            --line-height-tight: 1.25;
+            --line-height-base: 1.5;
+        }
+    }
+    @layer theme {
+        :root {
+            --bg: light-dark(oklch(97% 0 0), oklch(15% 0 0));
+            --surface: light-dark(oklch(100% 0 0), oklch(22% 0 0));
+            --text: light-dark(oklch(15% 0 0), oklch(97% 0 0));
+            --text-inv: light-dark(oklch(100% 0 0), oklch(100% 0 0));
+            --muted: light-dark(oklch(60% 0 0), oklch(65% 0 0));
+            --border: light-dark(oklch(85% 0 0), oklch(30% 0 0));
+            --control: light-dark(oklch(92% 0 0), oklch(28% 0 0));
+
+            --accent: oklch(55% 0.22 260);
+            --info: oklch(65% 0.15 230);
+            --success: oklch(65% 0.2 145);
+            --warning: oklch(70% 0.18 85);
+            --error: oklch(55% 0.25 25);
+
+            --shadow-sm: light-dark(oklch(0% 0 0 / 0.1), oklch(0% 0 0 / 0.2));
+            --stripe: light-dark(oklch(0% 0 0 / 0.05), oklch(100% 0 0 / 0.05));
+            --disabled: repeating-linear-gradient(
+                    -45deg,
+                    transparent,
+                    transparent 2px,
+                    var(--stripe) 2px,
+                    var(--stripe) 4px
+            );
+
+            --mark-background: light-dark(oklch(85% 0.15 85), oklch(50% 0.2 60));
+            --mark-color: light-dark(oklch(20% 0 0), oklch(95% 0 0));
+            --ins-background: light-dark(oklch(90% 0.1 145), oklch(45% 0.2 140));
+            --ins-color: light-dark(oklch(20% 0 0), oklch(95% 0 0));
+            --code-color: oklch(75% 0.12 70);
+        }
+
+        body {
+            background: var(--bg);
+            color: var(--text);
+        }
+    }
+    /* --- Dictionary terms (auto-linked) ----------------------------------- */
+
+    .mb-term {
+        color: var(--text);
+        text-decoration: underline;
+        text-decoration-color: oklch(75% 0.15 85);
+        text-decoration-thickness: 1px;
+        text-underline-offset: 3px;
+        text-decoration-style: dotted;
+        position: relative;
+        cursor: help;
     }
 
-    [popover=hint] {
-        /*position: absolute;*/
-        position-anchor: attr(anchor type(<custom-ident>));
-        /*top: anchor(bottom);*/
-        /*left: anchor(center);*/
-        /*translate: -50% 8px;*/
+    .mb-term:hover {
+        color: oklch(75% 0.15 85);
     }
+
+    .mb-term::after {
+        content: attr(data-def);
+        position: fixed;
+        left: calc(var(--unit) * 3);
+        right: calc(var(--unit) * 3);
+        bottom: calc(var(--unit) * 3);
+        width: auto;
+        max-width: none;
+        padding: calc(var(--unit) * 1.5) calc(var(--unit) * 2);
+        background: var(--surface);
+        color: var(--muted);
+        border: 1px solid var(--border);
+        border-radius: calc(var(--unit) * 0.75);
+        font-size: calc(var(--unit) * 1.75);
+        line-height: 1.5;
+        white-space: normal;
+        pointer-events: none;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.15s;
+        z-index: 20;
+    }
+
+    .mb-term:hover::after,
+    .mb-term.is-touched::after {
+        opacity: 1;
+        visibility: visible;
+    }
+
 
 </style>
-<p>Texte sans intérêt.
-    <a id="trigger"
-       interestfor="tooltip" href="#">
-        Concept de glossaire
-    </a>
+<!-- https://inclusive-components.design/tooltips-toggletips/ -->
+<!-- https://hidde.blog/popover-accessibility/ -->
+
+<p>
+    Foo bar baz <a class="mb-term" href="" data-def="I am a purple">Purple</a> catz.
 </p>
-<p>Un autre paragraphe.</p>
-<div id="tooltip" popover=hint>
-  Courte définition du concept de glossaire
-</div>
