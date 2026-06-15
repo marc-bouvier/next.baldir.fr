@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="{% if description %}{{description}}{% else %}{{global.description}}{% endif %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}} - Baldir</title>
+    <link rel="alternate" href="/feed.xml" title="Flux RSS des articles de blog - Baldir" type="application/rss+xml">
+    <link href="/css/a11y-light.min.css" rel="stylesheet"/>
+    <link href="/css/style.css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+    <nav class="header-skip-content">
+        <ul>
+            <li><a href="#content">Aller au contenu</a></li>
+            <li><a href="#menu">Aller au menu</a></li>
+            <li><a href="#search">Aller à la recherche</a></li>
+            <li><a href="#footer">Aller au pied de page</a></li>
+        </ul>
+    </nav>
+    <div role="banner">
+        <div style="margin: .25rem .5rem; margin-left:0; font-size: larger"><a href="/public" aria-label="Accueil">Marc
+            Bouvier (Baldir)</a></div>
+    </div>
+    <p style="font-size: small">{{global.description}}</p>
+    <nav id="menu" role="menu">
+        <a href="/blog" role="menuitem">Articles de blog</a>
+        <a href="/a-propos" role="menuitem">À propos</a>
+        <a href="/notes" role="menuitem">Notes</a>
+        <a href="/glossaire" role="menuitem">Glossaire</a>
+        <a href="/citations" role="menuitem">Citations</a>
+
+    </nav>
+    <link href="/css/pagefind-baldir-fr-ui.css" rel="stylesheet">
+    <script src="/pagefind/pagefind-ui.js"></script>
+    <div id="search"></div>
+    <script>
+        window.addEventListener('DOMContentLoaded', (event) => {
+            new PagefindUI({element: "#search", showSubResults: true, showImages: false});
+        });
+    </script>
+</header>
+<hr/>
+<main id="content" data-pagefind-body {% if draft and draft==true %} data-pagefind-ignore {% endif %}>
+    {{content}}
+    {% if slash_ai_partial_model %}
+    <aside>
+        <p>
+            <span aria-hidden="true">🤖💩</span>Ce contenu a été partiellement généré en utilisant le modèle <b>{{slash_ai_partial_model}}</b>.
+            En savoir plus <a href="/ai">sur ma page /ai</a>
+        </p>
+    </aside>
+    {% endif %}
+</main>
+<hr/>
+<aside>
+    Prenons <a href="https://calendly.com/baldir-fr">30 minutes pour en visio</a> pour échanger.
+</aside>
+<footer id="footer">
+    <a class="modify-from-sources"
+       href="https://github.com/marc-bouvier/next.baldir.fr/blob/main/{{ page.inputPath }}"
+       target="_blank">
+        Voir cette page sur GitHub
+    </a>
+    <nav>
+        <ul>
+            <li><a href="/ai">AI</a></li>
+            <li><a href="/labo">labo</a></li>
+            <li><a href="/making-of" role="menuitem">Making of</a></li>
+        </ul>
+    </nav>
+</footer>
+</body>
+</html>
