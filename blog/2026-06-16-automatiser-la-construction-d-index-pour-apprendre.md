@@ -1,6 +1,6 @@
 ---
 title: Automatiser la construction d’index pour apprendre
-description: "Autmatisation de la saisie et affichage des index pour apprendre dans Obsidian."
+description: "Automatisation de la saisie et affichage des index pour apprendre dans Obsidian."
 date: 2026-06-16T17:33:26+02:00
 tags:
   - Obsidian
