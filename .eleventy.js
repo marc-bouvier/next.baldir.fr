@@ -110,6 +110,8 @@ export default function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("public/css");
     // Copy static documents as is
     eleventyConfig.addPassthroughCopy("public/pdf");
+    // Copy video as is
+    eleventyConfig.addPassthroughCopy("public/video");
 
     // Required to support --pathprefix
     eleventyConfig.addPlugin(EleventyHtmlBasePlugin);

@@ -179,3 +179,8 @@ footer nav ul{
     }
 
 }
+
+.video-responsive{
+    max-width: 100%;
+    height: auto;
+}
