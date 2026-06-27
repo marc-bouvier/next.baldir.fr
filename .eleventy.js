@@ -5,7 +5,8 @@ import {feedPlugin} from "@11ty/eleventy-plugin-rss";
 import yaml from "js-yaml"
 import markdownIt from "markdown-it";
 import markdownItFootnote from "markdown-it-footnote";
-import langFlagShortcode from "./_shortcodes/lang-flag.js";
+import langFlagShortcode from "./_src/shortcodes/lang-flag.js";
+import tagsShortcode from "./_src/shortcodes/tags.js";
 
 export default function (eleventyConfig) {
 

@@ -1,3 +1,5 @@
+import {toIso639Set1} from "../lang.js";
+
 /**
  * Shortcode taking language code and producing accessible flag emoji
  *
@@ -19,7 +21,7 @@ export default function (lang) {
         return ""
     } else {
         const label = toLabel(lang);
-        return `<span class="sr-only">En ${label}</span><span aria-hidden="true">${flag}</span>`;
+        return `<span class="sr-only">(${label})</span><span aria-hidden="true">${flag}</span>`;
     }
 };
 
@@ -40,15 +42,4 @@ function toLabel(iso639Set1) {
 
 function toFlag(iso639Set1) {
     return langFlags[toIso639Set1(iso639Set1)]
-}
-
-/**
- *
- * @param {string} lang
- */
-function toIso639Set1(lang) {
-    if (lang) {
-        return lang.split("-")[0];
-    }
-    return ""
 }
