@@ -14,6 +14,8 @@ date_updated: 2026-03-22T17:19
 - Liste des BBL
 - Page des gens que je recommande (avec des vignettes dessinées main)
   - Laura Haas, Paul gallo, Superflux, Dinorose, Marina Bourny, Marion Vancampen....
+- Passages média
+	- https://www.youtube.com/watch?v=iucqsq_9bbA
 ## Itérations sur pages d'offres de services
 
 - [Services 1](/services-1) : 
