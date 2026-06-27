@@ -195,5 +195,6 @@ export default function (eleventyConfig) {
     eleventyConfig.addDataExtension("yml", (contents) => yaml.load(contents));
 
     eleventyConfig.addShortcode("lang-flag", langFlagShortcode);
+    eleventyConfig.addShortcode("tags", tagsShortcode);
 
 }
