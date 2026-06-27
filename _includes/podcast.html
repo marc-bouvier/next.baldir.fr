@@ -3,7 +3,7 @@ layout: layout.html
 ---
 
 <hgroup>
-    <h1>{{title}}</h1>
+    <h1>{{title}} {% lang-flag lang %}</h1>
 </hgroup>
 {% if tags %}
 <ul class="tags">
@@ -18,5 +18,5 @@ layout: layout.html
 </div>
 {% endif %}
 <p lang="{{lang}}"> {{description}} </p>
-<p class="font-size-double"> {% lang-flag lang %} <a href="{{rss_url}}" target="_blank">Flux RSS</a></p>
+<p><a href="{{podcast.data.site_url}}" target="_blank">Site</a> <a href="{{rss_url}}" target="_blank">Flux RSS</a></p>
 {{content}}

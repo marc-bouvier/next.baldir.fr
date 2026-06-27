@@ -43,6 +43,11 @@ export default function (eleventyConfig) {
         return collectionApi.getAll()[0].data.rss_feeds
     });
 
+    eleventyConfig.addCollection("podcasts", function (collectionApi) {
+        return collectionApi.getFilteredByGlob(["externe/podcasts/*.md"]);
+    });
+
+
     eleventyConfig.addCollection("blog", function (collectionApi) {
         return collectionApi.getFilteredByGlob(["blog/*.md", "blog/*.html"]);
     });
@@ -103,7 +108,6 @@ export default function (eleventyConfig) {
             .sort((a, b) => a.localeCompare(b));
 
     });
-
 
     // Adds id to headings
     eleventyConfig.addPlugin(IdAttributePlugin);

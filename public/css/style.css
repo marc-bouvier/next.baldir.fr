@@ -9,6 +9,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
+
 hr, .card, pre {
     border-style: dashed;
     border-width: medium;
@@ -225,6 +226,25 @@ footer nav ul {
     width: 1px !important;
     white-space: nowrap !important;
 }
-.font-size-double{
+
+.font-size-double {
     font-size: larger;
+}
+
+.podcast-card-image {
+    width: 8rem;
+    height: auto;
+}
+
+.podcast-cards{
+    display: grid;
+    grid-auto-flow: row;
+    --min: 15ch;
+    --gap: 1rem;
+
+    grid-gap: var(--gap);
+    /* min() with 100% prevents overflow
+    in extra narrow spaces */
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--min)), 1fr));
+    justify-items: center;
 }
