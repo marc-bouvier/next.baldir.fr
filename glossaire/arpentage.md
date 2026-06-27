@@ -1,11 +1,11 @@
 ---
 title: Arpentage
-date: 
+date:
 tags:
   - Education-populaire
   - Apprenance
 description: Technique de lecture rapide de livre venant de l’éducation populaire.
-stub: true
+stub: false
 draft: false
 ---
 C'est un outil d'éducation populaire dans lequel on coupe un livre physiquement.
