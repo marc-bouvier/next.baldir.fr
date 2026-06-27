@@ -1,0 +1,32 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.name.contains("services-")
+  - type: cards
+    name: Cards
+    filters:
+      and:
+        - file.name.contains("services-")
+    order:
+      - file.name
+      - title
+      - slogan
+      - offres_description
+      - offre_1_titre
+      - offre_1_cible
+      - offre_1_probleme
+      - offre_1_intervention_titre
+      - offre_1_intervention_description
+      - offre_2_titre
+      - offre_2_cible
+      - offre_2_probleme
+      - offre_2_intervention_titre
+      - offre_2_intervention_description
+      - offre_3_titre
+      - offre_3_cible
+      - offre_3_probleme
+      - offre_3_intervention_titre
+      - offre_3_intervention_description
+    cardSize: 800

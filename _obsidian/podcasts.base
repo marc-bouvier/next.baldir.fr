@@ -1,0 +1,12 @@
+views:
+  - type: cards
+    name: Table
+    filters:
+      and:
+        - file.path.startsWith("externe/podcasts")
+    order:
+      - title
+      - description
+      - tags
+      - lang
+    image: note.cover_image

@@ -5,6 +5,7 @@ import {feedPlugin} from "@11ty/eleventy-plugin-rss";
 import yaml from "js-yaml"
 import markdownIt from "markdown-it";
 import markdownItFootnote from "markdown-it-footnote";
+import langFlagShortcode from "./_shortcodes/lang-flag.js";
 
 export default function (eleventyConfig) {
 
@@ -128,14 +129,14 @@ export default function (eleventyConfig) {
         collection: {
             name: "blog"
         },
-        metadata:{
-            language:"fr",
-            title:"Marc Bouvier (Baldir)",
-            subtitle:"Développeur logiciel en quête du sens dans un monde aux ressources limitées.",
+        metadata: {
+            language: "fr",
+            title: "Marc Bouvier (Baldir)",
+            subtitle: "Développeur logiciel en quête du sens dans un monde aux ressources limitées.",
             base: "https://baldir.fr",
-            author:{
-                name:"Marc Bouvier",
-                email:"contact@baldir.fr"
+            author: {
+                name: "Marc Bouvier",
+                email: "contact@baldir.fr"
             }
         }
     })
@@ -192,5 +193,7 @@ export default function (eleventyConfig) {
 
     // Support yaml data files : https://www.11ty.dev/docs/data-custom/#yaml
     eleventyConfig.addDataExtension("yml", (contents) => yaml.load(contents));
+
+    eleventyConfig.addShortcode("lang-flag", langFlagShortcode);
 
 }

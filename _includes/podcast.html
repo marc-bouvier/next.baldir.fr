@@ -1,0 +1,22 @@
+---
+layout: layout.html
+---
+
+<hgroup>
+    <h1>{{title}}</h1>
+</hgroup>
+{% if tags %}
+<ul class="tags">
+    {% for tag in tags %}
+    <li><a href="/tags/{{tag}}">{{tag}}</a></li>
+    {% endfor %}
+</ul>
+{% endif %}
+{% if cover_image %}
+<div class="cover_image" {% if not cover_image_alt %}aria-hidden="true" {% endif %}>
+    <img alt="{{cover_image_alt}}" src="{{cover_image}}"/>
+</div>
+{% endif %}
+<p lang="{{lang}}"> {{description}} </p>
+<p class="font-size-double"> {% lang-flag lang %} <a href="{{rss_url}}" target="_blank">Flux RSS</a></p>
+{{content}}
