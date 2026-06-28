@@ -53,4 +53,4 @@ Je me reconnais dans [le "`/ai` manifesto"](https://www.bydamo.la/p/ai-manifesto
 
 Retrouvez une version un peu plus élaborée de ma position dans [une interview vidéo de 1h donnée par Reboot Conseil](https://baldir.fr/notes/2025-01-14_podcast-reboot-slash-ai-manifesto/).
 
-[^1]: J'ai arrêté d'utiliser ces améliorations en modèle locale, car ils consomment de la ressource et ralentissent mes outils sans apporter de valeur suffisante à mon goût. ![Plugins IntelliJ Idea d'IA locale désactivés|width=50](public/img/idea-local-ai-disabled.jpeg "Les plugins d'IntelliJ Idea utilisant l'IA désactivés")
+[^1]: J'ai arrêté d'utiliser ces améliorations en modèle locale, car ils consomment de la ressource et ralentissent mes outils sans apporter de valeur suffisante à mon goût. ![Plugins IntelliJ Idea d'IA locale désactivés|width=50](../public/img/idea-local-ai-disabled.jpeg "Les plugins d'IntelliJ Idea utilisant l'IA désactivés")
