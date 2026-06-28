@@ -106,7 +106,7 @@ L'auto-hébergement des serveurs, la reprise en main du réseau et la gestion in
 >
 > Nous maîtrisons non seulement notre infrastructure et nos outils, mais aussi notre budget.
 >
-> Les économies en coût de fonctionnement sur la durée de du mandat s'élèvent à plus de **2 millions d'euros**.
+> Les économies en coût de fonctionnement sur la durée du mandat s'élèvent à plus de **2 millions d'euros**.
 
 ## Changements
 
