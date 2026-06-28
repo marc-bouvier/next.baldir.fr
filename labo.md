@@ -28,3 +28,7 @@ date_updated: 2026-03-22T17:19
 - [Services 8](/labo/services-8) :
 - [Services 9](/labo/services-9) :
 - [Services 10](/labo/services-10) :
+
+## Souscriptions suivies (OPML)
+
+- [Souscriptions suivies](/labo/souscriptions-suivies) :
