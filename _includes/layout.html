@@ -10,21 +10,21 @@
     <link href="/public/css/style.css" rel="stylesheet"/>
 </head>
 <body>
+<nav class="header-skip-content" aria-label="Liens d'évitement">
+    <ul class="nav-menu">
+        <li><a href="#content">Aller au contenu</a></li>
+        <li><a href="#menu">Aller au menu</a></li>
+        <li><a href="#search">Aller à la recherche</a></li>
+        <li><a href="#footer">Aller au pied de page</a></li>
+    </ul>
+</nav>
 <header>
-    <nav class="header-skip-content">
-        <ul class="nav-menu">
-            <li><a href="#content">Aller au contenu</a></li>
-            <li><a href="#menu">Aller au menu</a></li>
-            <li><a href="#search">Aller à la recherche</a></li>
-            <li><a href="#footer">Aller au pied de page</a></li>
-        </ul>
-    </nav>
-    <div role="banner">
+    <div>
         <div style="margin: .25rem .5rem; margin-left:0; font-size: larger"><a href="/" aria-label="Accueil">Marc
             Bouvier (Baldir)</a></div>
     </div>
     <p style="font-size: small">{{global.description}}</p>
-    <nav id="menu" role="menu">
+    <nav id="menu" aria-label="Navigation principale">
         <a href="/blog" role="menuitem">Articles de blog</a>
         <a href="/a-propos" role="menuitem">À propos</a>
         <a href="/notes" role="menuitem">Notes</a>
@@ -52,27 +52,28 @@
         </p>
     </aside>
     {% endif %}
+    <aside aria-label="Code source de la page">
+        <a class="modify-from-sources"
+           href="https://github.com/marc-bouvier/next.baldir.fr/blob/main/{{ page.inputPath }}"
+           target="_blank">
+            Code source de cette page
+        </a>
+    </aside>
+
 </main>
 <hr/>
-<aside>
-    Prenons <a href="https://calendly.com/baldir-fr">30 minutes pour en visio</a> pour échanger.
-</aside>
-<footer id="footer">
-    <a class="modify-from-sources"
-       href="https://github.com/marc-bouvier/next.baldir.fr/blob/main/{{ page.inputPath }}"
-       target="_blank">
-        Code source de cette page
-    </a>
-    <nav>
-        <ul class="footer-links">
-            <li><a href="/tags">Ériquettes</a></li>
-            <li><a href="/making-of">Making of</a></li>
-            <li><a href="/antiseches">Antisèches</a></li>
-            <li><a href="/externe/podcasts">Podcasts</a></li>
-            <li><a href="/ai">AI</a></li>
-            <li><a href="/labo">labo</a></li>
-        </ul>
-    </nav>
+<footer id="footer" aria-label="Page">
+    <aside aria-label="Prendre contact">
+        Prenons <a href="https://calendly.com/baldir-fr">30 minutes pour en visio</a> pour échanger.
+    </aside>
+    <ul class="footer-links">
+        <li><a href="/tags">Ériquettes</a></li>
+        <li><a href="/making-of">Making of</a></li>
+        <li><a href="/antiseches">Antisèches</a></li>
+        <li><a href="/externe/podcasts">Podcasts</a></li>
+        <li><a href="/ai">AI</a></li>
+        <li><a href="/labo">labo</a></li>
+    </ul>
 </footer>
 </body>
 </html>

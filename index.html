@@ -1,11 +1,11 @@
 ---
 layout: "landing.html"
-title: "Accueil"
+title: "Baldir"
 eleventyImport:
     collections: ["latestFewFinishedArticles"]
 ---
 <header><h1>{{title}}</h1></header>
-<section>
+<section aria-label="Articles">
     <h2>Articles</h2>
     <p>Ici, j'écris autant que je peux sur des sujets variés (en général techniques)</p>
     <ul>
@@ -24,7 +24,7 @@ eleventyImport:
     </ul>
     <p><a href="/blog">Plus d'articles</a> | <a href="/making-of">Making-of de ce site</a></p>
 </section>
-<aside>
+<section aria-label="Actualités">
     <h2>Actualités</h2>
     <ul>
         {% for actualite in actualites.events limit:3 %}
@@ -35,4 +35,4 @@ eleventyImport:
         {% endfor %}
     </ul>
     <p><a href="/actualites.ics">Ajoutez à votre calendrier</a></p>
-</aside>
+</section>
