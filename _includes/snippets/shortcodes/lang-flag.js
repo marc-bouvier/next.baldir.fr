@@ -1,4 +1,4 @@
-import {toIso639Set1} from "../lang.js";
+import {toIso639Set1} from "../js/lang.js";
 
 /**
  * Shortcode taking language code and producing accessible flag emoji

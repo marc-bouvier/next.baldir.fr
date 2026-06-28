@@ -5,8 +5,9 @@ import {feedPlugin} from "@11ty/eleventy-plugin-rss";
 import yaml from "js-yaml"
 import markdownIt from "markdown-it";
 import markdownItFootnote from "markdown-it-footnote";
-import langFlagShortcode from "./_src/shortcodes/lang-flag.js";
-import tagsShortcode from "./_src/shortcodes/tags.js";
+import langFlagShortcode from "./_includes/snippets/shortcodes/lang-flag.js";
+import tagsShortcode from "./_includes/snippets/shortcodes/tags.js";
+import breadcrumbsShortcode from "./_includes/snippets/shortcodes/breadcrumbs.js";
 
 export default function (eleventyConfig) {
 
@@ -204,5 +205,6 @@ export default function (eleventyConfig) {
 
     eleventyConfig.addShortcode("lang-flag", langFlagShortcode);
     eleventyConfig.addShortcode("tags", tagsShortcode);
+    eleventyConfig.addShortcode("breadcrumbs", breadcrumbsShortcode);
 
 }
