@@ -9,6 +9,6 @@ tags:
   - Podcast
   - Éthique
   - Féminisme
-  - Technology
+  - Technologie
 authors: Dr Kerry McInerney and Dr Eleanor Drage
 ---

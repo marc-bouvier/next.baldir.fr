@@ -7,5 +7,6 @@ cover_image: /public/img/externe/podcasts/techologie.png
 site_url: https://techologie.net
 tags:
   - Podcast
+  - Écologie
 authors: Richard Hanna
 ---

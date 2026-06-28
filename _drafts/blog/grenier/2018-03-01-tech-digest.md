@@ -6,10 +6,10 @@ date: 2018-03-01
 tags:
   - Performance
   - Javascript
-  - Technology
+  - Technologie
   - Innovation
   - Domain-Driven-Design
-  - Value-Object Digest
+  - Value-Object
 date_updated: 2026-03-22T17:19
 ---
 
