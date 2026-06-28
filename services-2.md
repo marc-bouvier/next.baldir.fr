@@ -1,5 +1,5 @@
 ---
-layout: services.html
+layout: layouts/services.html
 slash_ai_partial_model: "Google Gemma 4 E4B (local)"
 title: "Marc Bouvier Artisan du Code, Guide de l'Intelligence Collective"
 slogan: "Je transforme le potentiel du code en solutions humaines, pérennes et éthiques."

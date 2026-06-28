@@ -12,7 +12,7 @@ Index: notes.md
 
 ```diff
  ---
- layout: layout.html
+ layout: layouts/layout.html
  title: Notes
 +eleventyImport:
 +  collections: ["allNotesFromRecentToOlder"]
@@ -22,7 +22,7 @@ Index: notes.md
 Index: making-of.html
 
 ```diff
- layout: "default.html"
+ layout: layouts/default.html
  title: "Making of"
  description: "Dans cette série d'articles, je relate comment je construis ce site au fur et à mesure."
 +eleventyImport:
@@ -35,7 +35,7 @@ Index: blog.html
 
 ```diff
  ---
- layout: layout.html
+ layout: layouts/layout.html
  title: "Articles de blog"
 +eleventyImport:
 +    collections: ["allFinishedArticles"]
@@ -46,7 +46,7 @@ Index: index.html
 
 ```diff
  ---
- layout: "landing.html"
+ layout: layouts/landing.html
  title: "Accueil"
 +eleventyImport:
 +    collections: ["latestFewFinishedArticles"]

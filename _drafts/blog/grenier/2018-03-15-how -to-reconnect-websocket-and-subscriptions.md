@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: layouts/post
 date: 2018-03-15
 title: How to reconnect websocket and subscriptions
 description: When a mobile device goes offline or is sleeping, a websocket connection can be lost and subscriptions can also be lost. This is an attempt to reconnect the websocket in VueJs with VueX

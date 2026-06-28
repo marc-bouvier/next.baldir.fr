@@ -97,7 +97,7 @@ Ajout `_includes/default.html` pour les pages standards (ex. articles).
 
 ```diff
 +---
-+layout: layout.html
++layout: layouts/layout.html
 +title: Articles récents
 +description: "Développeur logiciel en quête du sens dans un monde aux ressources limitées."
 +---
@@ -124,7 +124,7 @@ Ajout `_includes/default.html` pour les pages standards (ex. articles).
 Index: _includes/landing.html
 ```diff
 +---
-+layout: layout.html
++layout: layouts/layout.html
 +---
 +
 +{{content}}

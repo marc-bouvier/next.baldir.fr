@@ -1,4 +1,4 @@
 {
-  "layout": "default.html",
+  "layout": "layouts/default.html",
   "category": "Article de blog"
 }

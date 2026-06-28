@@ -9,10 +9,10 @@ tags:
 Index: index.html
 ````diff
  ---
--layout: layout.html
+-layout: layouts/layout.html
 -title: Baldir
 -description: "TODO"
-+layout: "landing.html"
++layout: layouts/landing.html
 +title: "Accueil"
  ---
  

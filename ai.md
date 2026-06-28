@@ -1,5 +1,5 @@
 ---
-layout: layout.html
+layout: layouts/layout.html
 title: Utilisation des outils "AI"
 date: 2025-01-25T19:10
 date_updated: 2026-03-22T15:10

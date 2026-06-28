@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: layouts/post
 title: Front dev digest 2018-02-21
 description: Technical resources that interested me. This week about VueJs anti-patterns
 date: 2018-02-21

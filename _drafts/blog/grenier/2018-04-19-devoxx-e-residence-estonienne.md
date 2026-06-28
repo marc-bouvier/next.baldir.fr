@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: layouts/post
 title: Devoxx 2018 - E-residence estonienne et entreprenariat sans frontières (french)
 description: Devoxx France 2018. Arnaud Castaignet est venu nous parler des services publiques informatisés de l'Estonie et du programme E-Residency.
 date: 2018-04-19

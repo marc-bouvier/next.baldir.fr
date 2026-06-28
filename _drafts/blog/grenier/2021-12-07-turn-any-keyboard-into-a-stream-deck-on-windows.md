@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: layouts/post
 lang: en
 title: 🎦 Turn any keyboard into a Stream Deck on Windows
 date: 2021-12-07T13:54:00Z

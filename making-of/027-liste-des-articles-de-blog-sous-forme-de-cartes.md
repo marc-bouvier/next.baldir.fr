@@ -11,7 +11,7 @@ Index: blog.html
 
 ```diff
 + ---
-+ layout: layout.html
++ layout: layouts/layout.html
 + title: Articles de blog
 + #description: "Articles de blog"
 + ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: layouts/post
 title: Tech digest 2018-03-01
 description: How technology stopped being innovation, The cost of javascript, Power use of Value Objects in DDD.
 date: 2018-03-01

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: layouts/post
 title: Tech digest 26th march 2018
 description: Huge digest (tech and not tech) since i just processed my mailbox to zero inbox.
 date: 2018-03-26

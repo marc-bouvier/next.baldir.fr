@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: layouts/post
 lang: en
 title: Host a static site with Nginx subdomains and SSL
 date: 2022-04-13T14:00:00Z

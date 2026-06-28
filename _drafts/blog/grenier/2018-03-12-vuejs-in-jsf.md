@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: layouts/post
 title: Integrate vuejs in existing JSF application
 description: In this post we will see how to integrate some vueJs application using JSF and Spring Rest Controller as backend.
 date: 2018-03-12

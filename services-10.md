@@ -1,5 +1,5 @@
 ---
-layout: services.html
+layout: layouts/services.html
 slash_ai_partial_model: "GPT 5 mini via duck.ai"
 title: Marc Bouvier — Accélérateur Technique & Coach de Systèmes Logiques
 slogan: "Je transforme le potentiel du code en solutions humaines, pérennes et éthiques."

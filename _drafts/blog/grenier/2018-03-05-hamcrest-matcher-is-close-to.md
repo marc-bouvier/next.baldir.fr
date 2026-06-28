@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: layouts/post
 title: "Hamcrest matcher : LocalDateTime is close to another"
 description: An Hamcrest matcher (JUnit) to know if a date is close to another within a parametrable tolerance offset.
 tags:

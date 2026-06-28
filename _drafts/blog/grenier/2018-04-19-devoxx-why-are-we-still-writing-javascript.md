@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: layouts/post
 title: Devoxx - Why are we still writing javascript? (French)
 description: Devoxx 2018. Mais alors pourquoi encore coder en JavaScript ? (W. Goedel)
 tags:

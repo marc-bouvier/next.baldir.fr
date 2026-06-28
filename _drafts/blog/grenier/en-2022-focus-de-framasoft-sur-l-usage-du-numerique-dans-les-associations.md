@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: layouts/post
 lang: fr
 title: En 2022, focus de Framasoft sur l'usage du numérique dans les associations
 date: 2022-01-19T23:00:00Z

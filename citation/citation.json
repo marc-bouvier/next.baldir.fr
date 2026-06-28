@@ -1,4 +1,4 @@
 {
-  "layout": "citation.html",
+  "layout": "layouts/citation.html",
   "category": "Citation"
 }

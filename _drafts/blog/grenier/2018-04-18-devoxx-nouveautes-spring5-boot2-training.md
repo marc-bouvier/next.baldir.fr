@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: layouts/post
 title: Devoxx - Nouveeautés de Spring 5 SpringBoot2, reactor
 description: Cette année, à Devoxx France, j'ai eu la chance d'assister à un "hands on" sur les nouveautés de Spring 5, Spring Boot 2.
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: layouts/post
 title: Multiplatform applications with Kotlin 1.2
 date: 2018-02-20
 description: Kotlin 1.2 introduces kotlin multiplatform to share code for different targets.

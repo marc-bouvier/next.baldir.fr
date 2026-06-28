@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: layouts/post
 lang: en
 title: A Kotlin tiny assertion DSL
 date: 2022-01-14T18:30:00Z

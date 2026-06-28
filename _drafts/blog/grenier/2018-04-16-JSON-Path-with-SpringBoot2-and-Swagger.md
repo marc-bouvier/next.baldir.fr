@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: layouts/post
 title: Update partially ressource with JSON Path and SpringBoot 2
 description: Implémentation personnalisée partielle de JSON Path pour mise à jour partielle de ressource. En n'autorisant que certains attributs.
 tags:

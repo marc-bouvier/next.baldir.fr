@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: layouts/post
 lang: en
 title: Accessible scoring bars with HTML and CSS
 date: 2022-01-15T18:00:00.000+00:00

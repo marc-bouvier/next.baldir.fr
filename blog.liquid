@@ -1,5 +1,5 @@
 ---
-layout: layout.html
+layout: layouts/layout.html
 title: "Articles de blog"
 eleventyImport:
     collections: ["allFinishedArticles"]
@@ -26,11 +26,11 @@ pagination:
 
     {% endfor %}
 </div>
-<nav aria-label="pagination" style="
+<nav aria-label="Pagination des articles" style="
     display: flex;
     justify-content: center  ;
     gap: 1rem;
-    ">
+" >
     {% if pagination.href.first and pagination.href.first != page.url %}
         <a href="{{ pagination.href.first }}">Premier</a>
     {% else %}

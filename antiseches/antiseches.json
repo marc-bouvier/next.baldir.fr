@@ -1,5 +1,5 @@
 {
-  "layout": "antiseche.html",
+  "layout": "layouts/antiseche.html",
   "category": "Antisèches",
   "description": "",
   "tags": ["Antisèche","How-to","Cheat-sheet"]

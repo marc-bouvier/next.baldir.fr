@@ -1,5 +1,5 @@
 ---
-layout: services.html
+layout: layouts/services.html
 slash_ai_partial_model: "GPT 5 mini via duck.ai"
 title: Marc Bouvier — Facilitateur & Coach Technique
 slogan: "Faciliter les décisions techniques pour des équipes plus autonomes et responsables."

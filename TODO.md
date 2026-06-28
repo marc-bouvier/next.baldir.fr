@@ -1,7 +1,7 @@
 ---
 title: Devenir de baldir.fr
 description: Reflexions et prochaines évolutions possibles
-layout: default.html
+layout: layouts/default.html
 date: 2025-01-25T19:10
 date_updated: 2026-03-22T15:51:07+01:00
 ---

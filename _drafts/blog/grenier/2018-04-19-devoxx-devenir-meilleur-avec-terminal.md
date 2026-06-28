@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: layouts/post
 title: Devoxx - Devenir meilleur avec le terminal (french)
 description: Devoxx France 2018. Gagner des super pouvoirs avec le terminal (S. Ehret)
 tags:

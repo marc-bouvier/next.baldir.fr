@@ -11,7 +11,7 @@ cover_image: "/public/img/cover_images/decoupage-de-la-mise-en-page.png"
 Index: making-of.html
 ```diff
 +---
-+layout: "default.html"
++layout: layouts/default.html
 +title: "Making of"
 +---
 +<p>
@@ -40,7 +40,7 @@ Index: making-of.html
 Index: making-of/making-of.json
 ```diff
 +{
-+  "layout": "default.html",
++  "layout": "layouts/default.html",
 +  "tags": "making-of"
 +
 +}

@@ -1,5 +1,5 @@
 ---
-layout: default.html
+layout: layouts/default.html
 title: Antisèches
 description: Références rapides sur des thématiques précises
 eleventyImport:

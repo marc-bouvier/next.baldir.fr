@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: layouts/post
 title: Devoxx DDD et RGPD (french)
 description: Les keynotes de Devoxx France 2018 et conférence sur DDD, Event Sourcing et RGPD
 tags:

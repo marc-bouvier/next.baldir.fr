@@ -17,7 +17,7 @@ Je crée une nouvelle collection  `notes`
 Index: notes/notes.json
 ```json
 {
-  "layout": "layout.html",
+  "layout": "layouts/layout.html",
   "tags": "notes"
 }
 ```
@@ -27,7 +27,7 @@ Et une page pour les lister les notes.
 Index: notes.md
 ````md
 ---
-layout: layout.html
+layout: layouts/layout.html
 title: Notes
 ---
 

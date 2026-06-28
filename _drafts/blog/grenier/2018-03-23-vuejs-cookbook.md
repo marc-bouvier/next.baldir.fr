@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: layouts/post
 title: VueJs now provides a cookbook
 description: VueJS now provides a cookbook to show some ways to build a application.
 tags:

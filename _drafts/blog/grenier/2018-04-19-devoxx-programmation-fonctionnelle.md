@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: layouts/post
 title: Devoxx - Tout ce que vous avez toujours voulu savoir sur la programmation fonctionnelle (french)
 description: Devoxx France 2018. Tout ce que vous avez toujours voulu savoir sur la programmation fonctionnelle (X. Detant)
 tags:

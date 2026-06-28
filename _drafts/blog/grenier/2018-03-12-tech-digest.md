@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: layouts/post
 title: Technology digest march 12th 2018
 description: In this blog post, Shawn McKay first explains some caracteristics of state management in frontend applications and how Redux tries to solve it.
 date: 2018-03-12

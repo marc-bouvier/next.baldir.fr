@@ -22,7 +22,7 @@ On en parlera un peu plus bas.
 
 ```json
 {
-  "layout": "layout.html",
+  "layout": "layouts/layout.html",
   "tags": "blog"
 }
 ```
@@ -80,7 +80,7 @@ index.html
 
 ```html
 ---
-layout: layout.html
+layout: layouts/layout.html
 title: Baldir
 ---
 

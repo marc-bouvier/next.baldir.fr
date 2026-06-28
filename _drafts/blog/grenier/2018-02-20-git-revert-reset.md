@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: layouts/post
 title: Reset and revert with GIT
 date: 2018-02-20
 tags:

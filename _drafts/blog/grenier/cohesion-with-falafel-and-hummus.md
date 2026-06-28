@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: layouts/post
 lang: en
 title: Cohesion with falafel and hummus
 date: 2022-06-23T14:15:00Z

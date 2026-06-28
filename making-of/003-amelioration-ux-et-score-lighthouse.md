@@ -31,7 +31,7 @@ Index: index.html
 
 ```diff
  ---
- layout: layout.html
+ layout: layouts/layout.html
  title: Baldir
 +description: "Foo"
  ---
