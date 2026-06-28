@@ -10,4 +10,5 @@ views:
       - description
       - tags
       - lang
+      - authors
     image: note.cover_image

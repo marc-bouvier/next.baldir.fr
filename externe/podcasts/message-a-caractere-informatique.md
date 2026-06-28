@@ -8,4 +8,5 @@ site_url: https://www.clever.cloud/fr/podcast/
 tags:
   - Podcast
   - Cloud
+authors: Clever Cloud
 ---
