@@ -1,19 +1,10 @@
 ---
 title: Antisèche Liquid
 date: 2024-10-11T22:16:21+02:00
-tags:
-  - How-to
-  - Liquid
-  - Cheat-sheet
-permalink: cheat-sheets/liquid/
 description: Commandes Liquid que j’utilise couramment mais que j’ai tendance à oublier
+permalink: cheat-sheets/liquid/
 ---
 
-[Documentation officielle de Liquid](https://shopify.github.io/liquid/).
+## Continuité des liens
 
-Retourner une liste
-
-````md
-{{ '{% for item in items | reverse %}' | escape }}
-````
-
+La page a été déplacée à [/antiseches/liquid/](/antiseches/liquid/).

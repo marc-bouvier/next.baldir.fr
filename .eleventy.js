@@ -51,7 +51,9 @@ export default function (eleventyConfig) {
     eleventyConfig.addCollection("blog", function (collectionApi) {
         return collectionApi.getFilteredByGlob(["blog/*.md", "blog/*.html"]);
     });
-
+    eleventyConfig.addCollection("antiseches", function (collectionApi) {
+        return collectionApi.getFilteredByGlob(["antiseches/*.md", "antiseches/*.html"]);
+    });
     eleventyConfig.addCollection("latestFewFinishedArticles", function (collectionApi) {
         return collectionApi.getFilteredByGlob(["blog/*.md", "blog/*.html"])
             .filter(item => !item.data.stub)
@@ -105,6 +107,7 @@ export default function (eleventyConfig) {
         ])
             .flatMap(page => page.data.tags)))
             .filter(tag => tag !== undefined)
+            .filter(tag => tag !== "all")
             .sort((a, b) => a.localeCompare(b));
 
     });

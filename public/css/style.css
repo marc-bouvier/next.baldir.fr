@@ -70,12 +70,12 @@ img {
     }
 }
 
-nav ul {
+.nav-menu ul {
     display: flex;
     justify-content: space-around;
 }
 
-nav ul li {
+nav-menu ul li {
     list-style: none;
     padding: 0.375rem;
 }
@@ -162,15 +162,11 @@ header {
     margin-bottom: .5rem;
 }
 
-footer {
+#footer {
     margin-top: .5rem;
+    margin-bottom: 1rem;
 }
 
-footer nav ul {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-}
 
 .a-propos-baldir-animated {
     width: clamp(160px, 100vw, 320px);
@@ -247,4 +243,32 @@ footer nav ul {
     in extra narrow spaces */
     grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--min)), 1fr));
     justify-items: center;
+}
+
+.footer-links{
+    display: grid;
+    grid-auto-flow: row;
+    gap: .25rem;
+    padding-inline-start: 0;
+    margin-block: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    list-style-type: none;
+    margin-top:.5rem;
+
+}
+@media only screen and (min-width: 576px) {
+    .footer-links{
+        grid-auto-flow: column;
+    }
+}
+
+.antiseches-autres{
+    display: flex;
+    gap: .5rem;
+    padding-inline-start: 0;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 }

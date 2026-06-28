@@ -1,0 +1,30 @@
+---
+layout: layout.html
+---
+
+<article>
+
+<hgroup>
+    <h1>Antisèche {{title}}</h1>
+</hgroup>
+{% if tags %}
+<ul class="tags">
+    {% for tag in tags %}
+    <li><a href="/tags/{{tag}}">{{tag}}</a></li>
+    {% endfor %}
+</ul>
+{% endif %}
+<p lang="{{lang}}"> {{description}} </p>
+    {{content}}
+</article>
+
+<nav aria-label="Autres antisèches">
+    <h2>Autres antisèches</h2>
+    <ul class="antiseches-autres">
+    {% for antiseche in collections.antiseches %}
+        {% if antiseche.url != page.url %}
+        <li><a href="{{antiseche.url}}">{{antiseche.data.title}}</a></li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+</nav>
