@@ -232,7 +232,7 @@ header {
     height: auto;
 }
 
-.podcast-cards{
+.podcast-cards {
     display: grid;
     grid-auto-flow: row;
     --min: 15ch;
@@ -242,10 +242,16 @@ header {
     /* min() with 100% prevents overflow
     in extra narrow spaces */
     grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--min)), 1fr));
-    justify-items: center;
+    justify-items: stretch;
 }
 
-.footer-links{
+.podcast-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-links {
     display: grid;
     grid-auto-flow: row;
     gap: .25rem;
@@ -254,16 +260,17 @@ header {
     margin-block-start: 0;
     margin-block-end: 0;
     list-style-type: none;
-    margin-top:.5rem;
+    margin-top: .5rem;
 
 }
+
 @media only screen and (min-width: 576px) {
-    .footer-links{
+    .footer-links {
         grid-auto-flow: column;
     }
 }
 
-.antiseches-autres{
+.antiseches-autres {
     display: flex;
     gap: .5rem;
     padding-inline-start: 0;
@@ -271,4 +278,5 @@ header {
     flex-wrap: wrap;
     justify-content: center;
 }
+
 }

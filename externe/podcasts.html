@@ -9,16 +9,16 @@ description: "Mes recommandations de podcasts"
     <p> {{description}} </p>
 </hgroup>
 
-<section>
-    <h2>Podcasts en français</h2>
-    <div class="podcast-cards">
+<section class="podcast-cards" aria-label="Gallerie de podcasts">
     {% for podcast in collections.podcasts %}
-        <article>
-            <h3>{{podcast.data.title}} {% lang-flag podcast.data.lang %}</h3>
-            <img class="podcast-card-image" src="{{podcast.data.cover_image}}" alt="">
-            <p><a href="{{podcast.url}}">Détails</a> <a href="{{podcast.data.site_url}}" target="_blank">Site</a> <a href="{{podcast.data.rss_url}}" target="_blank">Flux RSS</a> </p>
+    <article class="podcast-card">
+        <h2 class="podcast-card-title">{{podcast.data.title}} {% lang-flag podcast.data.lang %}</h2>
+        <img class="podcast-card-image" src="{{podcast.data.cover_image}}" alt="">
+        <div class="podcast-card-footer">
+            <p><a href="{{podcast.url}}">Détails</a> <a href="{{podcast.data.site_url}}" target="_blank">Site</a> <a
+                    href="{{podcast.data.rss_url}}" target="_blank">Flux RSS</a></p>
             {% tags podcast.data.tags , 'Podcast' %}
-        </article>
+        </div>
+    </article>
     {% endfor %}
-    </div>
 </section>
