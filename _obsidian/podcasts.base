@@ -4,6 +4,7 @@ views:
     filters:
       and:
         - file.path.startsWith("externe/podcasts")
+        - file.ext == "md"
     order:
       - title
       - description
