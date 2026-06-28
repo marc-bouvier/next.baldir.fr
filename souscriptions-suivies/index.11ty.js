@@ -1,5 +1,5 @@
 import {ICalCalendar,ICalCalendarMethod} from "ical-generator";
-import {toOpmlSubscriptionXml} from "../_src/opml/index.js";
+import {toOpmlSubscriptionXml} from "../_includes/snippets/js/opml/index.js";
 
 /**
  * @param rss_feeds _data/rss_feeds.yml
