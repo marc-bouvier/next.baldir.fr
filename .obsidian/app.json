@@ -14,7 +14,9 @@
     "package-lock.json",
     "public/css/",
     "_data/",
-    "_includes/"
+    "_includes/",
+    "*.html",
+    "_site/*"
   ],
   "tabSize": 3,
   "alwaysUpdateLinks": true,
