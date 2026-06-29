@@ -1,0 +1,8 @@
+views:
+  - type: cards
+    name: Cards
+    filters:
+      and:
+        - file.inFolder("antiseches")
+        - file.ext == "md"
+    image: note.cover_image
