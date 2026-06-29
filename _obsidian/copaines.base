@@ -1,0 +1,15 @@
+views:
+  - type: cards
+    name: Cards
+    filters:
+      and:
+        - file.path.startsWith("externe/copaines")
+        - file.ext == "md"
+    order:
+      - title
+      - description
+      - tags
+      - en_cooperative
+    image: note.cover_image
+    imageFit: contain
+    imageAspectRatio: 1
