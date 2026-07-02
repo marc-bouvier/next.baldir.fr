@@ -11,4 +11,3 @@ tags:
   - Éco-conception
 en_cooperative: true
 ---
-![](public/img/externe/copaines/marina-bourny-logo.png)
