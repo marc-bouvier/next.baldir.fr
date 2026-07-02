@@ -36,6 +36,9 @@ offre_3_appel_action: Élaborons un programme adapté à votre cursus
 offre_3_appel_action_href: "https://calendly.com/baldir-fr/30min"
 offre_3_appel_action_href_email: "formation@baldir.fr"
 ---
+### Offre 4 rénovation logicielle
+
+Votre application apporte de la valeur mais chaque évolution est devenue compliquée. Après un audit gratuit, je mitige la xdette technique pour permettre de nouvelles évolutions.
 
 ## Ma philosophie
 
