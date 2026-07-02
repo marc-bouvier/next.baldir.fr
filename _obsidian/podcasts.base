@@ -12,3 +12,5 @@ views:
       - lang
       - authors
     image: note.cover_image
+  - type: table
+    name: View
