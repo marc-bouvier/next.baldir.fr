@@ -55,6 +55,10 @@ export default function (eleventyConfig) {
     eleventyConfig.addCollection("antiseches", function (collectionApi) {
         return collectionApi.getFilteredByGlob(["antiseches/*.md", "antiseches/*.html"]);
     });
+
+    eleventyConfig.addCollection("bbls", function (collectionApi) {
+        return collectionApi.getFilteredByGlob(["bbl/*.md", "bbl/*.html"]);
+    });
     eleventyConfig.addCollection("latestFewFinishedArticles", function (collectionApi) {
         return collectionApi.getFilteredByGlob(["blog/*.md", "blog/*.html"])
             .filter(item => !item.data.stub)
