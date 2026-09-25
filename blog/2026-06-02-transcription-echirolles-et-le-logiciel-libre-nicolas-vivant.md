@@ -18,9 +18,7 @@ Cette transcription correspond à l'instant [23:42](https://www.youtube.com/live
 J'ai ajouté un chapitrage pour faciliter la lecture et l'accessibilité.
 
 Edit : Si vous voulez creuser, [le groupe de transciptions de l'April](https://www.librealire.org/) a réalisé 
-[une 
-transcription](https://www.
-librealire.org/table-ronde-sur-le-logiciel-libre-vulnerabilites-systemiques-dans-le-secteur-du-numerique) sur la table ronde entière !
+[une transcription](https://www.librealire.org/table-ronde-sur-le-logiciel-libre-vulnerabilites-systemiques-dans-le-secteur-du-numerique) sur la table ronde entière !
 
 ## Transcription
 
