@@ -20,4 +20,4 @@ draft: false
 
 Un Coding Dojo réunit un groupe de codeuses et codeurs pour travailler ensemble sur un défi de programmation. Cette assemblée est là pour s’amuser et s’engager dans une [Pratique délibérée](/glossaire/pratique-deliberee) afin d’améliorer leurs compétences.
 
-Le [ParisDojo](https://codingdojo.org/dojo/ParisDojo) s’attache à coder devant les autres, le plus souvent depuis zéro, dans un temps très court (1h à 1h30). Ils utilisent différents langages, outils et formats d’exercices. Ils considèrent qu’un exercice est réussi lorsqu’il est terminé dans le temps imparti ET quand chacun peut répéter l’exercice chez lui.
+Le [ParisDojo](https://codingdojo.org/dojo/ParisDojo) s’attache à coder devant les autres, le plus souvent depuis zéro, dans un temps très court (1h à 1h30). Ils utilisent différents langages, outils et formats d’exercices. 
